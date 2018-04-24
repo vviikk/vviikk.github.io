@@ -66,3 +66,6 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwODY5ODk4MDVdfQ==
+-->
