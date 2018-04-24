@@ -59,7 +59,6 @@ Your typical web development. Mainly PHP, JavaScript, HTML, CSS.
 
 ### University of Sheffield
 _Engineering - Bachelor's in Computing (B.Sc.)_
-
 Computer science. Software architecture and design, user interface and user experience.
 Final Year Project: Collborative text editor where team members can see code being edited in real time, with a chat system
 Dissertation: Neilson's Usability Heuristics on the World Wide Web.
@@ -67,6 +66,6 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjg4ODc5MSw5MjA3MTAxNDUsNjU0OT
-M0MzI5LDIwNDQ1NTU3MzZdfQ==
+eyJoaXN0b3J5IjpbNzk5MzQ2NDA5LDEwMDI4ODg3OTEsOTIwNz
+EwMTQ1LDY1NDkzNDMyOSwyMDQ0NTU1NzM2XX0=
 -->
