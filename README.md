@@ -1,7 +1,8 @@
 # Vik Ramanujam's Résumé
+```
+[]() 
 
 | Name | Vik Ramanujam |
-|--|--|
 | Location | Kuala Lumpur, Malaysia |
 | Email | [vik@ramanuj.am](vik@ramanuj.am) |
 | Website | [http://vik.ramanuj.am](http://vik.ramanuj.am) _new redesign underway_ |
@@ -55,5 +56,5 @@ _November 2006 - August 2011 (Kuala Lumpur, Malaysia)_
 Your typical web development. Mainly PHP, JavaScript, HTML, CSS.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxNzg5MjAsLTEwODkxMzMwMzddfQ==
+eyJoaXN0b3J5IjpbLTE3OTk5NTAzOSwtMTA4OTEzMzAzN119
 -->
