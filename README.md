@@ -5,7 +5,7 @@
 | Location | Kuala Lumpur, Malaysia |
 | Email | [vik@ramanuj.am](vik@ramanuj.am) |
 | Website | [http://vik.ramanuj.am](http://vik.ramanuj.am) _new redesign underway_ |
-| Blog | [https://techgarten.com](https://techgarten.com) _moving to medium.com_ - you can see it on the [internet archice](https://web.archive.org/web/20120615003016/http://www.techgarten.com/).  |
+| Blog | [https://techgarten.com](https://techgarten.com) _moving to medium.com_ - you can see it on the [internet archive](https://web.archive.org/web/20120615003016/http://www.techgarten.com/).  |
 | Twitter | [@piggyslasher](https://twitter.com/piggyslasher) |
 | GitHub | [@piggyslasher](https://github.com/piggyslasher) |
 
@@ -55,6 +55,6 @@ _November 2006 - August 2011 (Kuala Lumpur, Malaysia)_
 Your typical web development. Mainly PHP, JavaScript, HTML, CSS.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDU4NzczMTcsLTEwODkxMzMwMzddfQ
-==
+eyJoaXN0b3J5IjpbMTUwNzkyNjkyMCwtMTY0NTg3NzMxNywtMT
+A4OTEzMzAzN119
 -->
