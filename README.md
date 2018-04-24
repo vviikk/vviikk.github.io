@@ -2,7 +2,7 @@
 
 ![alt text][logo]
 
-Front-end & Node developer
+Front-end & Nodejs developer
 Kuala Lumpur, Malaysia
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
@@ -63,5 +63,5 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDU1NTczNl19
+eyJoaXN0b3J5IjpbLTIwNDA0MTg2NTUsMjA0NDU1NTczNl19
 -->
