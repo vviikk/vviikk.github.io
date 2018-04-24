@@ -9,7 +9,7 @@ e: [vik@ramanuj.am](vik@ramanuj.am)
 
 w: [http://vik.ramanuj.am](http://vik.ramanuj.am) <small>_new redesign underway_</small>
 
-b: [https://techgarten.com](https://techgarten.com) <small>_moving to medium.com_ <br>you can see it on the [internet archice](https://web.archive.org/web/20120615003016/http://www.techgarten.com/)</sma.
+b: [https://techgarten.com](https://techgarten.com) <small>_moving to medium.com_ <br>you can see it on the [internet archive](https://web.archive.org/web/20120615003016/http://www.techgarten.com/)</small>.
 
 [github](https://github.com/piggyslasher) |
 
@@ -67,5 +67,5 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDY2MDI3Nl19
+eyJoaXN0b3J5IjpbLTIwNjgwOTM4MDddfQ==
 -->
