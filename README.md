@@ -3,7 +3,7 @@
 ![alt text][logo]
 
 Front-end & Nodejs developer
-Kuala Lumpur, Malaysia
+_Kuala Lumpur, Malaysia_
 
 I've been a programmer at heart even before I've left school. I love getting my hands dirty with code. I use Linux & Mac, and prefer `working through the command line`. When I'm not coding or cooking, I'm probably travelling or playing with Docker & Portainer.
 
@@ -67,5 +67,6 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0OTM0MzI5LDIwNDQ1NTU3MzZdfQ==
+eyJoaXN0b3J5IjpbOTIwNzEwMTQ1LDY1NDkzNDMyOSwyMDQ0NT
+U1NzM2XX0=
 -->
