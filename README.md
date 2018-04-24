@@ -55,3 +55,6 @@ _November 2006 - August 2011 (Kuala Lumpur, Malaysia)_
 
 Your typical web development. Mainly PHP, JavaScript, HTML, CSS.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwODkxMzMwMzddfQ==
+-->
