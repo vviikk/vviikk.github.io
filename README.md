@@ -16,7 +16,7 @@
 JavaScript, Web Development, Front-end Development, Node.js, Single Page Applications, Continuous Development / Deployment.
 
 ### Technologies:
-React, Redux, Jest, Styled Components, WebPack, Node.js, Sass, Git, Docker.
+React, Redux, Jest, Styled Components, Server-sent Events, WebPack, Node.js, Sass, Git, Docker, CouchDB.
 
 ### Spoken languages:
 English, Tamil, Malay & some French.
