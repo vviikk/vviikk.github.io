@@ -8,7 +8,7 @@ Kuala Lumpur, Malaysia
 e: [vik@ramanuj.am](vik@ramanuj.am)
 w: [http://vik.ramanuj.am](http://vik.ramanuj.am) <small>_new redesign underway_</small>
 blog: [https://techgarten.com](https://web.archive.org/web/20120615003016/http://www.techgarten.com/) 
-[github](https://github.com/piggyslasher)
+[github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram)
 
 ## Skills and interests
 
@@ -64,5 +64,5 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5OTc0MjQzXX0=
+eyJoaXN0b3J5IjpbMTE0NTQ3MDQ0OF19
 -->
