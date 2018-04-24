@@ -5,7 +5,7 @@
 Front-end & Nodejs developer
 _Kuala Lumpur, Malaysia_
 
-I've been a programmer at heart even before I've left school. I love getting my hands dirty with code. I use Linux & Mac, and prefer `working through the command line`. When I'm not coding or cooking, I'm probably travelling or playing with Docker & Portainer.
+I've been a programmer at heart even before I've left school. I love getting my hands dirty with code. I use Linux & Mac, and prefer `working through the command line`. When I'm not coding or cooking, I'm probably travelling or professiong my undying love to Docker & Portainer.
 
 ----------
 
@@ -63,11 +63,15 @@ Computer science. Software architecture and design, user interface and user expe
 Final Year Project: Collborative text editor where team members can see code being edited in real time, with a chat system
 Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
+<center>
+This Résumé is open-source, built from Markdown with Travis-CI, Pandoc
+</center>
+
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0Nj
-QwOSwzOTQ4NTIwMyw3OTkzNDY0MDksMzk0ODUyMDMsNzk5MzQ2
-NDA5LDEwMDI4ODg3OTEsOTIwNzEwMTQ1LDY1NDkzNDMyOSwyMD
-Q0NTU1NzM2XX0=
+eyJoaXN0b3J5IjpbNTQ5Mzk4Nzg5LDc5OTM0NjQwOSwzOTQ4NT
+IwMyw3OTkzNDY0MDksMzk0ODUyMDMsNzk5MzQ2NDA5LDM5NDg1
+MjAzLDc5OTM0NjQwOSwxMDAyODg4NzkxLDkyMDcxMDE0NSw2NT
+Q5MzQzMjksMjA0NDU1NTczNl19
 -->
