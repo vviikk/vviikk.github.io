@@ -29,10 +29,10 @@ Music, Yoga, Movies and Series, Intermittent fasting, Running, Reading.
 
 ## Currently
 
-### Development lead, BAE Systems Applied Intelligence
+### BAE Systems Applied Intelligence
 _**Technical Lead**_
 BAE Systems Applied Intelligence
-Employed Dec 2017 – Present
+_Dec 2017 – Present_
 Kuala Lumpur, Malaysia
 
 Currently leading a team of Front-end developers tasked with building a next-generation product using React / Redux / RxJS / Styled Components that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL, Docker amongst various other technologies.
