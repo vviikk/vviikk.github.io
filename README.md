@@ -64,14 +64,14 @@ Final Year Project: Collborative text editor where team members can see code bei
 Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 <center>
-This Résumé is open-source, built from Markdown with Travis-CI, Pandoc
+This Résumé is open-source, built from Markdown with Travis-CI, Pandoc, Neovim, 
 </center>
 
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDE3MTc0OSw1NDkzOTg3ODksNzk5Mz
-Q2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOSwzOTQ4NTIwMyw3OTkz
-NDY0MDksNzk5MzQ2NDA5LDEwMDI4ODg3OTEsOTIwNzEwMTQ1LD
-Y1NDkzNDMyOSwyMDQ0NTU1NzM2XX0=
+eyJoaXN0b3J5IjpbLTE0OTc3NDkwNjksLTEyNDE3MTc0OSw3OT
+kzNDY0MDksMzk0ODUyMDMsNzk5MzQ2NDA5LDM5NDg1MjAzLDc5
+OTM0NjQwOSw3OTkzNDY0MDksMTAwMjg4ODc5MSw5MjA3MTAxND
+UsNjU0OTM0MzI5LDIwNDQ1NTU3MzZdfQ==
 -->
