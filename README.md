@@ -1,13 +1,17 @@
 # Vik Ramanujam's Résumé
-| []() | |
-| --- | --- |
-| Name | Vik Ramanujam |
-| Location | Kuala Lumpur, Malaysia |
-| Email | [vik@ramanuj.am](vik@ramanuj.am) |
-| Website | [http://vik.ramanuj.am](http://vik.ramanuj.am) _new redesign underway_ |
-| Blog | [https://techgarten.com](https://techgarten.com) _moving to medium.com_ - you can see it on the [internet archive](https://web.archive.org/web/20120615003016/http://www.techgarten.com/).  |
-| Twitter | [@piggyslasher](https://twitter.com/piggyslasher) |
-| GitHub | [@piggyslasher](https://github.com/piggyslasher) |
+
+![alt text][logo]
+
+Front-end & Node developer
+Kuala Lumpur, Malaysia
+
+e: [vik@ramanuj.am](vik@ramanuj.am)
+
+w: [http://vik.ramanuj.am](http://vik.ramanuj.am) _new redesign underway_
+
+b: [https://techgarten.com](https://techgarten.com) _moving to medium.com_ - you can see it on the [internet archice](https://web.archive.org/web/20120615003016/http://www.techgarten.com/).
+
+[github](https://github.com/piggyslasher) |
 
 ## Skills and interests
 
@@ -26,20 +30,17 @@ Music, Yoga, Movies and Series, Intermittent fasting, Running, Reading.
 ## Currently
 
 ### Development lead, BAE Systems Applied Intelligence
+_**Technical Lead**_
+BAE Systems Applied Intelligence
+Employed Dec 2017 – Present
+Kuala Lumpur, Malaysia
 
-## Education
-
-### University of Sheffield
-_Engineering - Bachelor's in Computing (B.Sc.)_
-
-Computer science. Software architecture and design, user interface and user experience.
-Final Year Project: Collborative text editor where team members can see code being edited in real time, with a chat system
-Dissertation: Neilson's Usability Heuristics on the World Wide Web.
+Currently leading a team of Front-end developers tasked with building a next-generation product using React / Redux / RxJS / Styled Components that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL, Docker amongst various other technologies.
 
 ## Work Experience
 
 ### BAE Systems Applied Intelligence
-_**Technical Lead**_
+_**Lead Front-end Developer**_
 
 _June 2015 - Present (Deurne, The Netherlands)_
 
@@ -54,7 +55,14 @@ _November 2006 - August 2011 (Kuala Lumpur, Malaysia)_
 
 Your typical web development. Mainly PHP, JavaScript, HTML, CSS.
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzkyNjkyMCwtMTY0NTg3NzMxNywtMT
-A4OTEzMzAzN119
--->
+## Education
+
+### University of Sheffield
+_Engineering - Bachelor's in Computing (B.Sc.)_
+
+Computer science. Software architecture and design, user interface and user experience.
+Final Year Project: Collborative text editor where team members can see code being edited in real time, with a chat system
+Dissertation: Neilson's Usability Heuristics on the World Wide Web.
+
+
+[logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
