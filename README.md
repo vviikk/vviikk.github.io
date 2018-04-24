@@ -7,9 +7,9 @@ Kuala Lumpur, Malaysia
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
 
-w: [http://vik.ramanuj.am](http://vik.ramanuj.am) _new redesign underway_
+w: [http://vik.ramanuj.am](http://vik.ramanuj.am) <small>_new redesign underway_</small>
 
-b: [https://techgarten.com](https://techgarten.com) _moving to medium.com_ - you can see it on the [internet archice](https://web.archive.org/web/20120615003016/http://www.techgarten.com/).
+b: [https://techgarten.com](https://techgarten.com) <small>_moving to medium.com_ <br>you can see it on the [internet archice](https://web.archive.org/web/20120615003016/http://www.techgarten.com/)</sma.
 
 [github](https://github.com/piggyslasher) |
 
@@ -67,5 +67,5 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY5ODk4MDVdfQ==
+eyJoaXN0b3J5IjpbMTc2MDY2MDI3Nl19
 -->
