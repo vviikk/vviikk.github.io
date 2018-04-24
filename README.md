@@ -2,16 +2,16 @@
 
 ![alt text][logo]
 
-Front-end & Node developer
-Kuala Lumpur, Malaysia
+Front-end & Nodejs developer
+_Kuala Lumpur, Malaysia_
+
+I've been a programmer at heart even before I've left school. I love getting my hands dirty with code. I use Linux & Mac, and prefer `working through the command line`. When I'm not coding or cooking, I'm probably travelling or professiong my undying love to Docker & Portainer.
+
+----------
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
-
-w: [http://vik.ramanuj.am](http://vik.ramanuj.am) _new redesign underway_
-
-b: [https://techgarten.com](https://techgarten.com) _moving to medium.com_ - you can see it on the [internet archice](https://web.archive.org/web/20120615003016/http://www.techgarten.com/).
-
-[github](https://github.com/piggyslasher) |
+w: [http://vik.ramanuj.am](http://vik.ramanuj.am) <small>_new redesign underway_</small>
+[github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [blog](https://web.archive.org/web/20120615003016/http://www.techgarten.com/) _(on hold)_
 
 ## Skills and interests
 
@@ -59,10 +59,19 @@ Your typical web development. Mainly PHP, JavaScript, HTML, CSS.
 
 ### University of Sheffield
 _Engineering - Bachelor's in Computing (B.Sc.)_
-
 Computer science. Software architecture and design, user interface and user experience.
 Final Year Project: Collborative text editor where team members can see code being edited in real time, with a chat system
 Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
+<center>
+This Résumé is open-source, built from Markdown with Travis-CI, Pandoc
+</center>
+
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyNDE3MTc0OSw1NDkzOTg3ODksNzk5Mz
+Q2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOSwzOTQ4NTIwMyw3OTkz
+NDY0MDksNzk5MzQ2NDA5LDEwMDI4ODg3OTEsOTIwNzEwMTQ1LD
+Y1NDkzNDMyOSwyMDQ0NTU1NzM2XX0=
+-->
