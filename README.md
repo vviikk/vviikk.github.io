@@ -5,6 +5,8 @@
 Front-end & Nodejs developer
 Kuala Lumpur, Malaysia
 
+
+
 e: [vik@ramanuj.am](vik@ramanuj.am)
 w: [http://vik.ramanuj.am](http://vik.ramanuj.am) <small>_new redesign underway_</small>
 [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [blog](https://web.archive.org/web/20120615003016/http://www.techgarten.com/) _(on hold)_
@@ -63,5 +65,5 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA0MTg2NTUsMjA0NDU1NTczNl19
+eyJoaXN0b3J5IjpbLTE5MzUwNjc5NjMsMjA0NDU1NTczNl19
 -->
