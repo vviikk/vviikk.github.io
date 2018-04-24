@@ -70,8 +70,8 @@ This Résumé is open-source, built from Markdown with Travis-CI, Pandoc
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5Mzk4Nzg5LDc5OTM0NjQwOSwzOTQ4NT
-IwMyw3OTkzNDY0MDksMzk0ODUyMDMsNzk5MzQ2NDA5LDM5NDg1
-MjAzLDc5OTM0NjQwOSwxMDAyODg4NzkxLDkyMDcxMDE0NSw2NT
-Q5MzQzMjksMjA0NDU1NTczNl19
+eyJoaXN0b3J5IjpbLTEyNDE3MTc0OSw1NDkzOTg3ODksNzk5Mz
+Q2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOSwzOTQ4NTIwMyw3OTkz
+NDY0MDksNzk5MzQ2NDA5LDEwMDI4ODg3OTEsOTIwNzEwMTQ1LD
+Y1NDkzNDMyOSwyMDQ0NTU1NzM2XX0=
 -->
