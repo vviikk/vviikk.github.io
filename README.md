@@ -45,16 +45,26 @@ Currently leading a team of Front-end developers tasked with building a next-gen
 
 ### BAE Systems Applied Intelligence
 _**Lead Front-end Developer**_
-
 _June 2015 - Present (Deurne, The Netherlands)_
 
-App Development and Freelance projects.
+Delivered a webapp built on Angular, ES6, SCSS, Angular Material that runs of 30 different browser / device combinations from Retina displays to mobile browsers, weeks ahead of schedule.
+→ Led a team of ten developers to deliver, ahead of schedule a web application & mobile app which strict acceptance criterias for performance in low bandwidth areas.
+→ Ensured product quality by enforcing unit and integration tests.
+→ Conceived and implemented a filtering system that can be used in any project as a drop-in component (that can search and in-browser list of anything or pass it off to the backend).
+→ Engaged closely with UX daily to unsure delivery of a usable and slick-looking product. Adviced against bad user experience and convulated user journeys.
+→ Evaluated requirements with Business Analysts to ensure stories are short, well-worded and most importantly, closable, with clear acceptance criteria.
+→ Ensured code was functional and lean with performance and usability as the pillars.
+→ Planned sprints and delegated tasks across the front-end team.
+→ Developed a reusable library / UX components within the first couple of sprints so that there was minimal to no front-end effort needed at the later stages of the project. Focused on building highly configurable components rather than thousands of lines of redundant code.
+→ Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments.
+→ Promoted code reusability above all else, and ensured that we had a 90% higher test coverage when our deliverable limit was 80%.
+→ Streamlined and enhanced team's output by using an assembly-line mindset when managing task deligation. The payoff was huge as we continually impressed every sprint by delivering impressive work, consistenly. This however, will only work with a good, multi-disciplined team.
+→ Involved heavily with DevOps and build automation.
 
 ---
 
 ### Company
 _**Web Developer**_
-
 _November 2006 - August 2011 (Kuala Lumpur, Malaysia)_
 
 Your typical web development. Mainly PHP, JavaScript, HTML, CSS.
@@ -74,8 +84,9 @@ This Résumé is open-source, built from Markdown with Travis-CI, Pandoc, Neovim
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjgzNDI5NCwtMTQ5Nzc0OTA2OSwtMT
-I0MTcxNzQ5LDc5OTM0NjQwOSwzOTQ4NTIwMyw3OTkzNDY0MDks
-Mzk0ODUyMDMsNzk5MzQ2NDA5LDc5OTM0NjQwOSwxMDAyODg4Nz
-kxLDkyMDcxMDE0NSw2NTQ5MzQzMjksMjA0NDU1NTczNl19
+eyJoaXN0b3J5IjpbMzY3NzAzODEyLDE0MzY4MzQyOTQsLTE0OT
+c3NDkwNjksLTEyNDE3MTc0OSw3OTkzNDY0MDksMzk0ODUyMDMs
+Nzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOSw3OTkzNDY0MD
+ksMTAwMjg4ODc5MSw5MjA3MTAxNDUsNjU0OTM0MzI5LDIwNDQ1
+NTU3MzZdfQ==
 -->
