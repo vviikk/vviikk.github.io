@@ -78,17 +78,14 @@ Computer science. Software architecture and design, user interface and user expe
 Final Year Project: Collborative text editor where team members can see code being edited in real time, with a chat system
 Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
-<center>
-This Résumé is open-source, built from Markdown with Travis-CI, Pandoc, Neovim, 
-</center>
-
+ 
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI0NzkxODQsMzQ0OTQzNTQyLDM2Nz
-cwMzgxMiwxMzAyMTI0OTU0LDM2NzcwMzgxMiwxNDM2ODM0Mjk0
-LC0xNDk3NzQ5MDY5LC0xMjQxNzE3NDksNzk5MzQ2NDA5LDM5ND
-g1MjAzLDc5OTM0NjQwOSwzOTQ4NTIwMyw3OTkzNDY0MDksNzk5
-MzQ2NDA5LDEwMDI4ODg3OTEsOTIwNzEwMTQ1LDY1NDkzNDMyOS
-wyMDQ0NTU1NzM2XX0=
+eyJoaXN0b3J5IjpbMTY4MzA1OTY2NCwzNDQ5NDM1NDIsMzY3Nz
+AzODEyLDEzMDIxMjQ5NTQsMzY3NzAzODEyLDE0MzY4MzQyOTQs
+LTE0OTc3NDkwNjksLTEyNDE3MTc0OSw3OTkzNDY0MDksMzk0OD
+UyMDMsNzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOSw3OTkz
+NDY0MDksMTAwMjg4ODc5MSw5MjA3MTAxNDUsNjU0OTM0MzI5LD
+IwNDQ1NTU3MzZdfQ==
 -->
