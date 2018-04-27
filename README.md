@@ -5,11 +5,11 @@
 Front-end & Nodejs developer
 _Kuala Lumpur, Malaysia_
 
+♥️functional programming & vim.
+
 Technologist looking to build slick, large-scale & beautiful web applications. A programmer at heart and an engineer by mind. When I'm not coding (in React or some obscure front-end micro framework) or cooking, I'm probably travelling or professing my undying love to Docker & Portainer.
 
 I love building teams that deliver great, pixel-perfect, usable products. I care deeply about the people I work with. I bring a *never say die* attitude to any team, and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
-
-
 
 ----------
 
@@ -84,9 +84,10 @@ This Résumé is open-source, built from Markdown with Travis-CI, Pandoc, Neovim
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3NzAzODEyLDEzMDIxMjQ5NTQsMzY3Nz
-AzODEyLDE0MzY4MzQyOTQsLTE0OTc3NDkwNjksLTEyNDE3MTc0
-OSw3OTkzNDY0MDksMzk0ODUyMDMsNzk5MzQ2NDA5LDM5NDg1Mj
-AzLDc5OTM0NjQwOSw3OTkzNDY0MDksMTAwMjg4ODc5MSw5MjA3
-MTAxNDUsNjU0OTM0MzI5LDIwNDQ1NTU3MzZdfQ==
+eyJoaXN0b3J5IjpbMzQ0OTQzNTQyLDM2NzcwMzgxMiwxMzAyMT
+I0OTU0LDM2NzcwMzgxMiwxNDM2ODM0Mjk0LC0xNDk3NzQ5MDY5
+LC0xMjQxNzE3NDksNzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0Nj
+QwOSwzOTQ4NTIwMyw3OTkzNDY0MDksNzk5MzQ2NDA5LDEwMDI4
+ODg3OTEsOTIwNzEwMTQ1LDY1NDkzNDMyOSwyMDQ0NTU1NzM2XX
+0=
 -->
