@@ -1,13 +1,14 @@
 # Vik Ramanujam's Résumé
 
 ![alt text][logo]
+Your friendly neighbourhood brogrammer.
 
 Front-end & Nodejs developer
 _Kuala Lumpur, Malaysia_
 
-♥️functional programming & vim.
+♥️ functional programming, i3, the command line & vim.
 
-Technologist looking to build slick, large-scale & beautiful web applications. A programmer at heart and an engineer by mind. When I'm not coding (in React or some obscure front-end micro framework) or cooking, I'm probably travelling or professing my undying love to Docker & Portainer.
+Technologist looking to build slick, large-scale & beautiful web applications. A programmer at heart and an engineer by mind. When I'm not coding (in React or some obscure front-end micro-framework) or cooking, I'm probably travelling or professing my undying love to Docker & Portainer.
 
 I love building teams that deliver great, pixel-perfect, usable products. I care deeply about the people I work with. I bring a *never say die* attitude to any team, and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
@@ -45,7 +46,7 @@ Currently leading a team of Front-end developers tasked with building a next-gen
 
 ### BAE Systems Applied Intelligence
 _**Lead Front-end Developer**_
-_June 2015 - Present (Deurne, The Netherlands)_
+_June 2015 - Present (Kuala Lumpur, Malaysia)_
 
 Delivered a webapp built on Angular, ES6, SCSS, Angular Material that runs of 30 different browser / device combinations from Retina displays to mobile browsers, weeks ahead of schedule.
 → Led a team of ten developers to deliver, ahead of schedule a web application & mobile app which strict acceptance criterias for performance in low bandwidth areas.
@@ -84,10 +85,10 @@ This Résumé is open-source, built from Markdown with Travis-CI, Pandoc, Neovim
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0OTQzNTQyLDM2NzcwMzgxMiwxMzAyMT
-I0OTU0LDM2NzcwMzgxMiwxNDM2ODM0Mjk0LC0xNDk3NzQ5MDY5
-LC0xMjQxNzE3NDksNzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0Nj
-QwOSwzOTQ4NTIwMyw3OTkzNDY0MDksNzk5MzQ2NDA5LDEwMDI4
-ODg3OTEsOTIwNzEwMTQ1LDY1NDkzNDMyOSwyMDQ0NTU1NzM2XX
-0=
+eyJoaXN0b3J5IjpbLTE2NjI0NzkxODQsMzQ0OTQzNTQyLDM2Nz
+cwMzgxMiwxMzAyMTI0OTU0LDM2NzcwMzgxMiwxNDM2ODM0Mjk0
+LC0xNDk3NzQ5MDY5LC0xMjQxNzE3NDksNzk5MzQ2NDA5LDM5ND
+g1MjAzLDc5OTM0NjQwOSwzOTQ4NTIwMyw3OTkzNDY0MDksNzk5
+MzQ2NDA5LDEwMDI4ODg3OTEsOTIwNzEwMTQ1LDY1NDkzNDMyOS
+wyMDQ0NTU1NzM2XX0=
 -->
