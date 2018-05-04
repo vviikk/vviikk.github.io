@@ -49,18 +49,18 @@ _**Lead Front-end Developer**_
 _June 2015 - Present (Kuala Lumpur, Malaysia)_
 
 Delivered a webapp built on Angular, ES6, SCSS, Angular Material that runs of 30 different browser / device combinations from Retina displays to mobile browsers, weeks ahead of schedule.
-  - Led a team of ten developers to deliver, ahead of schedule a web application & mobile app which strict acceptance criterias for performance in low bandwidth areas.
-  - Ensured product quality by enforcing unit and integration tests.
-  - Conceived and implemented a filtering system that can be used in any project as a drop-in component (that can search and in-browser list of anything or pass it off to the backend).
-  - Engaged closely with UX daily to unsure delivery of a usable and slick-looking product. Adviced against bad user experience and convulated user journeys.
-  - Evaluated requirements with Business Analysts to ensure stories are short, well-worded and most importantly, closable, with clear acceptance criteria.
-  - Ensured code was functional and lean with performance and usability as the pillars.
-  - Planned sprints and delegated tasks across the front-end team.
-  - Developed a reusable library / UX components within the first couple of sprints so that there was minimal to no front-end effort needed at the later stages of the project. Focused on building highly configurable components rather than thousands of lines of redundant code.
-  - Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments.
-  - Promoted code reusability above all else, and ensured that we had a 90% higher test coverage when our deliverable limit was 80%.
-  - Streamlined and enhanced team's output by using an assembly-line mindset when managing task deligation. The payoff was huge as we continually impressed every sprint by delivering impressive work, consistenly. This however, will only work with a good, multi-disciplined team.
-  - Involved heavily with DevOps and build automation.
+  *  led a team of ten developers to deliver, ahead of schedule a web application & mobile app which strict acceptance criterias for performance in low bandwidth areas.
+  * ensured product quality by enforcing unit and integration tests.
+  ▪️ conceived and implemented a filtering system that can be used in any project as a drop▪️in component (that can search and in▪️browser list of anything or pass it off to the backend).
+  ▪️ engaged closely with ux daily to unsure delivery of a usable and slick▪️looking product. adviced against bad user experience and convulated user journeys.
+  ▪️ evaluated requirements with business analysts to ensure stories are short, well▪️worded and most importantly, closable, with clear acceptance criteria.
+  ▪️ ensured code was functional and lean with performance and usability as the pillars.
+  ▪️ planned sprints and delegated tasks across the front▪️end team.
+  ▪️ developed a reusable library / ux components within the first couple of sprints so that there was minimal to no front▪️end effort needed at the later stages of the project. focused on building highly configurable components rather than thousands of lines of redundant code.
+  ▪️ involved heavily in code▪️reviews and (declining) pull▪️requests that would take the easy way out, have bad tests, or lack code comments.
+  ▪️ promoted code reusability above all else, and ensured that we had a 90% higher test coverage when our deliverable limit was 80%.
+  ▪️ streamlined and enhanced team's output by using an assembly▪️line mindset when managing task deligation. the payoff was huge as we continually impressed every sprint by delivering impressive work, consistenly. this however, will only work with a good, multi▪️disciplined team.
+  ▪️ involved heavily with devops and build automation.
 
 ---
 
@@ -82,7 +82,7 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjg3MTk4OSwxNjgzMDU5NjY0LDM0ND
+eyJoaXN0b3J5IjpbMTc3NzY1NTA5NywxNjgzMDU5NjY0LDM0ND
 k0MzU0MiwzNjc3MDM4MTIsMTMwMjEyNDk1NCwzNjc3MDM4MTIs
 MTQzNjgzNDI5NCwtMTQ5Nzc0OTA2OSwtMTI0MTcxNzQ5LDc5OT
 M0NjQwOSwzOTQ4NTIwMyw3OTkzNDY0MDksMzk0ODUyMDMsNzk5
