@@ -83,14 +83,16 @@ Computer science. Software architecture and design, user interface and user expe
 Final Year Project: Collborative text editor where team members can see code being edited in real time, with a chat system
 Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
+## Interests
+
  
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzU4NTA5MiwxNzc3NjU1MDk3LDE2OD
-MwNTk2NjQsMzQ0OTQzNTQyLDM2NzcwMzgxMiwxMzAyMTI0OTU0
-LDM2NzcwMzgxMiwxNDM2ODM0Mjk0LC0xNDk3NzQ5MDY5LC0xMj
-QxNzE3NDksNzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOSwz
-OTQ4NTIwMyw3OTkzNDY0MDksNzk5MzQ2NDA5LDEwMDI4ODg3OT
-EsOTIwNzEwMTQ1LDY1NDkzNDMyOSwyMDQ0NTU1NzM2XX0=
+eyJoaXN0b3J5IjpbNzY5NjA4NDksMTc3NzY1NTA5NywxNjgzMD
+U5NjY0LDM0NDk0MzU0MiwzNjc3MDM4MTIsMTMwMjEyNDk1NCwz
+Njc3MDM4MTIsMTQzNjgzNDI5NCwtMTQ5Nzc0OTA2OSwtMTI0MT
+cxNzQ5LDc5OTM0NjQwOSwzOTQ4NTIwMyw3OTkzNDY0MDksMzk0
+ODUyMDMsNzk5MzQ2NDA5LDc5OTM0NjQwOSwxMDAyODg4NzkxLD
+kyMDcxMDE0NSw2NTQ5MzQzMjksMjA0NDU1NTczNl19
 -->
