@@ -84,6 +84,10 @@ Final Year Project: Collborative text editor where team members can see code bei
 Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 ## Interests
+  - Functional Programming
+  - i3
+  - BitBar
+  - Polybar
   - Pink Floyd
   - Vim
   - Docker
@@ -93,10 +97,10 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1MzE3MDA4LDUwMDQ2OTAwNiwxODQ2Mz
-cwNjEsMTc3NzY1NTA5NywxNjgzMDU5NjY0LDM0NDk0MzU0Miwz
-Njc3MDM4MTIsMTMwMjEyNDk1NCwzNjc3MDM4MTIsMTQzNjgzND
-I5NCwtMTQ5Nzc0OTA2OSwtMTI0MTcxNzQ5LDc5OTM0NjQwOSwz
-OTQ4NTIwMyw3OTkzNDY0MDksMzk0ODUyMDMsNzk5MzQ2NDA5LD
-c5OTM0NjQwOSwxMDAyODg4NzkxLDkyMDcxMDE0NV19
+eyJoaXN0b3J5IjpbMjExMjEwMTYyMyw1MDA0NjkwMDYsMTg0Nj
+M3MDYxLDE3Nzc2NTUwOTcsMTY4MzA1OTY2NCwzNDQ5NDM1NDIs
+MzY3NzAzODEyLDEzMDIxMjQ5NTQsMzY3NzAzODEyLDE0MzY4Mz
+QyOTQsLTE0OTc3NDkwNjksLTEyNDE3MTc0OSw3OTkzNDY0MDks
+Mzk0ODUyMDMsNzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOS
+w3OTkzNDY0MDksMTAwMjg4ODc5MSw5MjA3MTAxNDVdfQ==
 -->
