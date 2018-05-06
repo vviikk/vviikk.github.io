@@ -84,21 +84,19 @@ Final Year Project: Collborative text editor where team members can see code bei
 Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 ## Interests
-
   - Pink Floyd
   - Vim
   - Docker
   - Cooking
   - Chilli
   - Command-line
-```
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ2MjgxOTIsNTAwNDY5MDA2LDE4ND
-YzNzA2MSwxNzc3NjU1MDk3LDE2ODMwNTk2NjQsMzQ0OTQzNTQy
-LDM2NzcwMzgxMiwxMzAyMTI0OTU0LDM2NzcwMzgxMiwxNDM2OD
-M0Mjk0LC0xNDk3NzQ5MDY5LC0xMjQxNzE3NDksNzk5MzQ2NDA5
-LDM5NDg1MjAzLDc5OTM0NjQwOSwzOTQ4NTIwMyw3OTkzNDY0MD
-ksNzk5MzQ2NDA5LDEwMDI4ODg3OTEsOTIwNzEwMTQ1XX0=
+eyJoaXN0b3J5IjpbODU1MzE3MDA4LDUwMDQ2OTAwNiwxODQ2Mz
+cwNjEsMTc3NzY1NTA5NywxNjgzMDU5NjY0LDM0NDk0MzU0Miwz
+Njc3MDM4MTIsMTMwMjEyNDk1NCwzNjc3MDM4MTIsMTQzNjgzND
+I5NCwtMTQ5Nzc0OTA2OSwtMTI0MTcxNzQ5LDc5OTM0NjQwOSwz
+OTQ4NTIwMyw3OTkzNDY0MDksMzk0ODUyMDMsNzk5MzQ2NDA5LD
+c5OTM0NjQwOSwxMDAyODg4NzkxLDkyMDcxMDE0NV19
 -->
