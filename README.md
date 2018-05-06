@@ -40,7 +40,7 @@ BAE Systems Applied Intelligence
 _Dec 2017 – Present_
 Kuala Lumpur, Malaysia
 
-Currently leading a team of Front-end developers tasked with building a next-generation product using React / Redux / RxJS / Styled Components that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL, Docker amongst various other technologies.
+ - Leading a team of Front-end developers tasked with building  a next-generation product using React / Redux / RxJS / Styled Components using ES7 that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL, Docker amongst various other technologies.
 
 ## Work Experience
 
@@ -82,10 +82,10 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzY1NTA5NywxNjgzMDU5NjY0LDM0ND
-k0MzU0MiwzNjc3MDM4MTIsMTMwMjEyNDk1NCwzNjc3MDM4MTIs
-MTQzNjgzNDI5NCwtMTQ5Nzc0OTA2OSwtMTI0MTcxNzQ5LDc5OT
-M0NjQwOSwzOTQ4NTIwMyw3OTkzNDY0MDksMzk0ODUyMDMsNzk5
-MzQ2NDA5LDc5OTM0NjQwOSwxMDAyODg4NzkxLDkyMDcxMDE0NS
-w2NTQ5MzQzMjksMjA0NDU1NTczNl19
+eyJoaXN0b3J5IjpbNDgwODE5Nzk5LDE3Nzc2NTUwOTcsMTY4Mz
+A1OTY2NCwzNDQ5NDM1NDIsMzY3NzAzODEyLDEzMDIxMjQ5NTQs
+MzY3NzAzODEyLDE0MzY4MzQyOTQsLTE0OTc3NDkwNjksLTEyND
+E3MTc0OSw3OTkzNDY0MDksMzk0ODUyMDMsNzk5MzQ2NDA5LDM5
+NDg1MjAzLDc5OTM0NjQwOSw3OTkzNDY0MDksMTAwMjg4ODc5MS
+w5MjA3MTAxNDUsNjU0OTM0MzI5LDIwNDQ1NTU3MzZdfQ==
 -->
