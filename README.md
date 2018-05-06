@@ -46,7 +46,6 @@ Kuala Lumpur, Malaysia
 
 ### BAE Systems Applied Intelligence
 **Lead Front-end Developer** | _June 2015 - Present_ | _Kuala Lumpur, Malaysia_
-
 Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 30 different browser / device combinations from Retina displays to mobile browsers, weeks ahead of schedule.
   - Led a team of ten developers to deliver, ahead of schedule a web application & mobile app which strict acceptance criteria for performance in low bandwidth areas.
   - Ensured product quality by enforcing unit and integration tests.
@@ -63,23 +62,13 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
 ------
 ### BAE Systems Applied Intelligence
 **Front-end Team Lead** | Dec 2015 – Apr 2016 | _Kuala Lumpur, Malaysia_
-
   - Delivered dashboards consisting of heatmaps, filters, timelines and drill-down hunting using Highcharts / Highmaps / Angular / SASS that would interface with an elastic search backend.
   - Accelerated development of a pixel-perfect product with a strict delivery timeline, whilst keeping a focus on best practices.
   - Undertook interviewing and hiring of an extremely capable (and super-awesome) front-end development  team, which I eventually led - that could deliver complex and interesting projects.
   - Formulated a guide of best-practices in building good software for the front-end developers.
 
-
-### Senior Web Developer / Co-Founder
-
-#### Company NameDark Brown & Yellow Creative House
-
-#### Dates EmployedJan 2008 – Dec 2015
-
-#### Employment Duration8 yrs
-
-#### LocationEverywhere
-
+###  Dark Brown & Yellow Creative House
+**Senior Web Developer / Co-Founder** | _Jan 2008 – Dec 2015_
 - Developed and streamlined various projects ranging from corporate websites for public listed companies.  
 - Delivered and implemented various intranet collaboration tools for governmental organizations, with departmental access control.  
 - Ensured a bullet-proof future for all projects using web standards and stage-0/1 Javascript.  
@@ -98,10 +87,10 @@ Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 [logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE3Nzk2NTMsMTc3NzY1NTA5NywxNj
-gzMDU5NjY0LDM0NDk0MzU0MiwzNjc3MDM4MTIsMTMwMjEyNDk1
-NCwzNjc3MDM4MTIsMTQzNjgzNDI5NCwtMTQ5Nzc0OTA2OSwtMT
-I0MTcxNzQ5LDc5OTM0NjQwOSwzOTQ4NTIwMyw3OTkzNDY0MDks
-Mzk0ODUyMDMsNzk5MzQ2NDA5LDc5OTM0NjQwOSwxMDAyODg4Nz
-kxLDkyMDcxMDE0NSw2NTQ5MzQzMjksMjA0NDU1NTczNl19
+eyJoaXN0b3J5IjpbMTYwNzU4NTA5MiwxNzc3NjU1MDk3LDE2OD
+MwNTk2NjQsMzQ0OTQzNTQyLDM2NzcwMzgxMiwxMzAyMTI0OTU0
+LDM2NzcwMzgxMiwxNDM2ODM0Mjk0LC0xNDk3NzQ5MDY5LC0xMj
+QxNzE3NDksNzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOSwz
+OTQ4NTIwMyw3OTkzNDY0MDksNzk5MzQ2NDA5LDEwMDI4ODg3OT
+EsOTIwNzEwMTQ1LDY1NDkzNDMyOSwyMDQ0NTU1NzM2XX0=
 -->
