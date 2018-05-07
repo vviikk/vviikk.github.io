@@ -1,7 +1,10 @@
 # Vik Ramanujam's Résumé
 
 ![alt text][logo]
-Your friendly neighbourhood brogrammer.
+
+###### Your friendly neighbourhood brogrammer.
+
+---
 
 Front-end & Nodejs developer
 _Kuala Lumpur, Malaysia_
@@ -12,7 +15,7 @@ Technologist looking to build slick, large-scale & beautiful web applications. A
 
 I love building teams that deliver great, pixel-perfect, usable products. I care deeply about the people I work with. I bring a *never say die* attitude to any team, and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
-----------
+---
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
 w: [http://vik.ramanuj.am](http://vik.ramanuj.am) <small>_new redesign underway_</small>
@@ -69,11 +72,11 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
 
 ###  Dark Brown & Yellow Creative House
 **Senior Web Developer / Co-Founder** | _Jan 2008 – Dec 2015_
-- Developed and streamlined various projects ranging from corporate websites for public listed companies.  
-- Delivered and implemented various intranet collaboration tools for governmental organizations, with departmental access control.  
-- Ensured a bullet-proof future for all projects using web standards and stage-0/1 Javascript.  
-- Involved heavily in User Interface Design.  
-- Ensured the final delivery was pixel-perfect and quality oriented.
+  - Developed and streamlined various projects ranging from corporate websites for public listed companies.  
+  - Delivered and implemented various intranet collaboration tools for governmental organizations, with departmental access control.  
+  - Ensured a bullet-proof future for all projects using web standards and stage-0/1 Javascript.  
+  - Involved heavily in User Interface Design.  
+  - Ensured the final delivery was pixel-perfect and quality oriented.
 
 ## Education
 
@@ -84,6 +87,7 @@ Final Year Project: Collborative text editor where team members can see code bei
 Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
 ## Interests
+
   - Functional Programming
   - i3
   - BitBar

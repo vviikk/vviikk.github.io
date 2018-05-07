@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  webserver:
+    image: pierrezemb/gostatic:latest
+    ports:
+    - "8088:8043" # 8043 is the default port
+    volumes:
+    - "./build:/srv/http"
+    entrypoint: "/goStatic --forceHTTP"
