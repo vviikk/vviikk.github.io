@@ -1,0 +1,36 @@
+{
+  "name": "vik-ramanujam-resume",
+  "version": "0.0.9",
+  "description": "Vik Ramanujam's Resume",
+  "main": "index.js",
+  "scripts": {
+    "dev-mode": "node-sass --importer=node_modules/node-sass-tilde-importer -w assets/styles.scss -o build --source-map=true --output-style=compressed & live-server --no-browser --ignore=css/sass,css/styles.css.map --wait=200 ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piggyslasher/resume.git"
+  },
+  "keywords": [
+    "resume",
+    "developer",
+    "json",
+    "resume",
+    "no",
+    "javascript",
+    "react"
+  ],
+  "author": "Vik Ramanujam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piggyslasher/resume/issues"
+  },
+  "homepage": "https://github.com/piggyslasher/resume#readme",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.0",
+    "vertical-rhythm-reset": "^1.1.0"
+  },
+  "devDependencies": {
+    "node-sass-tilde-importer": "^1.0.2"
+  }
+}
