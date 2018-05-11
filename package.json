@@ -2,9 +2,11 @@
   "name": "vik-ramanujam-resume",
   "version": "0.0.9",
   "description": "Vik Ramanujam's Resume",
-  "main": "index.js",
   "scripts": {
-    "dev-mode": "node-sass --importer=node_modules/node-sass-tilde-importer -w assets/styles.scss -o build --source-map=true --output-style=compressed & live-server --no-browser --ignore=css/sass,css/styles.css.map --wait=200 ./build"
+    "build:assets": "node-sass --importer=node_modules/node-sass-tilde-importer -w assets/styles.scss -o build --source-map=true --output-style=compressed & live-server --no-browser --ignore=css/sass,css/styles.css.map --wait=300 ./build",
+    "build:markdown": "nodemon --watch resume-template.html --watch README.md --exec 'markdown README.md -f gfm --template resume-template.html > build/index.html'",
+    "build": "npm-run-all --parallel build:markdown build:assets",
+    "build:watch": "nodemon --watch package.json --exec 'npm run build'"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "vertical-rhythm-reset": "^1.1.0"
   },
   "devDependencies": {
-    "node-sass-tilde-importer": "^1.0.2"
+    "node-sass-tilde-importer": "^1.0.2",
+    "npm-run-all": "^4.1.3"
   }
 }
