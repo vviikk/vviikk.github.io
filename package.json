@@ -6,7 +6,8 @@
     "build:assets": "node-sass --importer=node_modules/node-sass-tilde-importer -w assets/styles.scss -o build --source-map=true --output-style=compressed & live-server --no-browser --ignore=css/sass,css/styles.css.map --wait=300 ./build",
     "build:markdown": "nodemon --watch resume-template.html --watch README.md --exec 'markdown README.md -f gfm --template resume-template.html > build/index.html'",
     "build": "npm-run-all --parallel build:markdown build:assets",
-    "build:watch": "nodemon --watch package.json --exec 'npm run build'"
+    "build:watch": "nodemon --watch package.json --exec 'npm run build'",
+    "preview": "babel-node preview.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,10 @@
   },
   "homepage": "https://github.com/piggyslasher/resume#readme",
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "live-server": "^1.2.0",
+    "marked": "^0.3.19",
+    "marked-terminal": "^2.0.0",
     "node-sass": "^4.9.0",
     "vertical-rhythm-reset": "^1.1.0"
   },

@@ -1,6 +1,7 @@
 # Vik Ramanujam
 ![alt text][logo]
 
+
 Your friendly neighbourhood brogrammer
 Front-end & Nodejs developer
 _Kuala Lumpur, Malaysia_
@@ -11,6 +12,7 @@ _Kuala Lumpur, Malaysia_
 [Interests](#interests)
 
 ---
+> Dude, there's a container for that!
 
 Technologist looking to build slick, large-scale & beautiful web applications. A programmer at heart and an engineer by mind. When I'm not coding (in React or [some bleeding-edge front-end micro-framework](https://hyperapp.js.org/)), I'm probably cooking, travelling or professing my undying love to Docker & Portainer.
 
@@ -21,18 +23,18 @@ w: [http://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/
 
 #### Skills and interests
 
-##### Skills
+##### I do
 JavaScript, Web Development, Front-end Development, Node.js, Single Page Applications, Continuous Development / Deployment.
 
 
-##### Technologies
+##### I use
 React, Redux, Jest, Styled Components, Server-sent Events, WebPack, Node.js, Sass, Git, Docker, CouchDB.
 
-##### Vernacular
-English, Tamil, Malay & some French.
+##### I speak
+English, Tamil, Malay & understand some French, Portuguese and Klingon.
 
-##### Interests
-Music, Yoga, Movies and Series, Intermittent fasting, Running, Reading.
+##### I like
+Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 ---
 
@@ -43,12 +45,13 @@ _**Technical Lead**_
 _Dec 2017 – Present_
 Kuala Lumpur, Malaysia
 
-Leading a team of Front-end developers tasked with building  a next-generation product using React / Redux / RxJS / Styled Components using ES7 that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL, Docker amongst various other technologies.
+Leading a team of Front-end developers tasked with building  a next-generation product using React / Redux / RxJS / Styled Components, Storyboook using ES7 that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL and obviously Docker (♥️) amongst various other technologies.
 
 ---
 
 ##### BAE Systems Applied Intelligence
-**Lead Front-end Developer** | _June 2015 - Present_ | _Kuala Lumpur, Malaysia_
+**Lead Front-end Developer** | _June 2015 - December 2017_ | _Kuala Lumpur, Malaysia_
+
 Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 30 different browser / device combinations from Retina displays to mobile browsers, weeks ahead of schedule.
 
   - Led a team of ten developers to deliver, ahead of schedule a web application & mobile app which strict acceptance criteria for performance in low bandwidth areas.
@@ -58,7 +61,7 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
   - Evaluated requirements with Business Analysts to ensure stories are short, well-worded and most importantly, closable, with clear acceptance criteria.
   - Ensured code was functional and lean with performance and usability as the pillars.
   - Planned sprints and delegated tasks across the front-end team.
-  - Developed a reusable library / UX components within the first couple of sprints so that there was minimal to no front-end effort needed at the later stages of the project. Focused on building highly configurable components rather than thousands of lines of redundant code.
+  - Developed a reusable library of UX components within the first couple of sprints so that there was minimal to no front-end effort needed at the later stages of the project. Focused on building highly configurable components rather than thousands of lines of redundant code.
   - Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments.
   - Promoted code reusability above all else, and ensured that we had a 90% higher test coverage when our deliverable limit was 80%.
   - Streamlined and enhanced team's output by using an assembly-line mindset when managing task deligation. The payoff was huge as we continually impressed every sprint by delivering impressive work, consistenly. This however, will only work with a good, multi-disciplined team.
@@ -68,6 +71,7 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
 
 ##### BAE Systems Applied Intelligence
 **Front-end Team Lead** | Dec 2015 – Apr 2016 | _Kuala Lumpur, Malaysia_
+
   - Delivered dashboards consisting of heatmaps, filters, timelines and drill-down hunting using Highcharts / Highmaps / Angular / SASS that would interface with an elastic search backend.
   - Accelerated development of a pixel-perfect product with a strict delivery timeline, whilst keeping a focus on best practices.
   - Undertook interviewing and hiring of an extremely capable (and super-awesome) front-end development  team, which I eventually led - that could deliver complex and interesting projects.
@@ -77,6 +81,7 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
 
 #####  Dark Brown & Yellow Creative House
 **Senior Web Developer / Co-Founder** | _Jan 2008 – Dec 2015_
+
   - Developed and streamlined various projects ranging from corporate websites for public listed companies.  
   - Delivered and implemented various intranet collaboration tools for governmental organizations, with departmental access control.  
   - Ensured a bullet-proof future for all projects using web standards and stage-0/1 Javascript.  
@@ -89,15 +94,20 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
 
 ##### University of Sheffield
 _Engineering - Bachelor's in Computing (B.Sc.)_
-  - Computer science. Software architecture and design, user interface and user experience.
+
+  - Computer science, Software architecture and design, user interface and user experience.
   - Final Year Project: Collborative text editor where team members can see code being edited in real time, with a chat system.
   - Dissertation: Neilson's Usability Heuristics on the World Wide Web.
+
+#### Talks and Slides
+  - How I stopped worrying and start loving the build system
+  - Going offline-first with CouchDB
 
 #### Likes
   - Functional Programming
   - i3
   - vertical rythm
-  - TraveCI
+  - TravisCI
   - BitBar
   - Polybar
   - Pink Floyd
@@ -111,21 +121,22 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
   - Node
   - urlview
   - ncmpcpp & mpd
+  - bash scripts
+  - automation
 
+#### Credits
+  - [CSS4 Variables and Sass by Jake Albaugh on CodePen](https://codepen.io/jakealbaugh/post/css4-variables-and-sass)
+  - [CSS System Font Stack Monospace v2](https://www.client9.com/css-system-font-stack-monospace-v2/)
+  - [Custom domains on GitHub Pages gain support for HTTPS](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)
+  - [Shipping system fonts to GitHub.com · @mdo](http://markdotto.com/2018/02/07/github-system-fonts/)
+  - [Vertical Rhythm Reset](http://jhildenbiddle.github.io/vertical-rhythm-reset/)
+  - [Nesting in Sass and Less · @mdo](http://markdotto.com/2015/07/20/css-nesting/)
 
+#### FAQ
+  - 
 ---
 Copyright © vik.ramanuj.am
 
-[logo]: ./vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
+[![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjEwMTYyMyw1MDA0NjkwMDYsMTg0Nj
-M3MDYxLDE3Nzc2NTUwOTcsMTY4MzA1OTY2NCwzNDQ5NDM1NDIs
-MzY3NzAzODEyLDEzMDIxMjQ5NTQsMzY3NzAzODEyLDE0MzY4Mz
-QyOTQsLTE0OTc3NDkwNjksLTEyNDE3MTc0OSw3OTkzNDY0MDks
-Mzk0ODUyMDMsNzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOS
-w3OTkzNDY0MDksMTAwMjg4ODc5MSw5MjA3MTAxNDVdfQ==
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDczNzM5NV19
--->
+[logo]: ./vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"

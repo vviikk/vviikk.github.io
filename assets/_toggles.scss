@@ -1,5 +1,8 @@
 .tgl {
   opacity: 0;
+  width: 0;
+  overflow: hidden;
+  margin: 0;
 
   // add default box-sizing for this scope
   &,
@@ -55,7 +58,7 @@
 	transform: skew(-10deg);
 	backface-visibility: hidden;
 	transition: all .2s ease;
-	background: $maroon !important;
+	background: color(maroon) !important;
 	&:after,
 	&:before {
 	  transform: skew(10deg);

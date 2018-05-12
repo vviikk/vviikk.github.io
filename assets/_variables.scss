@@ -24,18 +24,33 @@ $color13: #5350b9;
 $color14: #0f7ddb;
 $color15: #ffffff;
 
-$red-bright: $color1;
-$red-mellow: $color9;
-$yellow: $color3;
-$yellow-dark: $color11;
-$blue-light: $color4;
-$blue-light-2: $color6;
-$blue-light-3: $color12;
-$blue-light-4: $color14;
-$maroon: $color5;
-$maroon-dark: $color13;
-$off-white: $color7;
-$grey-dark: $color0;
-$green-dark: $color2;
-$green-light: $color10;
+$colors: (
+  foreground: $foreground,
+  background: $color0,
+  red-bright: $color1,
+  red-mellow: $color9,
+  yellow: $color3,
+  yellow-dark: $color11,
+  blue-light: $color4,
+  blue-light-2: $color6,
+  blue-light-3: $color12,
+  blue-light-4: $color14,
+  maroon: $color5,
+  maroon-dark: $color13,
+  off-white: $color7,
+  grey-dark: $color0,
+  green-dark: $color2,
+  green-light: $color10,
+)
 
+// ripped CSS4 vars out of color map
+:root {
+  // each item in color map
+  @each $name, $color in $colors {
+    --color-#{$name}: #{$color};
+  }
+}
+
+@function color($color-name) {
+  @return var(--color-#{$color-name});
+}
