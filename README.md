@@ -48,7 +48,8 @@ Leading a team of Front-end developers tasked with building  a next-generation p
 ---
 
 ##### BAE Systems Applied Intelligence
-**Lead Front-end Developer** | _June 2015 - Present_ | _Kuala Lumpur, Malaysia_
+**Lead Front-end Developer** | _June 2015 - December 2017_ | _Kuala Lumpur, Malaysia_
+
 Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 30 different browser / device combinations from Retina displays to mobile browsers, weeks ahead of schedule.
 
   - Led a team of ten developers to deliver, ahead of schedule a web application & mobile app which strict acceptance criteria for performance in low bandwidth areas.
@@ -68,6 +69,7 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
 
 ##### BAE Systems Applied Intelligence
 **Front-end Team Lead** | Dec 2015 – Apr 2016 | _Kuala Lumpur, Malaysia_
+
   - Delivered dashboards consisting of heatmaps, filters, timelines and drill-down hunting using Highcharts / Highmaps / Angular / SASS that would interface with an elastic search backend.
   - Accelerated development of a pixel-perfect product with a strict delivery timeline, whilst keeping a focus on best practices.
   - Undertook interviewing and hiring of an extremely capable (and super-awesome) front-end development  team, which I eventually led - that could deliver complex and interesting projects.
@@ -77,6 +79,7 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
 
 #####  Dark Brown & Yellow Creative House
 **Senior Web Developer / Co-Founder** | _Jan 2008 – Dec 2015_
+
   - Developed and streamlined various projects ranging from corporate websites for public listed companies.  
   - Delivered and implemented various intranet collaboration tools for governmental organizations, with departmental access control.  
   - Ensured a bullet-proof future for all projects using web standards and stage-0/1 Javascript.  
@@ -89,6 +92,7 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
 
 ##### University of Sheffield
 _Engineering - Bachelor's in Computing (B.Sc.)_
+
   - Computer science. Software architecture and design, user interface and user experience.
   - Final Year Project: Collborative text editor where team members can see code being edited in real time, with a chat system.
   - Dissertation: Neilson's Usability Heuristics on the World Wide Web.
@@ -117,15 +121,3 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
 Copyright © vik.ramanuj.am
 
 [logo]: ./vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjEwMTYyMyw1MDA0NjkwMDYsMTg0Nj
-M3MDYxLDE3Nzc2NTUwOTcsMTY4MzA1OTY2NCwzNDQ5NDM1NDIs
-MzY3NzAzODEyLDEzMDIxMjQ5NTQsMzY3NzAzODEyLDE0MzY4Mz
-QyOTQsLTE0OTc3NDkwNjksLTEyNDE3MTc0OSw3OTkzNDY0MDks
-Mzk0ODUyMDMsNzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOS
-w3OTkzNDY0MDksMTAwMjg4ODc5MSw5MjA3MTAxNDVdfQ==
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDczNzM5NV19
--->
