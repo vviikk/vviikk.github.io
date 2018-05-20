@@ -28,9 +28,10 @@ body {
     font-size: .7em;
   }
 
-  article, footer {
+  article {
     animation: 2s cubic-bezier(0.000, 1.010, 0.025, 0.995) 0s 1 slideUp;
     width: 100vw;
+    max-width: --body-width;
     > * {
       display: block;
       width: 100%;
@@ -91,7 +92,6 @@ body {
 
 .ascii-text {
   span {
-    // @include vr($line-height: .25, $font-size: .25);
     display: block;
   }
 }
@@ -121,11 +121,17 @@ input[name='switch-mode']:checked {
     &, ul > li {
       color: color(background);
     }
-    li:before {
-      color: color(yellow-dark)
+    li:before, h1, h2, h3, h4 {
+      color: color(maroon-dark);
     }
     h5, h6 {
       color: color(blue-light-4);
+    }
+    blockquote {
+      color: color(red-mellow);
+      &:after {
+        color: color(maroon);
+      }
     }
   }
 }
@@ -204,7 +210,6 @@ h1 + p {
       perspective: 1000px;
     }
   }
-
 
   img {
     @include vr($height: 4);
@@ -297,7 +302,6 @@ $lines: 16;
 
 a {
   color: color(blue-light-2);
-  // font-size: .8em;
   text-decoration: none;
   border-bottom: 1px solid;
   border-bottom-color: color(blue-light);
@@ -325,7 +329,13 @@ a {
 
   footer {
     flex-basis: 100%;
-    font-size: 75%;
+    div { 
+      width: var(--body-width);
+      margin: 0 auto;
+      > * {
+        font-size: 75%;
+      }
+    }
     @include vr($margin-top: 1);
     .ascii-text {
       color: color(maroon-dark);
