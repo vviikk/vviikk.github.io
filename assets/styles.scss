@@ -80,7 +80,7 @@ body {
     content: '';
     position: fixed;
     z-index: 0;
-    top: 0; bottom: 0; left: 0; right: 0;
+    top: -100em; bottom: 0; left: 0; right: 0;
     background: radial-gradient(
       circle closest-corner at center 0,
       $background,
