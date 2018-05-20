@@ -49,6 +49,7 @@ $colors: (
   @each $name, $color in $colors {
     --color-#{$name}: #{$color};
   }
+  --body-width: 40em;
 }
 
 @function color($color-name) {
