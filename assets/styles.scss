@@ -9,11 +9,9 @@ body {
   flex-wrap: wrap;
   width: 100%;
   justify-content: flex-center;
-  // max-width: 700px;
   margin: 0 auto;
-  @include vr($padding: 2);
+  @include vr($padding: 1);
 
-  animation: 1s cubic-bezier(0.000, 1.010, 0.025, 0.995) 0s 1 slideDown;
 
   .fix-wrap {
     flex-grow: 1;
@@ -30,39 +28,38 @@ body {
     font-size: .7em;
   }
 
-  main {
-    max-width: 40em;
-    margin: 0 auto;
+  article, footer {
+    animation: 2s cubic-bezier(0.000, 1.010, 0.025, 0.995) 0s 1 slideUp;
+    width: 100vw;
+    > * {
+      display: block;
+      width: 100%;
+      max-width: 40em;
+      margin: 0 auto;
+    }
   }
 
-  content {
+  section {
     background: radial-gradient(
       150px 40px at 195px bottom,
-      var(color(foreground)),
+      transparentize($foreground, 0.85),
       rgba(0,0,0,0)
     );
-    margin: 0 auto;
+
     display: flex;
-    flex-basis: 100%;
-    width: 100%;
     flex-direction: column;
     z-index: 1;
     position: relative;
     @include vr($padding: 2 0 0 0);
     
-	*:not(hr):not(main) {
-	  max-width: 100%;
-      z-index: 1;
-	}
-
     &::after {
       content: "";
       display: block;
       background: linear-gradient(
-      to right,
-      $color0 50px,
-      $foreground 195px,
-      $color0 350px
+        to right,
+        $color0 50px,
+        $foreground 195px,
+        $color0 350px
       );
       height: 1px;
       position: absolute;
@@ -71,21 +68,31 @@ body {
       left: 0;
     }
   }
+
   .amp {
     font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
     font-style: italic;
     font-weight: normal;
+    @include vr($font-size: .25);
   }
-  bg{
+
+  .bg {
     content: '';
     position: fixed;
     z-index: 0;
     top: 0; bottom: 0; left: 0; right: 0;
     background: radial-gradient(
-    circle closest-corner at center 125px,
-    $background,
-    $color0 40%
+      circle closest-corner at center 0,
+      $background,
+      $color0 40%
     ) no-repeat !important;
+  }
+}
+
+.ascii-text {
+  span {
+    // @include vr($line-height: .25, $font-size: .25);
+    display: block;
   }
 }
 
@@ -107,10 +114,10 @@ ul {
 }
 
 input[name='switch-mode']:checked {
-  & ~ bg {
+  & ~ .bg {
     background: color(foreground) !important;
   }
-  & ~ content{
+  & ~ * {
     &, ul > li {
       color: color(background);
     }
@@ -129,30 +136,35 @@ h1 {
 }
 
 h1 + p {
-  &, & + p, & + p + p { 
+  &, & + p, & + p + p, & + p + p + p { 
     text-align: center;
     a {
       display: inline-block;
+      position: relative;
+      @include vr($margin: 0 1)
       + br {
         display: none;
       }
       &:before, &:after {
+        position: absolute;
         content: '[';
         display: inline-block;
         opacity: 0;
         transition: transform 0.3s, opacity 0.2s;
         @include vr($margin-right: .5);
-        content: '[';
         transform: translateX(20px);
         color: color(foreground);
+        left: -20px;
       }
-      &:hover {
+      &:hover, &:focus {
         &:before, &:after {
           opacity: 1;
           transform: translateX(0);
         }
       } 
       &:after {
+        left: auto;
+        right: -20;
         content: ']';
         transform: translateX(-20px);
         @include vr($margin-left: .5);
@@ -199,13 +211,13 @@ h1 + p {
   }
 }
 
-@keyframes slideDown {
+@keyframes slideUp {
   0% {
-    transform: translate3d(0, -2rem, 0);
+    transform: translate3d(0, 2rem, 0);
     opacity: 0;
   }
   80% {
-    transform: translate3d(0, -0.0rem, 0);
+    transform: translate3d(0, 0.0rem, 0);
   }
   100% {
     transform: translate3d(0, 0, 0);
@@ -213,10 +225,6 @@ h1 + p {
   }
 }
 
-content {
-  color: color(foreground);
-  @include vr($margin-top: -1);
-}
 
 h1, h2, h3, h4 {
   color: color(green-dark);
@@ -253,7 +261,6 @@ $lines: 16;
 #likes + ul {
   padding: 0;
   margin-top: 0;
-  width: 50rem;
   @include vr($height: 1);
   overflow: hidden;
   position: relative;
@@ -268,7 +275,10 @@ $lines: 16;
     position: absolute;
     top: 0;
     width: 2em; // em used as we're monospaced :)
-    @include vr($line-height: 1);
+    @include vr(
+      $line-height: 1,
+      $padding: 0,
+    );
     white-space: nowrap;
   }
 
@@ -287,83 +297,90 @@ $lines: 16;
 a {
   color: color(blue-light);
   font-size: .8em;
-  text-decoration: underline; 
-  text-decoration-skip-ink: auto;
-  background-repeat: repeat-x;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none slice' width='1' height='1'><rect width='100%' height='100%' style='fill:#FFF' /></svg");
-  background-position: 0 1.06em;
-  background-size: 100% 100%;
-  &:hover {
-    text-decoration: none;
-  }
-}
+  text-decoration: none;
+  border-bottom: 1px solid;
+  border-bottom-color: color(blue-light);
 
-@keyframes ticker {
-  @for $i from 0 through $lines {
-    #{$i * 95 / $lines * 1%} {
-      transform: translate3d(0, 100*$i*-1%, 0);
+  &:hover {
+    border-bottom-color: transparent;
+    background-image: $img-underline;
+    background-position: 0 1.7em; //@TODO - remove magic numbers
+    background-size: auto 3px;
+    background-repeat:repeat-x;
+    // padding-bottom:3px;
     }
   }
-  100% {
-    transform: translate3d(0, 0%, 0);
+
+  @keyframes ticker {
+    @for $i from 0 through $lines {
+      #{$i * 95 / $lines * 1%} {
+        transform: translate3d(0, 100*$i*-1%, 0);
+      }
+    }
+    100% {
+      transform: translate3d(0, 0%, 0);
+    }
   }
-}
 
-footer {
-  flex-basis: 100%;
-  font-size: 75%;
-}
-
-//////// ORDERING ///////
-@mixin order($order) {
-  &, ~ *{
-    order: $order;
+  footer {
+    flex-basis: 100%;
+    font-size: 75%;
+    @include vr($margin-top: 1);
+    .ascii-text {
+      color: color(maroon-dark);
+    }
   }
-}
 
-$sections-list:
-#vik-ramanujam,
-#skills-and-interests,
-#work-experience,
-#education,
-#interests,
-#credits;
-
-@each $section in $sections-list {
-  $i: index($sections-list, $section);
-  #{$section}{
-    @include order($i);
+  //////// ORDERING ///////
+  @mixin order($order) {
+    &, ~ *{
+      order: $order;
+    }
   }
-}
 
-#vik-ramanujam + p {
-  order: 0;
-}
+  $sections-list:
+    #vik-ramanujam,
+    #skills-and-interests,
+    #work-experience,
+    #education,
+    #interests,
+    #credits;
 
-#likes {
-  @include order(1);
-}
+  @each $section in $sections-list {
+    $i: index($sections-list, $section);
+    #{$section}{
+      @include order($i);
+    }
+  }
 
-#likes ~ hr, #credits { // before copyright
-  @include order(10);
-  + p {
-    font-size: .8em;
+  #vik-ramanujam + p {
+    order: 0;
+  }
+
+  #likes {
+    @include order(1);
+  }
+
+  #likes ~ hr, #credits { // before copyright
+    @include order(10);
+    + p {
+      font-size: .8em;
+      @include vr($margin-bottom: 1);
+    }
+  }
+
+
+  /////// CLEAN UP /////////
+  #likes, #skills-and-interests, #contact {
+    // avoid display: none - accesibility
+    height: 0;
+    overflow: hidden;
+  }
+
+  #contact + p {
     margin-bottom: 0;
   }
-}
 
-
-/////// CLEAN UP /////////
-#likes, #skills-and-interests, #contact {
-  // avoid display: none - accesibility
-  height: 0;
-  overflow: hidden;
-}
-
-#contact + p {
-  margin-bottom: 0;
-}
-
-content hr:last-of-type {
-  display: none; // hide stackedit meta
-}
+  article hr:last-of-type {
+    display: none; // hide stackedit meta
+  }

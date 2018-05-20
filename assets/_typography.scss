@@ -6,6 +6,9 @@ $vr-modular-scale: minor-third;
 $vr-grid-color   : $color13;
 
 $vr-breakpoints: (
+    30: ( // 480px
+        font-size: 16px
+    ),
     60em: ( // 960px
         font-size: 14px
     ),
@@ -31,7 +34,7 @@ strong {
 
 @include vr-reset();
 
-input[name='show-grid']:checked ~ content{
+input[name='show-grid']:checked ~ article {
   @include vr-grid();
 }
 
@@ -47,14 +50,24 @@ hr {
 
 blockquote {
   @include vr($padding-left: 1, $margin-left: -1);
-  box-shadow: inset .2rem 0 0 color(maroon-dark);
+  // box-shadow: inset .2rem 0 0 color(maroon-dark);
+  transform: skewX(-5deg); // I like more slant :)
   position: relative;
+  color: color(green-dark);
   &:after {
-    content: '´´';
+	content: '\201C';
+	font-family: serif;
+	font-style: normal;
+	font-weight: 700;
+	position: absolute;
+	// font-size: 175px;
+	top: 0px;
+	color: color(yellow-dark);
     @include vr(
-      $font-size     : 4,
-      $margin-top    : 1,
-      $margin-bottom : 1,
+      $font-size     : 2,
+      $margin-top    : 0,
+      $margin-bottom : 0,
+      $margin-left   : -1,
       $padding-top   : 0,
       $padding-bottom: 0
     );
