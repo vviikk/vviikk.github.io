@@ -157,6 +157,7 @@ h1 + p {
         left: -20px;
       }
       &:hover, &:focus {
+        background-position: 0 1.7em; //@TODO - remove magic numbers
         &:before, &:after {
           opacity: 1;
           transform: translateX(0);
@@ -295,8 +296,8 @@ $lines: 16;
 }
 
 a {
-  color: color(blue-light);
-  font-size: .8em;
+  color: color(blue-light-2);
+  // font-size: .8em;
   text-decoration: none;
   border-bottom: 1px solid;
   border-bottom-color: color(blue-light);
@@ -304,10 +305,10 @@ a {
   &:hover {
     border-bottom-color: transparent;
     background-image: $img-underline;
-    background-position: 0 1.7em; //@TODO - remove magic numbers
+    background-position: 0 1.0em; //@TODO - remove magic numbers
     background-size: auto 3px;
     background-repeat:repeat-x;
-    // padding-bottom:3px;
+    overflow: visible;
     }
   }
 
