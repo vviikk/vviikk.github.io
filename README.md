@@ -1,6 +1,7 @@
 # Vik Ramanujam
 ![alt text][logo]
 
+**Front-end lead, BAE Systems Applied intelligence**
 
 Your friendly neighbourhood brogrammer
 Front-end & Nodejs developer
@@ -9,7 +10,6 @@ _Kuala Lumpur, Malaysia_
 [Skills & Interests](#skills-and-interests)
 [Work Experience](#work-experience)
 [Education](#education)
-[Interests](#interests)
 
 ---
 > Dude, there's a container for that!
@@ -25,7 +25,6 @@ w: [http://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/
 
 ##### I do
 JavaScript, Web Development, Front-end Development, Node.js, Single Page Applications, Continuous Development / Deployment.
-
 
 ##### I use
 React, Redux, Jest, Styled Components, Server-sent Events, WebPack, Node.js, Sass, Git, Docker, CouchDB.
@@ -47,6 +46,7 @@ Kuala Lumpur, Malaysia
 
 Leading a team of Front-end developers tasked with building  a next-generation product using React / Redux / RxJS / Styled Components, Storyboook using ES7 that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL and obviously Docker (♥️) amongst various other technologies.
 
+> Dude, that button is 1 pixel too low.
 ---
 
 ##### BAE Systems Applied Intelligence
@@ -67,6 +67,7 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
   - Streamlined and enhanced team's output by using an assembly-line mindset when managing task deligation. The payoff was huge as we continually impressed every sprint by delivering impressive work, consistenly. This however, will only work with a good, multi-disciplined team.
   - Involved heavily with DevOps and build automation as I feel right at home on the command line.
 
+> I am a higher-order function.
 ---
 
 ##### BAE Systems Applied Intelligence
@@ -106,7 +107,7 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
 #### Likes
   - Functional Programming
   - i3
-  - vertical rythm
+  - vertical rhythm
   - TravisCI
   - BitBar
   - Polybar
@@ -133,10 +134,17 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
   - [Nesting in Sass and Less · @mdo](http://markdotto.com/2015/07/20/css-nesting/)
 
 #### FAQ
-  - 
+  - **What technologies are being used to build this resume?**
+    Absolutely no Javascript is used in the browser. The resume is based on one markdown file, and build using markdown by my trusty TravisCI. I use Neovim for coding, and (mostly) node for building.
+  - **Why are you using CSS variables in SCSS? Are you mad?**
+    Css variables can be inherited and scoped. This allows me to achieve things like changing the background and all other elements on the page with _zero_ javascript based on the `:checked` pseudo selector (still finding the perfect solution). I feel that I'm going to just use CSS variables for now rather than SCSS from now on - why? Because I'm debugging variable changes in the browser where it belongs .
+  - **Are you available for work?**
+    Yes.
+  - **The README.md file seems to be in a different order. Is this intentional?**
+    Yes, I used flex-ordering and sibling selectors (~) to re-order sections.
+  - **That seems like overkill. Why couldn't you just wrap each section in a `<section class="interests">` tag and style them that way?**
+    I think the world has a Resume problem. Linkedin, Stack Overflow Jobs, and the list goes on. I want a simple and editable format like Markdown that is easy to edit. I am working on a script that uses PhantomJS and Casper to scrape my LinkedIn profile and get all the info. Till then, a flat markdown file would do just fine. Also, it was a lot of fun using flex-ordering!
 ---
-Copyright © vik.ramanuj.am
-
-[![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
+Copyright © vik.ramanuj.am [![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
 
 [logo]: ./vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"

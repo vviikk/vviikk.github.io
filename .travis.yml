@@ -11,9 +11,9 @@ after_success:
 env:
   global:
   - GH_USER_NAME: piggyslasher
-  - GH_PROJECT_NAME: resume
+  - GH_PROJECT_NAME: piggyslasher.github.io
   - GIT_AUTHOR_NAME: Vik Ramanujam
   - GIT_AUTHOR_EMAIL: vik@ramanuj.am
   - RESULT_PDF_PATH=$TRAVIS_BUILD_DIR/resume.pdf
-  - TZ="Europe/Zurich"
+  - TZ="Asia/KualaLumpur"
   - secure: WY+qixMgf5vsKYBMrJhpyAXBxoDrjmt1PgnJQwiuMOcFvyIcSI+Zv0FNnnWEzrjsD2suSNlbgJdXPyLclVO6NhjyxvcZvSWPNek/pLZLV2P7aSC5GoytwBMtPJE1HiOZUph86MMkot0U7AIu6xRMYyGIYm7YoYjhFnKtOB1CCgTP/6DOTla4Sz7JQWZtZE+HjOaFK6z7PqV+UnOrh9FumnW16VWEV1kM+3cYJ5SR019QujGAkqXlSDgZ4dHO59qhcroM4CKO++K4h/i+zcnhXRBc0TdgftF4d+dTAwSRo2f6ggAksswjwC3Llnt9ByjNrHqxHzuAeljl/El6G0d+QgR+CxZUdWdZcaiRm004U1s/KXtCJsuqDXzuZ6hNJDbAqJJqkubtXY6LGV/N/D+wZRuoeIgLjFOTbw2pZxH4iceEjdpc+jyJSZKQs5LiOtETV78b1KmJMhgRtDf2OvADOHHtJfAv5wLB6OUzLg1KPieW/aCovN7S7HPxNUoa+AUW9Ez/UATyoExpeEhgnzaC97sRbEGPHzGaNu2Pd6y4cZW9EJPDuLH7uPVGQLvZ5PNHmmsehSoF2A9fDVHPE6D3/Lw82v4rBwgqO9F+syGf3FHT69yPPYgO6n8CwDdod76606RSCnvqeH9VyUwq51MYTpGji1GX38A6LV4KUgeJsbU=
