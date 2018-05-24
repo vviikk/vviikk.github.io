@@ -1,7 +1,11 @@
-# Vik Ramanujam
+# Vik Ramanujam's Résumé
+
 ![alt text][logo]
 
-Your friendly neighbourhood brogrammer
+###### Your friendly neighbourhood brogrammer.
+
+---
+
 Front-end & Nodejs developer
 _Kuala Lumpur, Malaysia_
 
@@ -10,45 +14,53 @@ _Kuala Lumpur, Malaysia_
 [Education](#education)
 [Interests](#interests)
 
----
+---♥️ functional programming, i3, the command line & vim.
 
 Technologist looking to build slick, large-scale & beautiful web applications. A programmer at heart and an engineer by mind. When I'm not coding (in React or [some bleeding-edge front-end micro-framework](https://hyperapp.js.org/)), I'm probably cooking, travelling or professing my undying love to Docker & Portainer.
 
 I love building teams that deliver great, pixel-perfect, usable products. I care deeply about the people I work with. I bring a *never say die* attitude to any team, and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
+---
+
 e: [vik@ramanuj.am](vik@ramanuj.am)
-w: [http://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [blog (on hold)](https://web.archive.org/web/20120615003016/http://www.techgarten.com/)
+w: [http://vik.ramanuj.am](http://vik.ramanuj.am) | <small>_new redesign underway_</small>
+[github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [blog (on hold)](https://web.archive.org/web/20120615003016/http://www.techgarten.com/) _(on hold)_
 
 #### Skills and interests
 
-##### Skills
+##### Skills:
 JavaScript, Web Development, Front-end Development, Node.js, Single Page Applications, Continuous Development / Deployment.
 
 
-##### Technologies
+##### Technologies:
 React, Redux, Jest, Styled Components, Server-sent Events, WebPack, Node.js, Sass, Git, Docker, CouchDB.
 
-##### Vernacular
+##### Vernacular Spoken languages:
 English, Tamil, Malay & some French.
 
-##### Interests
+##### Interests:
 Music, Yoga, Movies and Series, Intermittent fasting, Running, Reading.
 
 ---
 
 #### Work Experience
 
-##### BAE Systems Applied Intelligence
+#### Currently
+
+### BAE Systems Applied Intelligence
 _**Technical Lead**_
+BAE Systems Applied Intelligence
 _Dec 2017 – Present_
 Kuala Lumpur, Malaysia
 
-Leading a team of Front-end developers tasked with building  a next-generation product using React / Redux / RxJS / Styled Components using ES7 that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL, Docker amongst various other technologies.
+  - Leading a team of Front-end developers tasked with building  a next-generation product using React / Redux / RxJS / Styled Components using ES7 that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL, Docker amongst various other technologies.
 
 ---
 
-##### BAE Systems Applied Intelligence
-**Lead Front-end Developer** | _June 2015 - December 2017_ | _Kuala Lumpur, Malaysia_
+#### Work Experience
+
+### BAE Systems Applied Intelligence
+**Lead Front-end Developer** | _June 2015 - December 2017Present_ | _Kuala Lumpur, Malaysia_
 
 Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 30 different browser / device combinations from Retina displays to mobile browsers, weeks ahead of schedule.
 
@@ -65,7 +77,7 @@ Engineered a webapp built on Angular, ES7, SCSS, Angular Material that runs of 3
   - Streamlined and enhanced team's output by using an assembly-line mindset when managing task deligation. The payoff was huge as we continually impressed every sprint by delivering impressive work, consistenly. This however, will only work with a good, multi-disciplined team.
   - Involved heavily with DevOps and build automation as I feel right at home on the command line.
 
----
+------
 
 ##### BAE Systems Applied Intelligence
 **Front-end Team Lead** | Dec 2015 – Apr 2016 | _Kuala Lumpur, Malaysia_
@@ -95,9 +107,11 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
 
   - Computer science. Software architecture and design, user interface and user experience.
   - Final Year Project: Collborative text editor where team members can see code being edited in real time, with a chat system.
-  - Dissertation: Neilson's Usability Heuristics on the World Wide Web.
+  - 
+Dissertation: Neilson's Usability Heuristics on the World Wide Web.
 
-#### Likes
+#### Likes Interests
+
   - Functional Programming
   - i3
   - vertical rythm
@@ -121,3 +135,15 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
 Copyright © vik.ramanuj.am
 
 [logo]: ./vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
+[logo]: http://www.vik.ramanuj.am/img/profile.png "Vik Ramanujam's Avatar"
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjExMjEwMTYyMyw1MDA0NjkwMDYsMTg0Nj
+M3MDYxLDE3Nzc2NTUwOTcsMTY4MzA1OTY2NCwzNDQ5NDM1NDIs
+MzY3NzAzODEyLDEzMDIxMjQ5NTQsMzY3NzAzODEyLDE0MzY4Mz
+QyOTQsLTE0OTc3NDkwNjksLTEyNDE3MTc0OSw3OTkzNDY0MDks
+Mzk0ODUyMDMsNzk5MzQ2NDA5LDM5NDg1MjAzLDc5OTM0NjQwOS
+w3OTkzNDY0MDksMTAwMjg4ODc5MSw5MjA3MTAxNDVdfQ==
+-->
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzg1OTMzNzA5XX0=
+-->
