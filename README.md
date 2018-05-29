@@ -147,7 +147,7 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
 ---
 Copyright © vik.ramanuj.am [![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
 
-[logo]: ./vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
+[logo]: //piggyslasher.github.io/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1MjM4MjU4XX0=
+eyJoaXN0b3J5IjpbLTc3NTMzODMyMSw0MzUyMzgyNThdfQ==
 -->
