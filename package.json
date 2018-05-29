@@ -3,7 +3,7 @@
   "version": "0.0.9",
   "description": "Vik Ramanujam's Resume",
   "scripts": {
-    "build": "npm-run-all --parallel build:markdown build:assets",
+    "build": "npm-run-all --parallel build:markdown build:assets:watch",
     "build:assets": "node-sass assets --importer=node_modules/node-sass-tilde-importer -o build --source-map=true --output-style=compressed ",
     "build:assets:watch": "node-sass assets --importer=node_modules/node-sass-tilde-importer -w assets/styles.scss -o build --source-map=true --output-style=compressed ",
     "build:markdown": "markdown README.md -f gfm --template resume-template.html > build/index.html",
