@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'typography';
+// @import 'print';
 @import 'toggles';
 
 body {
@@ -10,8 +11,8 @@ body {
   width: 100%;
   justify-content: flex-center;
   margin: 0 auto;
-  @include vr($padding: 1);
 
+  max-width: var(--body-width);
 
   .fix-wrap {
     flex-grow: 1;
@@ -28,10 +29,10 @@ body {
     font-size: .7em;
   }
 
-  article {
-    animation: 2s cubic-bezier(0.000, 1.010, 0.025, 0.995) 0s 1 slideUp;
+  article, footer {
+    animation: 10s cubic-bezier(0.000, 1.010, 0.025, 0.995) 0s 1 slideUp;
     width: 100vw;
-    max-width: --body-width;
+    max-width: var(--body-width);
     > * {
       display: block;
       width: 100%;
@@ -51,16 +52,19 @@ body {
     flex-direction: column;
     z-index: 1;
     position: relative;
-    @include vr($padding: 2 0 0 0);
     
+    @media (max-width: 500px) {
+      @include vr($padding: 2 1 0 1);
+    }
+
     &::after {
       content: "";
       display: block;
       background: linear-gradient(
-        to right,
-        $color0 50px,
-        $foreground 195px,
-        $color0 350px
+      to right,
+      $color0 50px,
+      $foreground 195px,
+      $color0 350px
       );
       height: 1px;
       position: absolute;
@@ -239,8 +243,6 @@ h1, h2, h3, h4 {
 
 h5, h6 {
   color: color(yellow-dark);
-  margin-bottom: 0;
-  text-transform: uppercase;
 }
 
 a {
@@ -264,7 +266,9 @@ ul.menu {
 
 $lines: 16;
 
+
 #likes + ul {
+  --likes-prefix: "Vik ♥️";
   padding: 0;
   margin-top: 0;
   @include vr($height: 1);
@@ -273,11 +277,13 @@ $lines: 16;
 
   > * {
     line-height: 2rem;
+    & li:before {
+    }
   }
 
-  &::after {
+  &::before {
     display: block;
-    content: "Vik ♥️";
+    content: var(--likes-prefix);
     position: absolute;
     top: 0;
     width: 2em; // em used as we're monospaced :)
@@ -288,11 +294,19 @@ $lines: 16;
     white-space: nowrap;
   }
 
+  &:hover li {
+    animation-play-state: paused;
+  }
+
   li {
-    &:before {
-      display: none;
+    &::before {
+      position: static;
+      content: var(--likes-prefix);
+      display: inline-block;
+      margin-left: 0;
+      padding-right: .5em;
+      visibility: hidden;
     }
-    margin-left: 3.5em; // em used as we're monospaced :)
     list-style: none;
     animation: ticker $lines+s cubic-bezier(1, 0, 0.5, 0) infinite;
     color: $color2;
@@ -330,7 +344,6 @@ a {
   footer {
     flex-basis: 100%;
     div { 
-      width: var(--body-width);
       margin: 0 auto;
       > * {
         font-size: 75%;

@@ -12,14 +12,14 @@ _Kuala Lumpur, Malaysia_
 [Education](#education)
 
 ---
-> Dude, there's a container for that!
+> Excuse me, but, there's a container for that :)
 
 Technologist looking to build slick, large-scale & beautiful web applications. A programmer at heart and an engineer by mind. When I'm not coding (in React or [some bleeding-edge front-end micro-framework](https://hyperapp.js.org/)), I'm probably cooking, travelling or professing my undying love to Docker & Portainer.
 
 I love building teams that deliver great, pixel-perfect, usable products. I care deeply about the people I work with. I bring a *never say die* attitude to any team, and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
-w: [http://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [blog (on hold)](https://web.archive.org/web/20120615003016/http://www.techgarten.com/)
+w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [blog (on hold)](https://web.archive.org/web/20120615003016/http://www.techgarten.com/)
 
 #### Skills and interests
 
