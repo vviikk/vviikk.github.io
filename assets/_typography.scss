@@ -1,5 +1,5 @@
 // @import url(https://fonts.googleapis.com/css?family=Inconsolata);
-$system-monospace: 'SFMono-Light','SFMono-Regular', Consolas, 'Liberation Mono',Menlo, Courier, monospace;
+$system-monospace: 'SFMono-Light','SFMono-Regular', Consolas, 'Droid Sans Mono', 'Liberation Mono' ,Menlo, monospace;
 $vr-box-sizing   : border-box;
 $vr-line-height  : 1.5;
 $vr-modular-scale: minor-third;
@@ -42,6 +42,12 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 0;
 }
 
+h5, h6 {
+  @include vr($margin-bottom: 0);
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
 hr {
   margin-left: auto;
   margin-right: auto;
@@ -49,7 +55,7 @@ hr {
 }
 
 blockquote {
-  @include vr($padding-left: 1, $margin-left: -1);
+  @include vr($padding-left: 2, $margin-left: -1);
   // box-shadow: inset .2rem 0 0 color(maroon-dark);
   transform: skewX(-5deg); // I like more slant :)
   position: relative;
