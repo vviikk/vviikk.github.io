@@ -1,6 +1,6 @@
 @import 'variables';
 @import 'typography';
-// @import 'print';
+@import 'print';
 @import 'toggles';
 @import 'theme';
 
@@ -13,8 +13,12 @@ body {
   justify-content: flex-center;
   margin: 0 auto;
 
-  max-width: var(--body-width);
 
+  max-width: var(--body-width);
+  @media (max-width: var(--body-width)) {
+    max-width: 100%;
+    @include vr($padding: 2 1 0 1);
+  }
   .fix-wrap {
     flex-grow: 1;
   }
@@ -33,11 +37,10 @@ body {
   article, footer {
     animation: 10s cubic-bezier(0.000, 1.010, 0.025, 0.995) 0s 1 slideUp;
     width: 100vw;
-    max-width: var(--body-width);
+    // max-width: var(--body-width);
     > * {
       display: block;
       width: 100%;
-      max-width: 40em;
       margin: 0 auto;
     }
   }
@@ -53,10 +56,7 @@ body {
     flex-direction: column;
     z-index: 1;
     position: relative;
-    
-    @media (max-width: 500px) {
-      @include vr($padding: 2 1 0 1);
-    }
+
 
     &::after {
       content: "";
@@ -87,11 +87,6 @@ body {
     position: fixed;
     z-index: 0;
     top: -100em; bottom: 0; left: 0; right: 0;
-    background: radial-gradient(
-      circle closest-corner at center 0,
-      $background,
-      $color0 40%
-    ) no-repeat !important;
   }
 }
 
@@ -118,28 +113,6 @@ ul {
   }
 }
 
-input[name='switch-mode']:checked {
-  & ~ .bg {
-    background: color(foreground) !important;
-  }
-  & ~ * {
-    &, ul > li {
-      color: color(background);
-    }
-    li:before, h1, h2, h3, h4 {
-      color: color(maroon-dark);
-    }
-    h5, h6 {
-      color: color(blue-light-4);
-    }
-    blockquote {
-      color: color(red-mellow);
-      &:after {
-        color: color(maroon);
-      }
-    }
-  }
-}
 
 h1 {
   text-align: center;
@@ -237,19 +210,6 @@ h1 + p {
 }
 
 
-h1, h2, h3, h4 {
-  color: color(green-dark);
-
-}
-
-h5, h6 {
-  color: color(yellow-dark);
-}
-
-a {
-  color: color(maroon);
-}
-
 ul.menu {
   list-style: none;
   display: flex;
@@ -289,8 +249,8 @@ $lines: 16;
     top: 0;
     width: 2em; // em used as we're monospaced :)
     @include vr(
-      $line-height: 1,
-      $padding: 0,
+    $line-height: 1,
+    $padding: 0,
     );
     white-space: nowrap;
   }
@@ -300,14 +260,7 @@ $lines: 16;
   }
 
   li {
-    &::before {
-      position: static;
-      content: var(--likes-prefix);
-      display: inline-block;
-      margin-left: 0;
-      padding-right: .5em;
-      visibility: hidden;
-    }
+    padding-left: 6ch;
     list-style: none;
     animation: ticker $lines+s cubic-bezier(1, 0, 0.5, 0) infinite;
     color: $color2;
@@ -319,7 +272,6 @@ a {
   color: color(blue-light-2);
   text-decoration: none;
   border-bottom: 1px solid;
-  border-bottom-color: color(blue-light);
 
   &:hover {
     border-bottom-color: transparent;
@@ -328,84 +280,84 @@ a {
     background-size: auto 3px;
     background-repeat:repeat-x;
     overflow: visible;
+  }
+}
+
+@keyframes ticker {
+  @for $i from 0 through $lines {
+    #{$i * 95 / $lines * 1%} {
+      transform: translate3d(0, 100*$i*-1%, 0);
     }
   }
-
-  @keyframes ticker {
-    @for $i from 0 through $lines {
-      #{$i * 95 / $lines * 1%} {
-        transform: translate3d(0, 100*$i*-1%, 0);
-      }
-    }
-    100% {
-      transform: translate3d(0, 0%, 0);
-    }
+  100% {
+    transform: translate3d(0, 0%, 0);
   }
+}
 
-  footer {
-    flex-basis: 100%;
-    div { 
-      margin: 0 auto;
-      > * {
-        font-size: 75%;
-      }
-    }
-    @include vr($margin-top: 1);
-    .ascii-text {
-      color: color(maroon-dark);
+footer {
+  flex-basis: 100%;
+  div { 
+    margin: 0 auto;
+    > * {
+      font-size: 75%;
     }
   }
-
-  //////// ORDERING ///////
-  @mixin order($order) {
-    &, ~ *{
-      order: $order;
-    }
+  @include vr($margin-top: 1);
+  .ascii-text {
+    color: color(maroon-dark);
   }
+}
 
-  $sections-list:
-    #vik-ramanujam,
-    #skills-and-interests,
-    #work-experience,
-    #education,
-    #interests,
-    #credits;
-
-  @each $section in $sections-list {
-    $i: index($sections-list, $section);
-    #{$section}{
-      @include order($i);
-    }
+//////// ORDERING ///////
+@mixin order($order) {
+  &, ~ *{
+    order: $order;
   }
+}
 
-  #vik-ramanujam + p {
-    order: 0;
+$sections-list:
+#vik-ramanujam,
+#skills-and-interests,
+#work-experience,
+#education,
+#interests,
+#credits;
+
+@each $section in $sections-list {
+  $i: index($sections-list, $section);
+  #{$section}{
+    @include order($i);
   }
+}
 
-  #likes {
-    @include order(1);
+#vik-ramanujam + p {
+  order: 0;
+}
+
+#likes {
+  @include order(1);
+}
+
+#likes ~ hr, #credits { // before copyright
+  @include order(10);
+  + p {
+    font-size: .8em;
+    @include vr($margin-bottom: 1);
   }
-
-  #likes ~ hr, #credits { // before copyright
-    @include order(10);
-    + p {
-      font-size: .8em;
-      @include vr($margin-bottom: 1);
-    }
-  }
+}
 
 
-  /////// CLEAN UP /////////
-  #likes, #skills-and-interests, #contact {
-    // avoid display: none - accesibility
-    height: 0;
-    overflow: hidden;
-  }
+/////// CLEAN UP /////////
+#likes, #skills-and-interests, #contact {
+  // avoid display: none - accesibility
+  height: 0;
+  overflow: hidden;
+}
 
-  #contact + p {
-    margin-bottom: 0;
-  }
+#contact + p {
+  margin-bottom: 0;
+}
 
-  article hr:last-of-type {
-    display: none; // hide stackedit meta
-  }
+article hr:last-of-type, article > p:last-of-type {
+  display: none; // hide stackedit meta
+}
