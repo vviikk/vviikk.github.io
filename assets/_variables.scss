@@ -41,15 +41,14 @@ $colors: (
   grey-dark: $color0,
   green-dark: $color2,
   green-light: $color10,
-)
+);
 
 // ripped CSS4 vars out of color map
-:root {
+.default {
   // each item in color map
   @each $name, $color in $colors {
     --color-#{$name}: #{$color};
   }
-  --body-width: 40em;
 }
 
 @function color($color-name) {
