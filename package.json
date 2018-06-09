@@ -13,6 +13,7 @@
     "serve": "live-server --no-browser --ignore=css/sass,css/styles.css.map --wait=300 ./build",
     "serve:watch": "nodemon --watch package.json npm run serve:watch"
   },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/piggyslasher/resume.git"
