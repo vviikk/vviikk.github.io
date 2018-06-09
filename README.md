@@ -132,6 +132,7 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
   - [Shipping system fonts to GitHub.com · @mdo](http://markdotto.com/2018/02/07/github-system-fonts/)
   - [Vertical Rhythm Reset](http://jhildenbiddle.github.io/vertical-rhythm-reset/)
   - [Nesting in Sass and Less · @mdo](http://markdotto.com/2015/07/20/css-nesting/)
+  - [How to Deploy Websites on Custom Domains using Cloudflare and Github Pages](https://medium.com/crowdbotics/annie-azana-how-to-deploy-websites-using-cloudflare-and-github-pages-c415c55fea36)
 
 #### FAQ
   - **What technologies are being used to build this resume?**
@@ -148,9 +149,6 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
 Copyright © vik.ramanuj.am [![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
 
 [logo]: //piggyslasher.github.io/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTMzODMyMSw0MzUyMzgyNThdfQ==
--->
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwNjIxMDYwMTNdfQ==
 -->
