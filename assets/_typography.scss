@@ -1,3 +1,5 @@
+@import '~vertical-rhythm-reset/dist/_vertical-rhythm-reset';
+
 // @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 $system-monospace: 'SFMono-Light','SFMono-Regular', Consolas, 'Droid Sans Mono', 'Liberation Mono' ,Menlo, monospace;
 $vr-box-sizing   : border-box;
@@ -30,16 +32,16 @@ strong {
   font-weight: bold;
 }
 
-@import '~vertical-rhythm-reset/dist/_vertical-rhythm-reset';
 
-@include vr-reset();
+@media screen {
+  @include vr-reset();
+}
 
 input[name='show-grid']:checked ~ article {
   @include vr-grid();
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  margin-top: 0;
 }
 
 h5, h6 {
@@ -52,6 +54,18 @@ hr {
   margin-left: auto;
   margin-right: auto;
   @include vr($height: 1, $margin-bottom: 1, $width: 3);
+  background: transparent;
+  border: 0 !important;
+  outline: 0;
+  &::before {
+    content: '...';
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: .6em;
+  }
+  &::after {
+    display: none;
+  }
 }
 
 blockquote {
@@ -59,16 +73,13 @@ blockquote {
   // box-shadow: inset .2rem 0 0 color(maroon-dark);
   transform: skewX(-5deg); // I like more slant :)
   position: relative;
-  color: color(green-dark);
   &:after {
 	content: '\201C';
 	font-family: serif;
 	font-style: normal;
 	font-weight: 700;
 	position: absolute;
-	// font-size: 175px;
 	top: 0px;
-	color: color(yellow-dark);
     @include vr(
       $font-size     : 2,
       $margin-top    : 0,
@@ -78,6 +89,7 @@ blockquote {
       $padding-bottom: 0
     );
   }
+
   p {
     @include vr($margin-top: 0, $margin-bottom: 0);
   }
