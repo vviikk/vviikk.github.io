@@ -12,8 +12,8 @@
     "preview": "babel-node preview.js",
     "serve": "live-server --no-browser --ignore=css/sass,css/styles.css.map --wait=300 ./build",
     "serve:watch": "nodemon --watch package.json --exec npm run serve",
-    "push:gh-pages": "git checkout master && mv build/* . && git add . &&  git commit -m 'Build from dev branch' && git pushup && git checkout development --force",
-    "deploy": "npm run push:gh-pages"
+    "push:gh-pages": "git checkout master && mv build/* . && git add . &&  git commit -m 'Build from dev branch' && git push --force && git checkout development --force",
+    "deploy": "npm run build && npm run push:gh-pages"
   },
   "main": "index.js",
   "repository": {
@@ -37,6 +37,7 @@
   "homepage": "https://github.com/piggyslasher/resume#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "gutenberg-css": "^0.4.4",
     "live-server": "^1.2.0",
     "markdown-to-html": "cwjohan/markdown-to-html",
     "marked": "^0.3.19",
