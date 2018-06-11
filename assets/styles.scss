@@ -13,13 +13,9 @@
     width: 100%;
     justify-content: flex-center;
     margin: 0 auto;
-
-
     max-width: var(--body-width);
-    @media (max-width: var(--body-width)) {
-      max-width: 100%;
-      @include vr($padding: 2 1 0 1);
-    }
+    @include vr($padding: 2 1 0 1);
+
     .fix-wrap {
       flex-grow: 1;
     }
@@ -102,7 +98,7 @@
     margin-top: 0;
     list-style: none;
     >li {
-      color: $foreground;
+      color: var(--color-base-text);
       position: relative;
       &:before {
         color: color(green-light);
@@ -280,10 +276,8 @@
   a {
     color: color(blue-light-2);
     text-decoration: none;
-    border-bottom: 1px solid;
 
     &:hover {
-      border-bottom-color: transparent;
       background-image: $img-underline;
       background-position: 0 1.0em; //@TODO - remove magic numbers
       background-size: auto 3px;
@@ -366,8 +360,8 @@
     margin-bottom: 0;
   }
 
-  article hr:last-of-type,
-  article>p:last-of-type {
+  section>hr:last-of-type,
+  section>p:last-of-type {
     display: none; // hide stackedit meta
   }
 }

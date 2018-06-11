@@ -1,8 +1,7 @@
-@import '~paper-css/paper.min.css';
-
 /* @TODO: Refactor and externalize. This file was created in haste to have a PDF version */
 
 @media print {
+  @import '~gutenberg-css/dist/gutenberg.min';
   .no-print,
   .no-print * {
     display: none !important;
@@ -19,9 +18,7 @@
   h1,
   h2,
   h3,
-  h4,
-  h5,
-  h6 {
+  h4 {
     color: var(--color-maroon) !important;
   }
 
@@ -38,7 +35,6 @@
       float: left;
       width: 5rem;
       margin-right: 1rem;
-      margin-top: 1rem;
     }
     &,
     &+p {
@@ -46,14 +42,19 @@
     }
   }
 
+  hr {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--color-red-mellow);
+  }
+
   blockquote {
     p {
       color: var(--color-green-dark) !important;
     }
     &:after {
-      color: var(--color-off-white) !important;
-      font-family: monospace;
-      font-size: 2rem;
+      display: none;
     }
   }
 
@@ -65,6 +66,8 @@
     margin-bottom: 1rem;
   }
 
+  h5,
+  h6,
   li,
   p {
     color: var(--color-gray-darker) !important;

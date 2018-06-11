@@ -136,7 +136,7 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
 
 #### FAQ
   - **What technologies are being used to build this resume?**
-    Absolutely no Javascript is used in the browser. The resume is based on one markdown file, and build using markdown by my trusty TravisCI. I use Neovim for coding, and (mostly) node for building.
+    Absolutely no Javascript is used in the browser. The resume is based on one markdown file, and spell-checked and built using markdown by my trusty TravisCI. I use Neovim for coding, and (mostly) node for building.
   - **Why are you using CSS variables in SCSS? Are you mad?**
     Css variables can be inherited and scoped. This allows me to achieve things like changing the background and all other elements on the page with _zero_ javascript based on the `:checked` pseudo selector (still finding the perfect solution). I feel that I'm going to just use CSS variables for now rather than SCSS from now on - why? Because I'm debugging variable changes in the browser where it belongs .
   - **Are you available for work?**
@@ -150,5 +150,8 @@ Copyright © vik.ramanuj.am [![HitCount](http://hits.dwyl.io/piggysasher/resume.
 
 [logo]: //piggyslasher.github.io/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjIxMDYwMTNdfQ==
+eyJoaXN0b3J5IjpbLTIwNjIxMDYwMTNMDwMNdfQ==
+-->
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ0NTAwMDY2NCwzNTQ3MDU5MDVdfQ==
 -->
