@@ -37,13 +37,13 @@
   "homepage": "https://github.com/piggyslasher/resume#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "gutenberg-css": "^0.4.4",
     "live-server": "^1.2.0",
     "markdown-to-html": "cwjohan/markdown-to-html",
     "marked": "^0.3.19",
     "marked-terminal": "^2.0.0",
     "node-sass": "^4.9.0",
     "nodemon": "^1.17.4",
-    "paper-css": "^0.4.1",
     "vertical-rhythm-reset": "^1.1.0"
   },
   "devDependencies": {

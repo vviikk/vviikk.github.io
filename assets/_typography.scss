@@ -1,23 +1,23 @@
 @import '~vertical-rhythm-reset/dist/_vertical-rhythm-reset';
 
-// @import url(https://fonts.googleapis.com/css?family=Inconsolata);
-$system-monospace: 'SFMono-Light','SFMono-Regular', Consolas, 'Droid Sans Mono', 'Liberation Mono' ,Menlo, monospace;
-$vr-box-sizing   : border-box;
-$vr-line-height  : 1.5;
+$system-monospace: 'SFMono-Light',
+'SFMono-Regular',
+Consolas,
+'Droid Sans Mono',
+'Liberation Mono',
+Menlo,
+monospace;
+$vr-box-sizing: border-box;
+$vr-line-height: 1.5;
 $vr-modular-scale: minor-third;
-$vr-grid-color   : $color13;
+$vr-grid-color: $color13;
 
-$vr-breakpoints: (
-    30: ( // 480px
-        font-size: 16px
-    ),
-    60em: ( // 960px
-        font-size: 14px
-    ),
-    90em: ( // 1440px
-        font-size: 15px
-    )
-);
+$vr-breakpoints: ( 30: ( // 480px
+font-size: 16px),
+60em: ( // 960px
+font-size: 14px),
+90em: ( // 1440px
+font-size: 15px));
 
 html body {
   font-family: $system-monospace;
@@ -37,14 +37,20 @@ strong {
   @include vr-reset();
 }
 
-input[name='show-grid']:checked ~ article {
+input[name='show-grid']:checked~article {
   @include vr-grid();
 }
 
-h1, h2, h3, h4, h5, h6, p {
-}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {}
 
-h5, h6 {
+h5,
+h6 {
   @include vr($margin-bottom: 0);
   text-transform: uppercase;
   font-weight: bolder;
@@ -70,24 +76,29 @@ hr {
 
 blockquote {
   @include vr($padding-left: 2, $margin-left: -1);
-  // box-shadow: inset .2rem 0 0 color(maroon-dark);
   transform: skewX(-5deg); // I like more slant :)
   position: relative;
   &:after {
-	content: '\201C';
-	font-family: serif;
-	font-style: normal;
-	font-weight: 700;
-	position: absolute;
-	top: 0px;
-    @include vr(
-      $font-size     : 2,
-      $margin-top    : 0,
-      $margin-bottom : 0,
-      $margin-left   : -1,
-      $padding-top   : 0,
-      $padding-bottom: 0
-    );
+    content: '\201C';
+    font-family: serif;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    top: 0px;
+    @include vr( $font-size: 2,
+    $margin-top: 0,
+    $margin-bottom: 0,
+    $margin-left: -0.5,
+    $padding-top: 0,
+    $padding-bottom: 0);
+    @media screen and (min-width: var(--body-width)) {
+      @include vr( $font-size: 2,
+      $margin-top: 0,
+      $margin-bottom: 0,
+      $margin-left: -1,
+      $padding-top: 0,
+      $padding-bottom: 0);
+    }
   }
 
   p {
