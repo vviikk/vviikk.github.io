@@ -1,5 +1,7 @@
 @import '~paper-css/paper.min.css';
 
+/* @TODO: Refactor and externalize. This file was created in haste to have a PDF version */
+
 @media print {
   .no-print,
   .no-print * {
@@ -8,5 +10,76 @@
   p a:after {
     content: " (" attr(href) ")";
     font-size: 80%;
+  }
+
+  :root {
+    font-size: 14px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-maroon) !important;
+  }
+
+  #vik-ramanujam,
+  #vik-ramanujam+p,
+  #vik-ramanujam+p+p,
+  #vik-ramanujam+p+p+p {
+    margin: 0;
+  }
+
+  #vik-ramanujam,
+  #vik-ramanujam+p {
+    img {
+      float: left;
+      width: 5rem;
+      margin-right: 1rem;
+      margin-top: 1rem;
+    }
+    &,
+    &+p {
+      margin-top: 1rem;
+    }
+  }
+
+  blockquote {
+    p {
+      color: var(--color-green-dark) !important;
+    }
+    &:after {
+      color: var(--color-off-white) !important;
+      font-family: monospace;
+      font-size: 2rem;
+    }
+  }
+
+  #vik-ramanujam+p+p+p+p {
+    display: none;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  li,
+  p {
+    color: var(--color-gray-darker) !important;
+  }
+
+  #likes+ul {
+    >li {
+      display: inline-block;
+      width: 30.3333%;
+      margin-bottom: 0;
+    }
+  }
+
+  #faq,
+  #faq~* {
+    display: none;
   }
 }
