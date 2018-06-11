@@ -150,5 +150,8 @@ Copyright © vik.ramanuj.am [![HitCount](http://hits.dwyl.io/piggysasher/resume.
 
 [logo]: //piggyslasher.github.io/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjIxMDYwMTNdfQ==
+eyJoaXN0b3J5IjpbLTIwNjIxMDYwMTNMDwMNdfQ==
+-->
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzU0NzA1OTA1XX0=
 -->
