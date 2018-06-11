@@ -35,20 +35,26 @@ $colors: (
   blue-light-2: $color6,
   blue-light-3: $color12,
   blue-light-4: $color14,
+  gray-dark: $color0,
+  gray-darker: $background,
   maroon: $color5,
   maroon-dark: $color13,
   off-white: $color7,
   grey-dark: $color0,
   green-dark: $color2,
   green-light: $color10,
-)
+  white: $color15,
+);
 
 // ripped CSS4 vars out of color map
-:root {
+.default {
   // each item in color map
   @each $name, $color in $colors {
     --color-#{$name}: #{$color};
   }
+}
+
+:root {
   --body-width: 40em;
 }
 

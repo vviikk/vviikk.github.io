@@ -1,0 +1,59 @@
+@import 'variables';
+
+:root{
+  input[name='switch-mode'] ~ * {
+    @extend .default;
+    --color-info: var(--color-green-light);
+    --color-big-headings: var(--color-green-light);
+    --color-small-headings: var(--color-yellow);
+    --color-link-color: var(--color-blue-light);
+    --color-bullet-color: var(--color-green-light);
+    --color-background: var(--color-gray-dark);
+    --color-base-text: var(--color-off-white);
+
+    color: var(--color-base-text);
+
+    h1, h2, h3, h4 {
+      color: color(big-headings);
+    }
+
+    h5, h6 {
+      color: color(small-headings);
+    }
+
+    a {
+      color: color(link-color);
+      border-bottom-color: color(link-color);
+    }
+
+    &.bg {
+      background: var(--color-background);
+    }
+
+    blockquote {
+      color: color(green-dark);
+	  &::after {
+        color: color(yellow-dark);
+      }
+    }
+  }
+  input[name='switch-mode']:checked {
+    & ~ * {
+      --color-background: var(--color-white);
+      --color-info: var(--color-green-light);
+      --color-big-headings: var(--color-maroon);
+      --color-small-headings: var(--color-blue-light-4);
+      --color-link-color: var(--color-blue-light);
+      --color-bullet-color: var(--color-green-light);
+      --color-base-text: var(--color-gray-dark);
+
+      blockquote {
+        color: color(red-mellow);
+        &:after {
+          color: color(maroon);
+        }
+      }
+    }
+  }
+
+}
