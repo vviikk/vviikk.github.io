@@ -19,7 +19,7 @@ Technologist looking to build slick, large-scale & beautiful web applications. A
 I love building teams that deliver great, pixel-perfect, usable products. I care deeply about the people I work with. I bring a *never say die* attitude to any team, and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
-w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [blog (on hold)](https://web.archive.org/web/20120615003016/http://www.techgarten.com/)
+w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [blog (on hold)](https://web.archive.org/web/20120615003016/http://www.techgarten.com/) | [toy robot](https://github.com/piggyslasher/robot42)
 
 #### Skills and interests
 
