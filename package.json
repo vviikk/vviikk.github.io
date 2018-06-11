@@ -13,7 +13,7 @@
     "serve": "live-server --no-browser --ignore=css/sass,css/styles.css.map --wait=300 ./build",
     "serve:watch": "nodemon --watch package.json --exec npm run serve",
     "push:gh-pages": "git checkout master && mv build/* . && git add . &&  git commit -m 'Build from dev branch' && git pushup && git checkout development --force",
-    "deploy": "npm run push:gh-pages"
+    "deploy": "npm run build && npm run push:gh-pages"
   },
   "main": "index.js",
   "repository": {
@@ -43,6 +43,7 @@
     "marked-terminal": "^2.0.0",
     "node-sass": "^4.9.0",
     "nodemon": "^1.17.4",
+    "paper-css": "^0.4.1",
     "vertical-rhythm-reset": "^1.1.0"
   },
   "devDependencies": {

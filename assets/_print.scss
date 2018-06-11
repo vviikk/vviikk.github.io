@@ -1,1 +1,12 @@
-@import '~paper-css/paper.css';
+@import '~paper-css/paper.min.css';
+
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+  p a:after {
+    content: " (" attr(href) ")";
+    font-size: 80%;
+  }
+}
