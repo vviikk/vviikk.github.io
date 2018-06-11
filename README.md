@@ -44,7 +44,7 @@ _**Technical Lead**_
 _Dec 2017 – Present_
 Kuala Lumpur, Malaysia
 
-Leading a team of Front-end developers tasked with building  a next-generation product using React / Redux / RxJS / Styled Components, Storyboook using ES7 that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL and obviously Docker (♥️) amongst various other technologies.
+Currently leading a team of Front-end developers tasked with building  a next-generation product using React / Redux / RxJS / Styled Components, Storyboook using ES7 that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL and obviously Docker (♥️) amongst various other technologies.
 
 > Dude, that button is 1 pixel too low.
 ---
