@@ -1,5 +1,5 @@
 # Vik Ramanujam
-![alt text][logo]
+<img alt="Vik Ramanujam's Avatar" src="http://res.cloudinary.com/piggyslasher/image/upload/c_scale,w_200/v1528794570/vik-avatar_1.svg" width="200" height="auto"/>
 
 **Front-end lead, BAE Systems Applied intelligence**
 
