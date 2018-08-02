@@ -109,10 +109,9 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
 I had the pleasure working with Vik on a very complex Digital Transformation project, where he was leading the frontend team of our offshore team, which was fully accountable for the development of a responsive customer portal plus mobile apps.  
 What gave me confidence from Day 1 in Vik and his team, was that Vik thought before he coded. Meaning, he established a full pattern library, which his team then could use, so that every element looked the same across the whole website and was easily extendable and maintainable.  
 Vik took pride in his work and ownership for his deliverable, came up with suggestions on how to improve the designs and was closely working with the BAs, UX Team and Architects back in the UK.  
-What was most important in a very busy complex project, that once Vik was involved, you could stop worrying and thinking about a task, as you knew it now would be completed to high standards.<br>The effort of Vik and his team meant, that we had hardly any Frontend related issues in the testing phase. The few defects raised were turned around quickly and the designs were implemented pixel perfect.  
-  
-Vik would always be one of my top3 choices for a senior FED Team lead, and after doing web projects for over two decades, there is a long list of people I would not chose.
->Vik is one who needs technical authority in decision-making (not kowtowing to another technical authority) and minimum bureaucratic rules (e.g. flexible working arrangements and casual dressing at work) in order to thrive. When one of these two ingredients are taken away from him, companies can expect him to repeatedly persevere in order to get the working environment and tools that he wants. However, when these two ingredients are provided to him, he flourishes and performs his best work, while maintaining the ability to listen to his team members and move together as a team. He is capable of identifying good talent, wielding the latest frontend technologies to do his bidding, and generally getting the job done all the same while automating away all the boring parts. Vik is the man to help you deliver, but allow him into your office only if you can give him the two aforementioned ingredients :)<br><br><strong>Jonathan Lin,</strong><br>Team Lead, BAE Systems Applied Intelligence
+What was most important in a very busy complex project, that once Vik was involved, you could stop worrying and thinking about a task, as you knew it now would be completed to high standards.<br><br>The effort of Vik and his team meant, that we had hardly any Frontend related issues in the testing phase. The few defects raised were turned around quickly and the designs were implemented pixel perfect.<br><br>Vik would always be one of my top3 choices for a senior FED Team lead, and after doing web projects for over two decades, there is a long list of people I would not chose.<br><br><strong>Sabrina Sommer,</strong><br>Head of Delivery, BAE Systems Applied
+
+> Vik is one who needs technical authority in decision-making (not kowtowing to another technical authority) and minimum bureaucratic rules (e.g. flexible working arrangements and casual dressing at work) in order to thrive. When one of these two ingredients are taken away from him, companies can expect him to repeatedly persevere in order to get the working environment and tools that he wants. However, when these two ingredients are provided to him, he flourishes and performs his best work, while maintaining the ability to listen to his team members and move together as a team. He is capable of identifying good talent, wielding the latest frontend technologies to do his bidding, and generally getting the job done all the same while automating away all the boring parts. Vik is the man to help you deliver, but allow him into your office only if you can give him the two aforementioned ingredients :)<br><br><strong>Jonathan Lin,</strong><br>Team Lead, BAE Systems Applied Intelligence
 
 > 
 #### Likes
@@ -137,6 +136,6 @@ Vik would always be one of my top3 choices for a senior FED Team lead, and after
   - automation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MzI5MzkwMCwtOTI5Mjk4Njk0LDI1Nz
+eyJoaXN0b3J5IjpbLTg0MzY3NDg1MCwtOTI5Mjk4Njk0LDI1Nz
 E1NTk2NSwtMTk2MjQ4OTA3OV19
 -->
