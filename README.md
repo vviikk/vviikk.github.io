@@ -105,7 +105,7 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
   - [Build a living style-guide using React, Storybook and Styled-components](https://youtu.be/bDVn1JgaoX4?t=32m58s)
 
 #### Recommendations
->Vik is one who needs technical authority in decision-making (not kowtowing to another technical authority) and minimum bureaucratic rules (e.g. flexible working arrangements and casual dressing at work) in order to thrive. When one of these two ingredients are taken away from him, companies can expect him to repeatedly persevere in order to get the working environment and tools that he wants. However, when these two ingredients are provided to him, he flourishes and performs his best work, while maintaining the ability to listen to his team members and move together as a team. He is capable of identifying good talent, wielding the latest frontend technologies to do his bidding, and generally getting the job done all the same while automating away all the boring parts. Vik is the man to help you deliver, but allow him into your office only if you can give him the two aforementioned ingredients :)<br><strong>
+>Vik is one who needs technical authority in decision-making (not kowtowing to another technical authority) and minimum bureaucratic rules (e.g. flexible working arrangements and casual dressing at work) in order to thrive. When one of these two ingredients are taken away from him, companies can expect him to repeatedly persevere in order to get the working environment and tools that he wants. However, when these two ingredients are provided to him, he flourishes and performs his best work, while maintaining the ability to listen to his team members and move together as a team. He is capable of identifying good talent, wielding the latest frontend technologies to do his bidding, and generally getting the job done all the same while automating away all the boring parts. Vik is the man to help you deliver, but allow him into your office only if you can give him the two aforementioned ingredients :)<br><br><strong>Sabrina Sommer,</strong><br>Head of Delivery, BAE Systems Applied Intelligence, UK
 #### Likes
   - Functional Programming
   - i3
@@ -128,6 +128,6 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
   - automation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDkyODkxNzQsLTkyOTI5ODY5NCwyNT
-cxNTU5NjUsLTE5NjI0ODkwNzldfQ==
+eyJoaXN0b3J5IjpbLTc4NDAzNTgyMCwtOTI5Mjk4Njk0LDI1Nz
+E1NTk2NSwtMTk2MjQ4OTA3OV19
 -->
