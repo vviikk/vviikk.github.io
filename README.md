@@ -1,5 +1,5 @@
 # Vik Ramanujam
-![alt text][logo]
+![Vik Ramanujam's Avatar][logo]
 
 **Front-end lead, BAE Systems Applied intelligence**
 
