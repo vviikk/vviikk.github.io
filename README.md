@@ -14,9 +14,13 @@ _Kuala Lumpur, Malaysia_
 ---
 > Excuse me, but, there's a container for that :)
 
-Technologist looking to build slick, large-scale & beautiful web applications. A programmer at heart and an engineer by mind. When I'm not coding (in React or [some bleeding-edge front-end micro-framework](https://hyperapp.js.org/)), I'm probably cooking, travelling or professing my undying love to Docker & Portainer.
+Technologist interested in building beautiful, large-scale and user-friendly web and mobile applications
 
-I love building teams that deliver great, pixel-perfect, usable products. I care deeply about the people I work with. I bring a *never say die* attitude to any team, and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
+♥ functional programming, coding UI, i3, the command line & {n}vim.
+
+A programmer at heart and an engineer by mind. When I'm not coding (in React, React-Native or some bleeding-edge front-end micro-framework), I'm probably cooking, travelling or professing my undying love to Docker & Portainer.
+
+I love building teams that deliver great, pixel-perfect, usable products, and I love getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to any team, and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
 w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [blog (on hold)](https://web.archive.org/web/20120615003016/http://www.techgarten.com/) | [toy robot](https://github.com/piggyslasher/robot42)
@@ -27,7 +31,7 @@ w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com
 JavaScript, Web Development, Front-end Development, Node.js, Single Page Applications, Continuous Development / Deployment.
 
 ##### I use
-React, Redux, Jest, Styled Components, Server-sent Events, WebPack, Node.js, Sass, Git, Docker, CouchDB.
+React, Redux, Jest, Styled-Components, Server-sent Events, WebPack, Node.js, Sass, Git, Docker, CouchDB.
 
 ##### I speak
 English, Tamil, Malay & understand some French, Portuguese and Klingon.
@@ -134,24 +138,18 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
   - [Nesting in Sass and Less · @mdo](http://markdotto.com/2015/07/20/css-nesting/)
   - [How to Deploy Websites on Custom Domains using Cloudflare and Github Pages](https://medium.com/crowdbotics/annie-azana-how-to-deploy-websites-using-cloudflare-and-github-pages-c415c55fea36)
 
-#### FAQ
-  - **What technologies are being used to build this resume?**
+#### FAQ (for geeky souls)
+  - [ ] **What technologies are being used to build this resume?**
     Absolutely no Javascript is used in the browser. The resume is based on one markdown file, and spell-checked and built using markdown by my trusty TravisCI. I use Neovim for coding, and (mostly) node for building.
-  - **Why are you using CSS variables in SCSS? Are you mad?**
+  - [ ] **Why are you using CSS variables in SCSS? Are you mad?**
     Css variables can be inherited and scoped. This allows me to achieve things like changing the background and all other elements on the page with _zero_ javascript based on the `:checked` pseudo selector (still finding the perfect solution). I feel that I'm going to just use CSS variables for now rather than SCSS from now on - why? Because I'm debugging variable changes in the browser where it belongs .
-  - **Are you available for work?**
+  - [ ] **Are you available for work?**
     Yes.
-  - **The README.md file seems to be in a different order. Is this intentional?**
+  - [ ] **The README.md file seems to be in a different order. Is this intentional?**
     Yes, I used flex-ordering and sibling selectors (~) to re-order sections.
-  - **That seems like overkill. Why couldn't you just wrap each section in a `<section class="interests">` tag and style them that way?**
+  - [ ] **That seems like overkill. Why couldn't you just wrap each section in a `<section class="interests">` tag and style them that way?**
     I think the world has a Resume problem. Linkedin, Stack Overflow Jobs, and the list goes on. I want a simple and editable format like Markdown that is easy to edit. I am working on a script that uses PhantomJS and Casper to scrape my LinkedIn profile and get all the info. Till then, a flat markdown file would do just fine. Also, it was a lot of fun using flex-ordering!
 ---
 Copyright © vik.ramanuj.am [![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
 
 [logo]: //piggyslasher.github.io/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjIxMDYwMTNMDwMNdfQ==
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTAwMDY2NCwzNTQ3MDU5MDVdfQ==
--->

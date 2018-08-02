@@ -51,9 +51,12 @@ p {}
 
 h5,
 h6 {
-  @include vr($margin-bottom: 0);
+  @include vr($margin-top: 0, $margin-bottom: 0);
   text-transform: uppercase;
   font-weight: bolder;
+  & + p {
+    @include vr($margin-top: 0);
+  }
 }
 
 hr {
@@ -63,6 +66,7 @@ hr {
   background: transparent;
   border: 0 !important;
   outline: 0;
+  text-align: center;
   &::before {
     content: '...';
     font-weight: 800;
@@ -78,6 +82,9 @@ blockquote {
   @include vr($padding-left: 2, $margin-left: -1);
   transform: skewX(-5deg); // I like more slant :)
   position: relative;
+  @media screen and (max-width: $body-width) {
+    @include vr($padding-left: 1, $margin-left: 0);
+  }
   &:after {
     content: '\201C';
     font-family: serif;
@@ -88,10 +95,10 @@ blockquote {
     @include vr( $font-size: 2,
     $margin-top: 0,
     $margin-bottom: 0,
-    $margin-left: -0.5,
+    $margin-left: -1,
     $padding-top: 0,
     $padding-bottom: 0);
-    @media screen and (min-width: var(--body-width)) {
+    @media screen and (min-width: $body-width) {
       @include vr( $font-size: 2,
       $margin-top: 0,
       $margin-bottom: 0,

@@ -5,7 +5,7 @@
     @extend .default;
     --color-info: var(--color-green-light);
     --color-big-headings: var(--color-green-light);
-    --color-small-headings: var(--color-yellow);
+    --color-small-headings: var(--color-yellow-dark);
     --color-link-color: var(--color-blue-light);
     --color-bullet-color: var(--color-green-light);
     --color-background: var(--color-gray-dark);
@@ -18,6 +18,10 @@
     h3,
     h4 {
       color: color(big-headings);
+    }
+
+    hr {
+      color: color(maroon-dark);
     }
 
     h5,

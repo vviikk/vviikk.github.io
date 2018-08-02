@@ -2,7 +2,6 @@
   opacity: 0;
   width: 0;
   overflow: hidden;
-  margin: 0;
 
   // add default box-sizing for this scope
   &,
@@ -93,7 +92,7 @@
 
   &:checked + .tgl-btn {
 	background: $color3;
-    
+
 	&:before {
 	  left: -100%;
 	}
