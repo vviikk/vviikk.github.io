@@ -1,5 +1,4 @@
 # Vik Ramanujam
-<img alt="Vik Ramanujam's Avatar" src="http://res.cloudinary.com/piggyslasher/image/upload/c_scale,w_200/v1528794570/vik-avatar_1.svg" width="200" height="auto"/>
 
 **Front-end lead, BAE Systems Applied intelligence**
 
@@ -103,7 +102,7 @@ _Engineering - Bachelor's in Computing (B.Sc.)_
 #### Talks and Slides
   - How I stopped worrying and start loving the build system
   - Going offline-first with CouchDB
-
+  - 
 #### Likes
   - Functional Programming
   - i3
@@ -157,5 +156,5 @@ eyJoaXN0b3J5IjpbMTI0MzQ0MDYxMyw3MjAyNDE3ODAsLTQ0NT
 AwMDY2NCwzNTQ3MDU5MDVdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI0ODkwNzldfQ==
+eyJoaXN0b3J5IjpbMjU3MTU1OTY1LC0xOTYyNDg5MDc5XX0=
 -->
