@@ -30,20 +30,21 @@
   <meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#eb298c">
 
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles.css" media="screen">
+  <link rel="stylesheet" href="./print.css" media="print">
 
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
 </head>
 
-<body class="A4">
+<body>
   <input name='switch-mode' id='switch-mode' class="tgl tgl-skewed no-print" type="checkbox" />
   <label class="tgl-btn no-print" data-tg-on="LIGHT" data-tg-off="DARK" for="switch-mode"></label>
   <label for='switch-mode' class='no-print'>Theme</label>
   <input name='show-grid' id='show-grid' class="tgl tgl-skewed no-print" type="checkbox" />
   <label class="tgl-btn no-print" data-tg-on="ON" data-tg-off="OFF" for="show-grid"></label>
   <label for='show-grid' class='no-print'>Grid</label>
-  <article class='sheet padding-10mm'>
-    <section>
+  <article class='sheet'>
+    <section class="main">
       {markdown}
     </section>
   </article>

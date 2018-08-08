@@ -1,23 +1,12 @@
 @import '~vertical-rhythm-reset/dist/_vertical-rhythm-reset';
 
 $system-monospace: 'SFMono-Light',
-'SFMono-Regular',
-Consolas,
-'Droid Sans Mono',
-'Liberation Mono',
-Menlo,
-monospace;
-$vr-box-sizing: border-box;
-$vr-line-height: 1.5;
-$vr-modular-scale: major-second;
-$vr-grid-color: $color13;
-
-$vr-breakpoints: ( 30: ( // 480px
-font-size: 16px),
-60em: ( // 960px
-font-size: 14px),
-90em: ( // 1440px
-font-size: 15px));
+  'SFMono-Regular',
+  Consolas,
+  'Droid Sans Mono',
+  'Liberation Mono',
+  Menlo,
+  monospace;
 
 html body {
   font-family: $system-monospace;
@@ -33,111 +22,126 @@ strong {
 }
 
 
-@media screen {
+  $vr-box-sizing: border-box;
+  $vr-line-height: 1.5;
+  $vr-modular-scale: major-second;
+  $vr-grid-color: $color13;
+
+  $vr-breakpoints: (
+    30: ( // 480px
+      font-size: 16px
+    ),
+    60em: ( // 960px
+      font-size: 14px
+    ),
+    90em: ( // 1440px
+      font-size: 15px
+    )
+  );
+
   @include vr-reset();
-}
-
-input[name='show-grid']:checked~article {
-  @include vr-grid();
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 0;
-}
-
-h2 {
-  @include vr($font-size: 1rem);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {}
-
-h4,
-h5,
-h6 {
-  @include vr($margin-top: 0, $margin-bottom: 0);
-  // text-transform: uppercase;
-  & + p {
-    @include vr($margin-top: 0);
+  h1 {
+    text-align: center;
+    margin-bottom: 0;
   }
-}
 
-h4 {
-  @include vr($font-size: 1rem, $margin: 0);
-  font-weight: normal;
-  strong {
-    display: block;
-    float: right;
-    font-weight: bolder;
-    @include vr($padding-left: 1);
+  h2 {
+    @include vr($font-size: 1rem);
   }
-}
 
-h5, h6 {
-  @include vr($font-size: 12px, $margin: 0);
-  text-transform: uppercase;
-  letter-spacing: .25ch;
-}
+  input[name='show-grid']:checked~article {
+    @include vr-grid();
+  }
 
-hr {
-  margin-left: auto;
-  margin-right: auto;
-  @include vr($height: 1, $margin-bottom: 1, $width: 3);
-  background: transparent;
-  border: 0 !important;
-  outline: 0;
-  text-align: center;
-  &::before {
-    content: '...';
-    font-weight: 800;
-    font-style: italic;
-    letter-spacing: .6em;
-  }
-  &::after {
-    display: none;
-  }
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {}
 
-blockquote {
-  @include vr($padding-left: 2, $margin-left: -1);
-  transform: skewX(-5deg); // I like more slant :)
-  position: relative;
-  @media screen and (max-width: $body-width) {
-    @include vr($padding-left: 1, $margin-left: 0);
+  h4,
+  h5,
+  h6 {
+    @include vr($margin-top: 0, $margin-bottom: 0);
+    // text-transform: uppercase;
+    & + p {
+      @include vr($margin-top: 0);
+    }
   }
-  &:after {
-    content: '\201C';
-    font-family: serif;
-    font-style: normal;
-    font-weight: 700;
-    position: absolute;
-    top: 0px;
-    @include vr( $font-size: 2,
-    $margin-top: 0,
-    $margin-bottom: 0,
-    $margin-left: -1,
-    $padding-top: 0,
-    $padding-bottom: 0);
-    @media screen and (min-width: $body-width) {
+
+  h4 {
+    @include vr($font-size: 1rem, $margin: 0);
+    font-weight: normal;
+    strong {
+      display: block;
+      float: right;
+      font-weight: bolder;
+      @include vr($padding-left: 1);
+    }
+  }
+
+  h5, h6 {
+    @include vr($font-size: 12px, $margin: 0);
+    text-transform: uppercase;
+    letter-spacing: .25ch;
+  }
+
+  hr {
+    margin-left: auto;
+    margin-right: auto;
+    @include vr($height: 1, $margin-bottom: 1, $width: 3);
+    background: transparent;
+    border: 0 !important;
+    outline: 0;
+    text-align: center;
+    &::before {
+      content: '...';
+      font-weight: 800;
+      font-style: italic;
+      letter-spacing: .6em;
+    }
+    &::after {
+      display: none;
+    }
+  }
+
+  blockquote {
+    @include vr($padding-left: 2, $margin-left: -1);
+    transform: skewX(-5deg); // I like more slant :)
+    position: relative;
+    @media screen and (max-width: $body-width) {
+      @include vr($padding-left: 1, $margin-left: 0);
+    }
+    &:after {
+      content: '\201C';
+      font-family: serif;
+      font-style: normal;
+      font-weight: 700;
+      position: absolute;
+      top: 0px;
       @include vr( $font-size: 2,
       $margin-top: 0,
       $margin-bottom: 0,
       $margin-left: -1,
       $padding-top: 0,
       $padding-bottom: 0);
+      @media screen and (min-width: $body-width) {
+        @include vr( $font-size: 2,
+        $margin-top: 0,
+        $margin-bottom: 0,
+        $margin-left: -1,
+        $padding-top: 0,
+        $padding-bottom: 0);
+      }
+    }
+
+    p {
+      @include vr($margin-top: 0, $margin-bottom: 0);
     }
   }
 
-  p {
-    @include vr($margin-top: 0, $margin-bottom: 0);
-  }
-}
 
 .amp {
   font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;

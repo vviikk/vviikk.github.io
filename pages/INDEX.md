@@ -21,14 +21,14 @@ _Kuala Lumpur, Malaysia_
 
 A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications.
 
-♥ functional programming, coding UI, i3, the command line & Vim.
-
-A programmer at heart and an engineer by mind. When I'm not coding (in React, React-Native or some bleeding-edge front-end micro-framework), I'm probably cooking, travelling or professing my undying love to micro-containers.
+♥ functional programming, coding UI, i3, the command line & Vim. When I'm not coding (in React, React-Native or some bleeding-edge front-end micro-framework), I'm probably cooking, travelling or professing my undying love to micro-containers.
 
 I love building teams that deliver great, pixel-perfect, usable products, and I love getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to any team and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
-w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [blog (on hold)](https://web.archive.org/web/20120615003016/http://www.techgarten.com/) | [toy robot](https://github.com/piggyslasher/robot42)
+w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [toy robot](https://github.com/piggyslasher/robot42)
+
+::: section skills
 
 ### Skills and interests
 
@@ -48,9 +48,25 @@ English, Tamil, Malay & understand some French, Portuguese and Klingon.
 
 Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
+:::
+
 ---
 
-### Education, and giving it back
+::: section talks
+
+#### Talks and Slides
+
+- How I stopped worrying and start loving the build system.
+- Going offline-first with CouchDB.
+- [Build a living style guide using React, Storybook & Styled-components](https://www.youtube.com/watch?v=ydDfcA8X8uE&feature=youtu.be&t=32m58s).
+
+:::
+
+---
+
+::: section education
+
+### Education
 
 #### **Class of '98** GCE O' Levels
 
@@ -58,7 +74,7 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 Advanced Math & Science major
 
-#### **1998 - 2000** Canadian Pre-university
+#### **1998 - 2000** Ontario Diploma Program
 
 ##### Taylor's College, Kuala Lumpur
 
@@ -78,13 +94,11 @@ Finite Math, Calculus, Algebra, Computing, Chemistry, Physics.
 
 - Final Year Project: Collaborative text editor where team members can see code edited by others in real time, complete with a chat system.
 
-#### Talks and Slides
-
-- How I stopped worrying and start loving the build system.
-- Going offline-first with CouchDB.
-- [Build a living style guide using React, Storybook & Styled-components](https://www.youtube.com/watch?v=ydDfcA8X8uE&feature=youtu.be&t=32m58s).
+:::
 
 ---
+
+::: section work
 
 ### Work Experience
 
@@ -97,7 +111,7 @@ Leading a team of Front-end developers tasked with building a next-generation pr
 > That button is 1 pixel too low.
 ---
 
-#### **Jun 2015 - Dec 2017** Lead Front-end Developer
+#### **Jun 2015 - Dec '17** Front-end Team Lead
 
 ##### **BAE Systems Applied Intelligence** | _Kuala Lumpur_
 
@@ -116,7 +130,7 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 > I am a higher-order function.
 ---
 
-#### **Dec 2015 – Apr 2016** Front-end Team Lead
+#### **Dec 2015 – Apr '16** Lead Front-end Developer
 
 ##### **BAE Systems Applied Intelligence** | _Kuala Lumpur_
 
@@ -127,7 +141,7 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 
 ---
 
-#### **Jan 2008 – Dec 2015** Senior Web Developer / Co-Founder
+#### **Jan 08 – Dec 15** Senior Web Developer / Co-Founder
 
 ##### Dark Brown & Yellow Creative House
 
@@ -136,11 +150,13 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 - Ensured a bullet-proof future for all projects using web standards and stage-0 Javascript.  
 - Ensured the final delivery was pixel-perfect and quality oriented.
 
-#### **2004 - 2008** Various positions held
+#### **2004 - 08** Various positions held
 
-** IT Manager / Software Consultant / Point-of-sale & ERP specialist / Proof-of-concept architect.
+IT Manager / Software Consultant / Point-of-sale & ERP specialist / Proof-of-concept architect.
 
 Do have a look at my Linkedin profile if you'd like to find out more of my early career.
+
+:::
 
 ---
 
@@ -166,32 +182,8 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 - bash scripts
 - automation
 
-#### Credits
-
-- [CSS4 Variables and Sass by Jake Albaugh on CodePen](https://codepen.io/jakealbaugh/post/css4-variables-and-sass).
-- [CSS System Font Stack Monospace v2](https://www.client9.com/css-system-font-stack-monospace-v2/).
-- [Custom domains on GitHub Pages gain support for HTTPS](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/).
-- [Shipping system fonts to GitHub.com · @mdo](http://markdotto.com/2018/02/07/github-system-fonts/).
-- [Vertical Rhythm Reset](http://jhildenbiddle.github.io/vertical-rhythm-reset/).
-- [Nesting in Sass and Less · @mdo](http://markdotto.com/2015/07/20/css-nesting/).
-- [How to Deploy Websites on Custom Domains using Cloudflare and Github Pages](https://medium.com/crowdbotics/annie-azana-how-to-deploy-websites-using-cloudflare-and-github-pages-c415c55fea36).
-
-#### FAQ (for geeky souls)
-
-- [ ] **What technologies are being used to build this resume?**
-  Absolutely no Javascript is used in the browser. The resume is based on one markdown file and spell-checked and built using markdown by my trusty TravisCI. I use Neovim for coding, and (mostly) node to build.
-- [ ] **Why are you using CSS variables in SCSS? Are you mad?**
-  CSS variables can be inherited and scoped. This allows me to achieve things like changing the background and all other elements on the page with _zero_ javascript based on the `:checked` pseudo selector (still finding the perfect solution). I feel that I'm going to just use CSS variables for now rather than SCSS from now on - why? Because I'm debugging variable changes in the browser where it belongs.
-- [ ] **Are you available for work?**
-  Yes.
-- [ ] **The README.md file seems to be in a different order. Is this intentional?**
-  Yes, I used flex-ordering and sibling selectors (~) to re-order sections.
-- [ ] **That seems like overkill. Why couldn't you just wrap each section in a `&lt;section class="interests">` tag and style them that way?**
-  I think the world has a Resume problem. Linkedin, Stack Overflow Jobs, and the list goes on. I want a simple and editable format like Markdown that is easy to edit. I am working on a script that uses PhantomJS and Casper to scrape my LinkedIn profile and get all the info. Till then, a flat markdown file would do just fine. Also, it was a lot of fun using flex-ordering!
-
 ---
 
 Copyright © vik.ramanuj.am [![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
 
 [logo]: //piggyslasher.github.io/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
-

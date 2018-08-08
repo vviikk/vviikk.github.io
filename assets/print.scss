@@ -1,0 +1,132 @@
+@import 'variables';
+@import '~vertical-rhythm-reset/dist/_vertical-rhythm-reset';
+
+$system-monospace: 'SFMono-Light',
+  'SFMono-Regular',
+  Consolas,
+  'Droid Sans Mono',
+  'Liberation Mono',
+  Menlo,
+  monospace;
+
+$vr-box-sizing: border-box;
+$vr-line-height: 1;
+$vr-modular-scale: minor-second;
+$vr-font-size: 9px;
+
+$vr-breakpoints: (
+  60em: ( // 960px
+      font-size: 10px
+  ),
+  90em: ( // 1440px
+      font-size: 10px
+  )
+);
+
+.no-print,
+.no-print *, img {
+  display: none !important;
+}
+
+@include vr-reset();
+
+/* Setting content width, unsetting floats and margins */
+
+/** Setting margins */
+@page {
+  margin: 1cm;
+  size: A4 landscape;
+}
+
+/* The first page of a print can be manipulated as well */
+@page :first {
+  // margin: 1cm 2cm;
+}
+
+/* Set font to 16px/13pt, set background to white and font to black.*/
+/* This saves ink */
+body {
+  background: #fff !important;
+  color: #000;
+  font-family: $system-monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  @include vr($margin: 0 0 .5 0)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+h4 {
+  strong, em {
+    float: right;
+  }
+}
+
+/* Defining all page breaks */
+a {
+  page-break-inside:avoid
+}
+blockquote {
+  page-break-inside: avoid;
+}
+h1, h2, h3, h4, h5, h6 { page-break-after:avoid;
+  page-break-inside:avoid }
+img { page-break-inside:avoid;
+  page-break-after:avoid; }
+table, pre { page-break-inside:avoid }
+ul, ol, dl  { page-break-before:avoid }
+
+blockquote {
+  display: none;
+}
+
+#vik-ramanujam+p+p+p+p {
+  display: none;
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+
+#likes+ul {
+  > li {
+    display: inline-block;
+    width: 30.3333%;
+    margin-bottom: 0;
+  }
+}
+
+h5,
+h6,
+li,
+p {
+  color: var(--color-gray-darker) !important;
+}
+
+.section {
+  width: 50%;
+  float: left;
+}
