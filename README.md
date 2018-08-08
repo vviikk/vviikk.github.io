@@ -1,15 +1,20 @@
 # Vik Ramanujam
+
 ![Vik Ramanujam's Avatar][logo]
 
-**Front-end lead, BAE Systems Applied intelligence**
+## Front-end lead, BAE Systems Applied intelligence
 
 Your friendly neighbourhood geek
 Front-end & Nodejs developer
 _Kuala Lumpur, Malaysia_
 
+<nav class='main-menu'>
+
 [Skills & Interests](#skills-and-interests)
 [Work Experience](#work-experience)
 [Education](#education)
+
+</nav>
 
 ---
 > Excuse me, but, there's a container for that :)
