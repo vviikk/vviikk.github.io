@@ -2,7 +2,7 @@
 
 ![Vik Ramanujam's Avatar][logo]
 
-## Front-end lead, BAE Systems Applied intelligence
+## Front-end technical lead
 
 Your friendly neighbourhood geek
 Front-end & Nodejs developer
@@ -19,16 +19,14 @@ _Kuala Lumpur, Malaysia_
 ---
 > Excuse me, but, there's a container for that :)
 
-A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications.
+A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications. ♥ functional programming, coding UI, the command line <span class="amp">&</span> Vim. When I'm not coding on React, I'm probably cooking, travelling or professing my undying love to micro-containers.
 
-♥ functional programming, coding UI, i3, the command line & Vim. When I'm not coding (in React, React-Native or some bleeding-edge front-end micro-framework), I'm probably cooking, travelling or professing my undying love to micro-containers.
-
-I love building teams that deliver great, pixel-perfect, usable products, and I love getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to any team and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
+I love building teams that deliver great, pixel-perfect, usable products, getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to any team and ensure that everyone is pushing code of the highest quality. I love writing tests <span class="amp">&</span> teach as much as I can learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
-w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram) | [toy robot](https://github.com/piggyslasher/robot42)
+w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram)
 
-::: section skills
+::: section skills-talks
 
 ### Skills and interests
 
@@ -48,13 +46,9 @@ English, Tamil, Malay & understand some French, Portuguese and Klingon.
 
 Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
-:::
-
 ---
 
-::: section talks
-
-#### Talks and Slides
+### Talks and Slides
 
 - How I stopped worrying and start loving the build system.
 - Going offline-first with CouchDB.
@@ -82,7 +76,7 @@ Finite Math, Calculus, Algebra, Computing, Chemistry, Physics.
 
 #### **2000 - 2003** Bachelors of Software Engineering
 
-##### University of Sheffield
+##### University of Sheffield, UK
 
 - Computer science, Software architecture, design, and user experience.
 - Dissertation: Neilson's Usability Heuristics on the World Wide Web.
@@ -141,7 +135,7 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 
 ---
 
-#### **Jan 08 – Dec 15** Senior Web Developer / Co-Founder
+#### **Jan 08 – Dec 15** <span>Senior Web Developer / Co-Founder</span>
 
 ##### Dark Brown & Yellow Creative House
 
@@ -160,7 +154,9 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 
 ---
 
-#### Likes
+::: section section-likes
+
+### Likes
 
 - Functional Programming
 - i3
@@ -182,8 +178,18 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 - bash scripts
 - automation
 
+:::
+
 ---
 
+::: footer
+
+This page uses no javascript and is handcoded using SASS, markdown, <label for='show-grid'>vertical rythm</label>, JSON Resume, the brogrammer palette, node <span class="amp">&amp;</span> a whole lotta love.
+
+Completely open sourced for the world on <a href="http://github.com/piggyslasher/piggyslasher.github.io">github</a>
+
 Copyright © vik.ramanuj.am [![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
+
+:::
 
 [logo]: //piggyslasher.github.io/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
