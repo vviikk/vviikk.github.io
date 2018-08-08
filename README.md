@@ -30,7 +30,7 @@ w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com
 ##### I do
 JavaScript, Web Development, Front-end Development, Node.js, Single Page Applications, Continuous Development / Deployment.
 
-##### I use
+##### I wield
 React, Mobx, Redux, Jest, Styled-Components, Server-sent Events, WebPack, Node.js, Sass, Git, Docker, CouchDB.
 
 ##### I speak
@@ -59,12 +59,12 @@ _Finite Math, Calculus, Algebra, Computing, Chemistry, Physics_
 
 ##### *2003 - 2004* Graduated with a Bachelors in Computing
 University of Staffordshire
-- Final Year Project: Collaborative text editor where team members can see code being edited in real time, with a chat system.
+- Final Year Project: Collaborative text editor where team members can see code edited by others in real time, complete with a chat system.
 
 #### Talks and Slides
-  - How I stopped worrying and start loving the build system
-  - Going offline-first with CouchDB
-  - Build a living style guide using React, Storybook & Styled-components
+  - How I stopped worrying and start loving the build system.
+  - Going offline-first with CouchDB.
+  - [Build a living style guide using React, Storybook & Styled-components](https://www.youtube.com/watch?v=ydDfcA8X8uE&feature=youtu.be&t=32m58s).
 
 ---
 
@@ -83,16 +83,16 @@ Leading a team of Front-end developers tasked with building a next-generation pr
 ##### BAE Systems Applied Intelligence
 **Lead Front-end Developer** | _June 2015 - December 2017_ | _Kuala Lumpur, Malaysia_
 
-Engineered a web app built on Angular, ES7, SCSS, Angular Material that runs of 30 different browser/device combinations from Retina displays to mobile browsers, weeks ahead of schedule.
+Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs of 30 different browser/device combinations from Retina displays to mobile browsers, weeks ahead of schedule.
 
   - Led a team of ten developers to deliver, ahead of schedule a web application & mobile app which strict acceptance criteria for performance in low bandwidth areas.
   - Engaged with UX daily to ensure delivery of a usable and slick-looking product, advising against bad user experience and convoluted user journeys.
   - Evaluated requirements with Business Analysts to ensure stories are short, well-worded with clear acceptance criteria and most importantly, closable.
-  - Instilled a culture of writing good code with performance and usability as pillars.
-  - Planned sprints and delegated tasks across the front-end team, and delivered many features 4-5 sprints ahead of schedule.
-  - Developed a reusable library of UX components within the first couple of sprints so that there was minimal to no front-end effort was needed at the later stages of the project. Guided the team to build highly configurable and reusable components.
+  - Spearheaded a culture of writing good code with performance and usability as pillars.
+  - Planned sprints and delegated tasks across the front-end team, and delivering features 4-5 sprints ahead of schedule.
+  - Developed a reusable library of UX components within the first couple of sprints so that there was minimal to no front-end effort at the later stages of the project. Guided the team to build highly configurable and reusable components.
   - Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments and had a 90% test coverage when our deliverable limit was 80%.
-  - Streamlined team output by using an assembly-line mindset when managing task delegation. The payoff was huge as we continually impressed every sprint by delivering impressive work, consistently, keeping morale and confidence high.
+  - Streamlined team output by using an assembly-line mindset when managing task delegation. The payoff: we closed every sprint by delivering impressive work, consistently, keeping morale and confidence high.
   - Involved heavily with DevOps and build automation as I feel right at home on the command line.
 
 > I am a higher-order function.
@@ -103,7 +103,7 @@ Engineered a web app built on Angular, ES7, SCSS, Angular Material that runs of 
 
   - Delivered dashboards consisting of heatmaps, filters, timelines and drill-down hunting using Highcharts / Highmaps / Angular / SASS that would interface with an elastic search backend.
   - Accelerated development of a pixel-perfect product with a strict delivery timeline, whilst keeping a focus on best practices.
-  - Undertook the interviewing and hiring of an extremely capable (and super-awesome) front-end development team, which I eventually led - that could deliver complex and interesting projects.
+  - Undertook the interviewing and hiring of a capable (and super-awesome) front-end development team, which I would lead, that could deliver complex and interesting projects.
   - Formulated a guide of best-practices in building good software for the front-end developers.
 
 ---
@@ -140,13 +140,13 @@ Engineered a web app built on Angular, ES7, SCSS, Angular Material that runs of 
   - automation
 
 #### Credits
-  - [CSS4 Variables and Sass by Jake Albaugh on CodePen](https://codepen.io/jakealbaugh/post/css4-variables-and-sass)
-  - [CSS System Font Stack Monospace v2](https://www.client9.com/css-system-font-stack-monospace-v2/)
-  - [Custom domains on GitHub Pages gain support for HTTPS](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)
-  - [Shipping system fonts to GitHub.com · @mdo](http://markdotto.com/2018/02/07/github-system-fonts/)
-  - [Vertical Rhythm Reset](http://jhildenbiddle.github.io/vertical-rhythm-reset/)
-  - [Nesting in Sass and Less · @mdo](http://markdotto.com/2015/07/20/css-nesting/)
-  - [How to Deploy Websites on Custom Domains using Cloudflare and Github Pages](https://medium.com/crowdbotics/annie-azana-how-to-deploy-websites-using-cloudflare-and-github-pages-c415c55fea36)
+  - [CSS4 Variables and Sass by Jake Albaugh on CodePen](https://codepen.io/jakealbaugh/post/css4-variables-and-sass).
+  - [CSS System Font Stack Monospace v2](https://www.client9.com/css-system-font-stack-monospace-v2/).
+  - [Custom domains on GitHub Pages gain support for HTTPS](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/).
+  - [Shipping system fonts to GitHub.com · @mdo](http://markdotto.com/2018/02/07/github-system-fonts/).
+  - [Vertical Rhythm Reset](http://jhildenbiddle.github.io/vertical-rhythm-reset/).
+  - [Nesting in Sass and Less · @mdo](http://markdotto.com/2015/07/20/css-nesting/).
+  - [How to Deploy Websites on Custom Domains using Cloudflare and Github Pages](https://medium.com/crowdbotics/annie-azana-how-to-deploy-websites-using-cloudflare-and-github-pages-c415c55fea36).
 
 #### FAQ (for geeky souls)
   - [ ] **What technologies are being used to build this resume?**
