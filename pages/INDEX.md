@@ -88,7 +88,7 @@ Finite Math, Calculus, Algebra, Computing, Chemistry, Physics.
 
 ### Work Experience
 
-#### **Dec 2017 – Present**Front-end Technical Lead
+#### **Dec 2017 – Present** Front-end Technical Lead
 
 ##### **BAE Systems Applied Intelligence** | _Kuala Lumpur_
 
