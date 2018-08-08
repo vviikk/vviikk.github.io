@@ -9,7 +9,7 @@ Menlo,
 monospace;
 $vr-box-sizing: border-box;
 $vr-line-height: 1.5;
-$vr-modular-scale: minor-third;
+$vr-modular-scale: major-second;
 $vr-grid-color: $color13;
 
 $vr-breakpoints: ( 30: ( // 480px
@@ -41,6 +41,11 @@ input[name='show-grid']:checked~article {
   @include vr-grid();
 }
 
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
 h1,
 h2,
 h3,
@@ -49,14 +54,31 @@ h5,
 h6,
 p {}
 
+h4,
 h5,
 h6 {
   @include vr($margin-top: 0, $margin-bottom: 0);
-  text-transform: uppercase;
-  font-weight: bolder;
+  // text-transform: uppercase;
   & + p {
     @include vr($margin-top: 0);
   }
+}
+
+h4 {
+  @include vr($font-size: 14px, $margin: 0);
+  font-weight: normal;
+  strong {
+    display: block;
+    float: right;
+    font-weight: bolder;
+    @include vr($padding-left: 1);
+  }
+}
+
+h5, h6 {
+  @include vr($font-size: 12px, $margin: 0);
+  text-transform: uppercase;
+  letter-spacing: .25ch;
 }
 
 hr {
@@ -111,4 +133,11 @@ blockquote {
   p {
     @include vr($margin-top: 0, $margin-bottom: 0);
   }
+}
+
+.amp {
+  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+  font-style: italic;
+  font-weight: normal;
+  @include vr($font-size: .25);
 }

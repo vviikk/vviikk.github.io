@@ -78,13 +78,6 @@
       }
     }
 
-    .amp {
-      font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
-      font-style: italic;
-      font-weight: normal;
-      @include vr($font-size: .25);
-    }
-
     .bg {
       content: '';
       position: fixed;
@@ -127,49 +120,51 @@
     text-align: center;
     margin-bottom: 0;
   }
-
-  h1+p {
-    &,
-    &+p,
-    &+p+p,
-    &+p+p+p {
-      text-align: center;
-      a {
+  h1 ~ nav{
+    text-align: center;
+    ~ * {
+      text-align: left;
+    }
+    a {
+      display: inline-block;
+      position: relative;
+      @include vr($margin: 0 1);
+      + br {
+        display: none;
+      }
+      &:before,
+      &:after {
+        position: absolute;
+        content: '[';
         display: inline-block;
-        position: relative;
-        @include vr($margin: 0 1) + br {
-          display: none;
-        }
+        opacity: 0;
+        transition: transform 0.3s, opacity 0.2s;
+        @include vr($margin-right: .5);
+        transform: translateX(20px);
+        color: color(foreground);
+        left: -20px;
+      }
+      &:hover,
+      &:focus {
+        background-position: 0 1.7em; //@TODO - remove magic numbers
         &:before,
         &:after {
-          position: absolute;
-          content: '[';
-          display: inline-block;
-          opacity: 0;
-          transition: transform 0.3s, opacity 0.2s;
-          @include vr($margin-right: .5);
-          transform: translateX(20px);
-          color: color(foreground);
-          left: -20px;
-        }
-        &:hover,
-        &:focus {
-          background-position: 0 1.7em; //@TODO - remove magic numbers
-          &:before,
-          &:after {
-            opacity: 1;
-            transform: translateX(0);
-          }
-        }
-        &:after {
-          left: auto;
-          right: -20;
-          content: ']';
-          transform: translateX(-20px);
-          @include vr($margin-left: .5);
+          opacity: 1;
+          transform: translateX(0);
         }
       }
+      &:after {
+        left: auto;
+        right: -20;
+        content: ']';
+        transform: translateX(-20px);
+        @include vr($margin-left: .5);
+      }
     }
+  }
+
+  h1 ~ * {
+    text-align: center;
 
     @keyframes shake {
       10%,
@@ -267,7 +262,7 @@
       top: 0;
       width: 2em; // em used as we're monospaced :)
       @include vr( $line-height: 1,
-      $padding: 0,
+        $padding: 0
       );
       white-space: nowrap;
     }
@@ -359,11 +354,11 @@
     @include order(1);
   }
 
-  #likes~hr,
+  #likes ~ hr,
   #credits {
     // before copyright
     @include order(10);
-    +p {
+    + p {
       font-size: .8em;
       @include vr($margin-bottom: 1);
     }

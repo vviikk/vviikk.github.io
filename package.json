@@ -5,15 +5,17 @@
   "scripts": {
     "build:assets": "node-sass assets --importer=node_modules/node-sass-tilde-importer -o build --source-map=true --output-style=compressed ",
     "build:assets:watch": "node-sass assets --importer=node_modules/node-sass-tilde-importer -w assets/styles.scss -o build --source-map=true --output-style=compressed ",
-    "build:markdown": "markdown README.md -f gfm --template resume-template.html > build/index.html",
-    "build:markdown:watch": "nodemon --watch resume-template.html --watch README.md --exec npm run build:markdown",
+    "build:markdown": "markdown-it README.md",
+    "build:markdown:watch": "nodemon --watch resume-template.html --watch pages/INDEX.md --exec npm start",
     "build": "npm-run-all --parallel build:markdown build:assets",
     "build:watch": "npm-run-all --parallel build:markdown:watch build:assets:watch serve",
+    "dev": "npm run build:watch",
     "preview": "babel-node preview.js",
-    "serve": "live-server --no-browser --ignore=css/sass,css/styles.css.map --wait=300 ./build",
+    "serve": "live-server --no-browser --wait=300 ./build",
     "serve:watch": "nodemon --watch package.json --exec npm run serve",
     "push:gh-pages": "git checkout master && mv build/* . && git add . &&  git commit -m 'Build from dev branch' && git push --force && git checkout development --force",
-    "deploy": "npm run build && npm run push:gh-pages"
+    "deploy": "npm run build && npm run push:gh-pages",
+    "start": "nodemon --exec babel-node index.js"
   },
   "main": "index.js",
   "repository": {
@@ -37,14 +39,26 @@
   "homepage": "https://github.com/piggyslasher/resume#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "eslint": "^5.3.0",
     "gutenberg-css": "^0.4.4",
     "live-server": "^1.2.0",
+    "markdown-it": "^8.4.2",
     "markdown-to-html": "cwjohan/markdown-to-html",
     "marked": "^0.3.19",
     "marked-terminal": "^2.0.0",
     "node-sass": "^4.9.0",
     "nodemon": "^1.17.4",
-    "vertical-rhythm-reset": "^1.1.0"
+    "vertical-rhythm-reset": "^1.1.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-util-promisify": "^0.2.2",
+    "babel-preset-env": "^1.7.0",
+    "coveralls": "^3.0.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-sort-class-members": "^1.3.1"
   },
   "devDependencies": {
     "node-sass-tilde-importer": "^1.0.2",

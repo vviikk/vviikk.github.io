@@ -15,7 +15,7 @@ $color4: #2a84d2;
 $color5: #4e5ab7;
 $color6: #1081d6;
 $color7: #d6dbe5;
-$color8: #d6dbe5;
+$color8: #e67e22;
 $color9: #de352e;
 $color10: #1dd361;
 $color11: #f3bd09;
@@ -27,25 +27,26 @@ $color15: #ffffff;
 $body-width: 40em;
 
 $colors: (
-  foreground: $foreground,
   background: $color0,
-  red-bright: $color1,
-  red-mellow: $color9,
-  yellow: $color3,
-  yellow-dark: $color11,
-  blue-light: $color4,
   blue-light-2: $color6,
   blue-light-3: $color12,
   blue-light-4: $color14,
+  blue-light: $color4,
+  foreground: $foreground,
   gray-dark: $color0,
   gray-darker: $background,
-  maroon: $color5,
-  maroon-dark: $color13,
-  off-white: $color7,
-  grey-dark: $color0,
   green-dark: $color2,
   green-light: $color10,
+  grey-dark: $color0,
+  maroon-dark: $color13,
+  maroon: $color5,
+  off-white: $color7,
+  orange: $color8,
+  red-bright: $color1,
+  red-mellow: $color9,
   white: $color15,
+  yellow-dark: $color11,
+  yellow: $color3,
 );
 
 // ripped CSS4 vars out of color map

@@ -6,6 +6,7 @@
     --color-info: var(--color-green-light);
     --color-big-headings: var(--color-green-light);
     --color-small-headings: var(--color-yellow-dark);
+    --color-small-headings-accent: var(--color-orange);
     --color-link-color: var(--color-blue-light);
     --color-bullet-color: var(--color-green-light);
     --color-background: var(--color-gray-dark);
@@ -15,8 +16,7 @@
 
     h1,
     h2,
-    h3,
-    h4 {
+    h3{
       color: color(big-headings);
     }
 
@@ -24,9 +24,11 @@
       color: color(maroon-dark);
     }
 
-    h5,
-    h6 {
+    h4 {
       color: color(small-headings);
+      > * {
+        color: color(small-headings-accent);
+      }
     }
 
     a {
