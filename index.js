@@ -5,10 +5,18 @@ import headings from 'markdown-it-headinganchor'
 import liveServer from 'live-server'
 import MarkdownIt from 'markdown-it'
 import mdContainers from 'markdown-it-container'
+import mdReplacements from 'markdown-it-replacements'
 import nodeSassTildeImporter from 'node-sass-tilde-importer'
 import sassMiddleware from 'node-sass-middleware'
 import taskLists from 'markdown-it-task-lists'
 import toKebabCase from 'lodash/kebabCase'
+
+// mdReplacements.replacements.push({
+//   name: 'ampersand',
+//   re: /&/gi,
+//   sub(s) { return '<b class="ampersand">&amp;</b>' },
+//   default: true,
+// })
 
 // full options list (defaults)
 const md = new MarkdownIt({
@@ -51,6 +59,17 @@ const md = new MarkdownIt({
       return '</section>\n'
     },
   })
+  .use(mdContainers, 'footer', {
+    render(tokens, idx) {
+      if (tokens[idx].nesting === 1) {
+        // opening tag
+        return '<footer>\n'
+      }
+      // closing tag
+      return '</section>\n'
+    },
+  })
+  .use(mdReplacements)
 
 const readBaseTemplate = () => fs.readFileSync('base-template.html').toString()
 
@@ -63,7 +82,8 @@ const renderPage = (path) => {
   fs.readFile(path, 'utf8', (err, data) => {
     fs.writeFileSync(
       `./build/${page.toLowerCase().replace('.md', '')}.html`,
-      baseTemplate.split('{markdown}').join(md.render(data)),
+      baseTemplate.split('{markdown}')
+        .join(md.render(data).replace(/(?<!<[^<>]*)&amp;/g, '<span class="amp asd">&</span>')),
       'utf8'
     )
   })
@@ -80,7 +100,7 @@ watcher
 const sassServer = sassMiddleware({
   /* Options */
   src: `${__dirname}/assets`,
-  response: false,
+  response: true,
   dest: './build',
   importer: nodeSassTildeImporter,
   outputStyle: 'extended',
@@ -92,7 +112,7 @@ if (process.env.SERVE) {
     host: '0.0.0.0', // Set the address to bind to. Defaults to 0.0.0.0 or process.env.IP.
     root: './build', // Set root directory that's being served. Defaults to cwd.
     open: false, // When false, it won't load your browser by default.
-    ignore: 'scss,pages', // comma-separated string for paths to ignore
+    ignore: 'pages', // comma-separated string for paths to ignore
     file: 'index.html', // When set, serve this file (server root relative) for every 404 (useful for single-page applications)
     wait: 1000, // Waits for all changes, before reloading. Defaults to 0 sec.
     logLevel: 2, // 0 = errors only, 1 = some, 2 = lots

@@ -2971,6 +2971,10 @@ markdown-it-headinganchor@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/markdown-it-headinganchor/-/markdown-it-headinganchor-1.3.0.tgz#65556577ad702983f4b89bf30bab4702cedcbbfa"
 
+markdown-it-replacements@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-replacements/-/markdown-it-replacements-1.0.1.tgz#0599ea382324e26a93a70164376ccd6ddf19e9ce"
+
 markdown-it-smartarrows@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/markdown-it-smartarrows/-/markdown-it-smartarrows-1.0.1.tgz#b570e9c0ff9812e0db6ace19afa5ba12b64bb9a7"

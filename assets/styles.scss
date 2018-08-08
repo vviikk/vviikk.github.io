@@ -39,11 +39,9 @@ body {
   article,
   footer {
     animation: 10s cubic-bezier(0.000, 1.010, 0.025, 0.995) 0s 1 slideUp;
-    width: 100vw; // max-width: var(--body-width);
-    >* {
+    > * {
       display: block;
       width: 100%;
-      margin: 0 auto;
     }
   }
 
@@ -201,7 +199,7 @@ h1 ~ * {
     }
   }
 
-  img {
+  img[title="Vik Ramanujam's Avatar"] {
     @include vr($height: 4);
     @extend .shake;
   }
@@ -331,11 +329,12 @@ footer {
 }
 
 $sections-list: #vik-ramanujam,
-#skills-and-interests,
+#section-likes,
 #work-experience,
 #education,
 #interests,
-#credits;
+#credits,
+footer;
 
 @each $section in $sections-list {
   $i: index($sections-list, $section);
@@ -348,7 +347,7 @@ $sections-list: #vik-ramanujam,
   order: 0;
 }
 
-#likes {
+#section-likes {
   @include order(1);
 }
 
@@ -374,7 +373,6 @@ $sections-list: #vik-ramanujam,
   margin-bottom: 0;
 }
 
-section>hr:last-of-type,
-section>p:last-of-type {
-  display: none; // hide stackedit meta
+footer {
+  order: 100 !important;
 }

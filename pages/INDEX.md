@@ -19,9 +19,9 @@ _Kuala Lumpur, Malaysia_
 ---
 > Excuse me, but, there's a container for that :)
 
-A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications. ♥ functional programming, coding UI, the command line <span class="amp">&</span> Vim. When I'm not coding on React, I'm probably cooking, travelling or professing my undying love to micro-containers.
+A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications. ♥ functional programming, coding UI, the command line & Vim. When I'm not coding on React, I'm probably cooking, travelling or professing my undying love to micro-containers.
 
-I love building teams that deliver great, pixel-perfect, usable products, getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to any team and ensure that everyone is pushing code of the highest quality. I love writing tests <span class="amp">&</span> teach as much as I can learn.
+I love building teams that deliver great, pixel-perfect, usable products, getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to any team and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
 w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram)
@@ -103,6 +103,7 @@ Finite Math, Calculus, Algebra, Computing, Chemistry, Physics.
 Leading a team of Front-end developers tasked with building a next-generation product using React / Redux / RxJS / Styled Components, Storybook using ES7 that focuses on big-data, drill-downs, geolocation & clustering, Elastic Search, GraphQL and Docker (♥) amongst other technologies.
 
 > That button is 1 pixel too low.
+
 ---
 
 #### **Jun 2015 - Dec '17** Front-end Team Lead
@@ -122,6 +123,7 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 - Involved heavily with DevOps and build automation as I feel right at home on the command line.
 
 > I am a higher-order function.
+
 ---
 
 #### **Dec 2015 – Apr '16** Lead Front-end Developer
@@ -135,7 +137,7 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 
 ---
 
-#### **Jan 08 – Dec 15** <span>Senior Web Developer / Co-Founder</span>
+#### **Jan 08 – Dec 15** Senior Web Developer / Co-Founder
 
 ##### Dark Brown & Yellow Creative House
 
@@ -184,7 +186,7 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 
 ::: footer
 
-This page uses no javascript and is handcoded using SASS, markdown, <label for='show-grid'>vertical rythm</label>, JSON Resume, the brogrammer palette, node <span class="amp">&amp;</span> a whole lotta love.
+This page uses no javascript and is handcoded using SASS, markdown, <label for='show-grid'>vertical rythm</label>, JSON Resume, the brogrammer palette, node & a whole lotta love.
 
 Completely open sourced for the world on <a href="http://github.com/piggyslasher/piggyslasher.github.io">github</a>
 
