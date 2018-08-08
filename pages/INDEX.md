@@ -186,7 +186,7 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
   Yes.
 - [ ] **The README.md file seems to be in a different order. Is this intentional?**
   Yes, I used flex-ordering and sibling selectors (~) to re-order sections.
-- [ ] **That seems like overkill. Why couldn't you just wrap each section in a `<section class="interests">` tag and style them that way?**
+- [ ] **That seems like overkill. Why couldn't you just wrap each section in a `&lt;section class="interests">` tag and style them that way?**
   I think the world has a Resume problem. Linkedin, Stack Overflow Jobs, and the list goes on. I want a simple and editable format like Markdown that is easy to edit. I am working on a script that uses PhantomJS and Casper to scrape my LinkedIn profile and get all the info. Till then, a flat markdown file would do just fine. Also, it was a lot of fun using flex-ordering!
 
 ---

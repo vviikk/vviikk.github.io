@@ -8,6 +8,7 @@ import toKebabCase from 'lodash/kebabCase';
 // full options list (defaults)
 const md = new MarkdownIt({
   html: true,
+  xhtmlOut: false,
   linkify: true,
   typographer: true,
   breaks: true,
