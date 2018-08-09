@@ -118,11 +118,11 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 - Spearheaded a culture of writing good code with performance and usability as pillars.
 - Planned sprints and delegated tasks across the front-end team, and delivering features 4-5 sprints ahead of schedule.
 - Developed a reusable library of UX components within the first couple of sprints so that there was minimal to no front-end effort at the later stages of the project. Guided the team to build highly configurable and reusable components.
-- Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments and had a 90% test coverage when our deliverable limit was 80%.
+- Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments whilst having 90% test coverage when our deliverable limit was 80%.
 - Streamlined team output by using an assembly-line mindset when managing task delegation. The payoff: we closed every sprint by delivering impressive work, consistently, keeping morale and confidence high.
 - Involved heavily with DevOps and build automation as I feel right at home on the command line.
 
-> I am a higher-order function.
+> I am a higher-order function. We all are.
 
 ---
 
@@ -162,7 +162,7 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 
 - Functional Programming
 - i3
-- vertical rhythm
+- Vertical rhythm
 - TravisCI
 - BitBar
 - Polybar
@@ -175,10 +175,8 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 - React
 - Reactive Programming
 - Node
-- urlview
-- ncmpcpp & mpd
-- bash scripts
-- automation
+- Shell scripts
+- Automation
 
 :::
 
@@ -186,11 +184,14 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 
 ::: footer
 
-This page uses no javascript and is handcoded using SASS, markdown, <label for='show-grid'>vertical rythm</label>, JSON Resume, the brogrammer palette, node & a whole lotta love.
+This page uses no javascript and is handcoded using CSS Variables, Markdown, <label for='show-grid'>vertical rythm</label>, node & a whole lotta love.
 
 Completely open sourced for the world on <a href="http://github.com/piggyslasher/piggyslasher.github.io">github</a>
 
-Copyright © vik.ramanuj.am [![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
+No copyright whatsoever - steal! Pardon the shameless hit counter.
+[![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
+
+vik.ramanuj.am
 
 :::
 

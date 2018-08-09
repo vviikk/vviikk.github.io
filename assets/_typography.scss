@@ -77,8 +77,9 @@ strong {
     strong {
       display: block;
       float: right;
-      font-weight: bolder;
-      @include vr($padding-left: 1, $offset-top: .5rem);
+      // font-weight: bolder;
+      @include vr($padding-left: 1);
+      transform: translate3d(0, .2rem, 0);
     }
   }
 
