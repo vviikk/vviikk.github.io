@@ -66,7 +66,7 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 ##### Maz International School, Kuala Lumpur
 
- - Advanced Math & Science major
+- Advanced Math & Science major
 
 #### **1998 - 2000** Ontario Diploma Program
 
