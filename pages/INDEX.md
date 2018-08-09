@@ -66,13 +66,13 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 ##### Maz International School, Kuala Lumpur
 
-Advanced Math & Science major
+ - Advanced Math & Science major
 
 #### **1998 - 2000** Ontario Diploma Program
 
 ##### Taylor's College, Kuala Lumpur
 
-Finite Math, Calculus, Algebra, Computing, Chemistry, Physics.
+- Finite Math, Calculus, Algebra, Computing, Chemistry, Physics.
 
 #### **2000 - 2003** Bachelors of Software Engineering
 
