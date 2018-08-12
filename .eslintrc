@@ -1,6 +1,7 @@
 {
   "parser": "babel-eslint",
   "plugins": [
+    "prettier",
     "babel",
     "import",
     "jest",
@@ -16,7 +17,8 @@
   },
   "extends": [
     "airbnb-base",
-    "plugin:jest/recommended"
+    "plugin:jest/recommended",
+    "plugin:prettier/recommended"
   ],
   "rules": {
     "no-unused-expressions": ["error", { "allowShortCircuit": true }],
