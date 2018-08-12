@@ -2,7 +2,9 @@
 @import 'typography';
 @import 'toggles';
 @import 'theme';
-
+@import 'animations';
+@import 'navigation';
+@import 'ticker';
 body {
   color: $foreground;
   display: flex;
@@ -13,59 +15,45 @@ body {
   margin: 0 auto;
   max-width: var(--body-width);
   @include vr($padding: 1 1 0 1);
-
   .fix-wrap {
     flex-grow: 1;
   }
-
   >* {
     position: relative;
     z-index: 1;
     transition: .2s color, .5s background-color;
   }
-
   >label,
   >input[type='checked'] {
     @include vr($margin: 0.5);
     font-size: .7em;
     margin-left: 0;
   }
-
-  > label {
+  >label {
     position: relative;
     left: -1ch;
   }
-
   article,
   footer {
     animation: 10s cubic-bezier(0.000, 1.010, 0.025, 0.995) 0s 1 slideUp;
-    > * {
+    >* {
       display: block;
       width: 100%;
     }
   }
-
   section.main {
-    background: radial-gradient( 150px 40px at 195px bottom,
-    transparentize($foreground, 0.85),
-    rgba(0, 0, 0, 0));
+    background: radial-gradient( 150px 40px at 195px bottom, transparentize($foreground, 0.85), rgba(0, 0, 0, 0));
     @media screen and (max-width: $body-width) {
-      background: radial-gradient(105px 21px at center bottom, transparentize($foreground, 0.95), rgba(0,0,0,0));
+      background: radial-gradient(105px 21px at center bottom, transparentize($foreground, 0.95), rgba(0, 0, 0, 0));
     }
-
     display: flex;
     flex-direction: column;
     z-index: 1;
     position: relative;
-
-
     &::after {
-      content: "";
+      content: '';
       display: block;
-      background: linear-gradient( to right,
-      $color0 0,
-      $foreground 50%,
-      $color0 100%);
+      background: linear-gradient( to right, $color0 0, $foreground 50%, $color0 100%);
       height: 1px;
       position: absolute;
       bottom: 0;
@@ -73,7 +61,6 @@ body {
       left: 0;
     }
   }
-
   .bg {
     content: '';
     position: fixed;
@@ -85,106 +72,7 @@ body {
   }
 }
 
-.ascii-text {
-  span {
-    display: block;
-  }
-}
-
-ul {
-  padding: 0;
-  margin-top: 0;
-  list-style: none;
-  >li {
-    color: var(--color-base-text);
-    position: relative;
-    @include vr($margin-bottom: 1);
-    @media screen and (max-width: $body-width) {
-      @include vr($margin-left: 1);
-    }
-    &:before {
-      color: color(green-light);
-      content: '•';
-      position: absolute;
-      @include vr($margin-left: -1);
-    }
-  }
-}
-
-
-h1 {
-  text-align: center;
-  margin-bottom: 0;
-}
-h1 ~ nav{
-  text-align: center;
-  ~ * {
-    text-align: left;
-  }
-  a {
-    display: inline-block;
-    position: relative;
-    @include vr($margin: 0 1);
-    + br {
-      display: none;
-    }
-    &:before,
-    &:after {
-      position: absolute;
-      content: '[';
-      display: inline-block;
-      opacity: 0;
-      transition: transform 0.3s, opacity 0.2s;
-      @include vr($margin-right: .5);
-      transform: translateX(20px);
-      color: color(foreground);
-      left: -20px;
-    }
-    &:hover,
-    &:focus {
-      background-position: 0 1.7em; //@TODO - remove magic numbers
-      &:before,
-      &:after {
-        opacity: 1;
-        transform: translateX(0);
-      }
-    }
-    &:after {
-      left: auto;
-      right: -20;
-      content: ']';
-      transform: translateX(-20px);
-      @include vr($margin-left: .5);
-    }
-  }
-}
-
-h1 ~ * {
-  text-align: center;
-
-  @keyframes shake {
-    10%,
-    90% {
-      transform: translate3d(-1px, 0, 0);
-    }
-
-    20%,
-    80% {
-      transform: translate3d(2px, 0, 0);
-    }
-
-    30%,
-    50%,
-    70% {
-      transform: translate3d(-4px, 0, 0);
-    }
-
-    40%,
-    60% {
-      transform: translate3d(4px, 0, 0);
-    }
-  }
-
+h1~* {
   .shake {
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
@@ -198,113 +86,21 @@ h1 ~ * {
       perspective: 1000px;
     }
   }
-
-  img[title="Vik Ramanujam's Avatar"] {
+  img[title='Vik Ramanujam\'s Avatar'] {
     @include vr($height: 4);
     @extend .shake;
-  }
-}
-
-@keyframes slideUp {
-  0% {
-    transform: translate3d(0, 2rem, 0);
-    opacity: 0;
-  }
-  80% {
-    transform: translate3d(0, 0.0rem, 0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-}
-
-
-ul.menu {
-  list-style: none;
-  display: flex;
-  position: absolute;
-  top: 0;
-  right: 5rem;
-  li {
-    transform: skewx(-15deg);
-    a {
-      display: inline-block;
-      transform: skewx(15deg);
-    }
-  }
-}
-
-$lines: 16;
-
-
-#likes+ul {
-  --likes-prefix: "Vik ♥️";
-  padding: 0;
-  margin-top: 0;
-  @include vr($height: 1);
-  overflow: hidden;
-  position: relative;
-
-  >* {
-    line-height: 2rem;
-    & li:before {}
-  }
-
-  &::before {
-    display: block;
-    content: var(--likes-prefix);
-    position: absolute;
-    top: 0;
-    width: 2em; // em used as we're monospaced :)
-    @include vr( $line-height: 1,
-      $padding: 0
-    );
-    white-space: nowrap;
-  }
-
-  &:hover li {
-    animation-play-state: paused;
-  }
-
-  li {
-    list-style: none;
-    animation: ticker $lines+s cubic-bezier(1, 0, 0.5, 0) infinite;
-    color: $color2;
-    margin-left: 0;
-    margin-bottom: 0;
-    &:before{
-      content: var(--likes-prefix);
-      visibility: hidden;
-      margin: 0;
-      position: static;
-      padding-right: 1ch;
-    }
-    @include vr($line-height: 1);
   }
 }
 
 a {
   color: color(blue-light-2);
   text-decoration: none;
-
   &:hover {
     background-image: $img-underline;
     background-position: 0 1em; //@TODO - remove magic numbers
     background-size: auto 2px;
     background-repeat: repeat-x;
     overflow: visible;
-  }
-}
-
-@keyframes ticker {
-  @for $i from 0 through $lines {
-    #{$i * 95 / $lines * 1%} {
-      transform: translate3d(0, 100*$i*-1%, 0);
-    }
-  }
-  100% {
-    transform: translate3d(0, 0%, 0);
   }
 }
 
@@ -328,14 +124,13 @@ footer {
   }
 }
 
-$sections-list: #vik-ramanujam,
-#section-likes,
-#work-experience,
-#education,
-#interests,
-#credits,
-footer;
-
+$sections-list: '#vik-ramanujam',
+'#section-likes',
+'#work-experience',
+'#education',
+'#interests',
+'#credits',
+'footer';
 @each $section in $sections-list {
   $i: index($sections-list, $section);
   #{$section} {
@@ -351,11 +146,11 @@ footer;
   @include order(1);
 }
 
-#likes ~ hr,
+#likes~hr,
 #credits {
   // before copyright
   @include order(10);
-  + p {
+  +p {
     font-size: .8em;
     @include vr($margin-bottom: 1);
   }
