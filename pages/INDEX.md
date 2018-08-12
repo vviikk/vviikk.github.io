@@ -26,8 +26,6 @@ I love building teams that deliver great, pixel-perfect, usable products, gettin
 e: [vik@ramanuj.am](vik@ramanuj.am)
 w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram)
 
-::: section skills-talks
-
 ### Skills and interests
 
 #### I do
@@ -54,11 +52,7 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 - Going offline-first with CouchDB.
 - [Build a living style guide using React, Storybook & Styled-components](https://www.youtube.com/watch?v=ydDfcA8X8uE&feature=youtu.be&t=32m58s).
 
-:::
-
 ---
-
-::: section education
 
 ### Education
 
@@ -88,11 +82,7 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 - Final Year Project: Collaborative text editor where team members can see code edited by others in real time, complete with a chat system.
 
-:::
-
 ---
-
-::: section work
 
 ### Work Experience
 
@@ -137,7 +127,19 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 
 ---
 
-#### **Jan 08 – Dec 15** Senior Web Developer / Co-Founder
+#### **Sep 2014 – Jul '15** UI Developer
+
+##### **Lavaboom** | Cologne Area, Germany (remote work)
+
+- Built a next-gen encrypted email client for Lavaboom, a startup from Cologne, Germany.
+- Engineered a pixel-perfect (yes, I use that word a lot!) email front-end with rich-text composing and multiple inboxes using Jade (now known as Pug), Gulp, ES6, Angular, Bootstrap & SASS
+- Generated an icon font automatically from SVG files provided by UX
+
+The project is open-sourced at https://github.com/lavab
+
+---
+
+#### **Jan 2008 – Dec '15** Senior Web Developer / Co-Founder
 
 ##### Dark Brown & Yellow Creative House
 
@@ -146,17 +148,15 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 - Ensured a bullet-proof future for all projects using web standards and stage-0 Javascript.  
 - Ensured the final delivery was pixel-perfect and quality oriented.
 
-#### **2004 - 08** Various positions held
+---
+
+#### **2004 - '08** Various positions held
 
 IT Manager / Software Consultant / Point-of-sale & ERP specialist / Proof-of-concept architect.
 
 Do have a look at my Linkedin profile if you'd like to find out more of my early career.
 
-:::
-
 ---
-
-::: section section-likes
 
 ### Likes
 
@@ -177,8 +177,6 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 - Node
 - Shell scripts
 - Automation
-
-:::
 
 ---
 
