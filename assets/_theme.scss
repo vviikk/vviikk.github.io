@@ -6,7 +6,7 @@
     --color-info: var(--color-green-light);
     --color-big-headings: var(--color-green-light);
     --color-small-headings: var(--color-yellow-dark);
-    --color-accent: var(--color-orange);
+    --color-accent: var(--color-small-headings);
     --color-link-color: var(--color-blue-light);
     --color-bullet-color: var(--color-green-light);
     --color-background: var(--color-gray-dark);
@@ -30,7 +30,7 @@
     h4 {
       color: color(small-headings);
       > * {
-        color: color(accent);
+        // color: color(accent);
       }
     }
 

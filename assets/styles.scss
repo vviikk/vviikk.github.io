@@ -72,36 +72,23 @@ body {
   }
 }
 
-h1~* {
-  .shake {
+.shake {
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  &:hover,
+  &:focus,
+  &:active {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     perspective: 1000px;
-    &:hover,
-    &:focus,
-    &:active {
-      animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
-      transform: translate3d(0, 0, 0);
-      backface-visibility: hidden;
-      perspective: 1000px;
-    }
-  }
-  img[title='Vik Ramanujam\'s Avatar'] {
-    @include vr($height: 4);
-    @extend .shake;
   }
 }
 
-a {
-  color: color(blue-light-2);
-  text-decoration: none;
-  &:hover {
-    background-image: $img-underline;
-    background-position: 0 1em; //@TODO - remove magic numbers
-    background-size: auto 2px;
-    background-repeat: repeat-x;
-    overflow: visible;
-  }
+img[title='Vik Ramanujam\'s Avatar'] {
+  @include vr($height: 4);
+  @extend .shake;
 }
 
 footer {
@@ -112,28 +99,35 @@ footer {
       font-size: 75%;
     }
   }
-  @include vr($margin-top: 1);
+  // @include vr($margin-top: 1);
   .ascii-text {
     color: color(maroon-dark);
   }
-} //////// ORDERING ///////
+}
+
+//////// ORDERING ///////
+section#front-end-technical-lead {
+  display: flex;
+  flex-direction: column;
+}
+
 @mixin order($order) {
-  &,
-  ~* {
+  & {
     order: $order;
   }
 }
 
 $sections-list: '#vik-ramanujam',
 '#section-likes',
-'#work-experience',
 '#education',
+'#talks-and-slides',
+'#work-experience',
 '#interests',
 '#credits',
 'footer';
 @each $section in $sections-list {
   $i: index($sections-list, $section);
-  #{$section} {
+  #{'section'+$section} {
     @include order($i);
   }
 }
@@ -142,11 +136,10 @@ $sections-list: '#vik-ramanujam',
   order: 0;
 }
 
-#section-likes {
+section#likes {
   @include order(1);
 }
 
-#likes~hr,
 #credits {
   // before copyright
   @include order(10);
@@ -154,14 +147,19 @@ $sections-list: '#vik-ramanujam',
     font-size: .8em;
     @include vr($margin-bottom: 1);
   }
-} /////// CLEAN UP /////////
-#likes,
-#skills-and-interests,
-#contact {
-  // avoid display: none - accesibility
-  height: 0;
-  overflow: hidden;
-  margin-bottom: 0;
+}
+
+/////// CLEAN UP, HIDE HEADINGS /////////
+section#likes,
+section#skills-and-interests,
+section#contact,
+footer {
+  >*:first-child {
+    // avoid display: none - accesibility
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+  }
 }
 
 #contact+p {

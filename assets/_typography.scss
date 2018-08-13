@@ -79,6 +79,7 @@ h4 {
     float: right; // font-weight: bolder;
     @include vr($padding-left: 1);
     transform: translate3d(0, .2rem, 0);
+    opacity: .75;
   }
 }
 
@@ -105,6 +106,17 @@ hr {
   }
   &::after {
     display: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    background-image: $img-underline;
+    background-position: 0 1em; //@TODO - remove magic numbers
+    background-size: auto 2px;
+    background-repeat: repeat-x;
+    overflow: visible;
   }
 }
 
@@ -157,8 +169,16 @@ ul {
   font-style: italic;
   font-weight: normal;
   @include vr($font-size: .25);
+  display: inline-block;
+  width: 1ch;
+  overflow: visible;
+  transform: translate3d(-.5ch, 0, 0);
 }
 
 footer {
   @include vr($font-size: .75rem, $line-height: .5);
+  text-align: center;
+  p:not(:last-child) {
+    opacity: .6;
+  }
 }

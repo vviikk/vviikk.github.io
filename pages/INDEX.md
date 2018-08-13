@@ -1,8 +1,14 @@
+<!--
+
+-->
+
 # Vik Ramanujam
 
 ![Vik Ramanujam's Avatar][logo]
 
-## Front-end technical lead
+::: section personal-details
+
+## Front-end Technical Lead
 
 Your friendly neighbourhood geek
 Front-end & Nodejs developer
@@ -17,16 +23,18 @@ _Kuala Lumpur, Malaysia_
 </nav>
 
 ---
+
+:::
+
+::: section introduction
 > Excuse me, but, there's a container for that :)
 
 A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications. ♥ functional programming, coding UI, the command line & Vim. When I'm not coding on React, I'm probably cooking, travelling or professing my undying love to micro-containers.
 
-I love building teams that deliver great, pixel-perfect, usable products, getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to any team and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
+I love building teams that deliver great, pixel-perfect, usable products, getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to the team and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
-w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram)
-
-### Skills and interests
+w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram
 
 #### I do
 
@@ -45,14 +53,21 @@ English, Tamil, Malay & understand some French, Portuguese and Klingon.
 Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 ---
+:::
+
+::: section slides-and-talks
 
 ### Talks and Slides
 
-- How I stopped worrying and start loving the build system.
+- How I stopped worrying and started loving the build system.
 - Going offline-first with CouchDB.
 - [Build a living style guide using React, Storybook & Styled-components](https://www.youtube.com/watch?v=ydDfcA8X8uE&feature=youtu.be&t=32m58s).
 
 ---
+
+:::
+
+::: section education
 
 ### Education
 
@@ -83,6 +98,9 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 - Final Year Project: Collaborative text editor where team members can see code edited by others in real time, complete with a chat system.
 
 ---
+:::
+
+::: section work-experience
 
 ### Work Experience
 
@@ -107,10 +125,10 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 - Evaluated requirements with Business Analysts to ensure stories are short, well-worded with clear acceptance criteria and most importantly, closable.
 - Spearheaded a culture of writing good code with performance and usability as pillars.
 - Planned sprints and delegated tasks across the front-end team, and delivering features 4-5 sprints ahead of schedule.
-- Developed a reusable library of UX components within the first couple of sprints so that there was minimal to no front-end effort at the later stages of the project. Guided the team to build highly configurable and reusable components.
-- Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments whilst having 90% test coverage when our deliverable limit was 80%.
-- Streamlined team output by using an assembly-line mindset when managing task delegation. The payoff: we closed every sprint by delivering impressive work, consistently, keeping morale and confidence high.
-- Involved heavily with DevOps and build automation as I feel right at home on the command line.
+- Promoted reusablity and configurability by building a library of UX components within the first couple of sprints - minimal to no effort needed to implement heatures at the later stages of the project.
+- Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments - delivered with 90% test coverage when expected baseline was 80%.
+- Streamlined team output by using an assembly-line mindset when managing task delegation. We closed every sprint by delivering impressive work, consistently, keeping morale and confidence high.
+- Involved heavily with DevOps and build automation and pushed the mobile apps to the Apple/Google stores with one command using fastlane.
 
 > I am a higher-order function. We all are.
 
@@ -157,11 +175,13 @@ IT Manager / Software Consultant / Point-of-sale & ERP specialist / Proof-of-con
 Do have a look at my Linkedin profile if you'd like to find out more of my early career.
 
 ---
+:::
+
+::: section likes
 
 ### Likes
 
 - Functional Programming
-- i3
 - Vertical rhythm
 - TravisCI
 - BitBar
@@ -173,24 +193,23 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 - Chilli
 - Command-line
 - React
-- Reactive Programming
 - Node
 - Shell scripts
 - Automation
 
 ---
+:::
 
-::: footer
+<footer>
+
+### Footer
 
 This page uses no javascript and is handcoded using CSS Variables, Markdown, <label for='show-grid'>vertical rythm</label>, node & a whole lotta love.
 
-Completely open sourced for the world on <a href="http://github.com/piggyslasher/piggyslasher.github.io">github</a>
+Completely open sourced for the world on <a href="http://github.com/piggyslasher/piggyslasher.github.io">github</a>. No copyright whatsoever - _steal_! Pardon the shameless hit counter.
 
-No copyright whatsoever - steal! Pardon the shameless hit counter.
 [![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
 
-vik.ramanuj.am
-
-:::
+</footer>
 
 [logo]: //piggyslasher.github.io/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"

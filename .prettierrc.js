@@ -6,7 +6,7 @@ module.exports = {
     {
       "files": "*.scss",
       "options": {
-        parser: "css"
+        parser: "scss"
       }
     }
   ]
