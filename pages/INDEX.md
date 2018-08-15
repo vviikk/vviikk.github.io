@@ -29,7 +29,7 @@ _Kuala Lumpur, Malaysia_
 ::: section introduction
 > Excuse me, but, there's a container for that :)
 
-A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications. ♥ functional programming, coding UI, the command line & Vim. When I'm not coding on React, I'm probably cooking, travelling or professing my undying love to micro-containers.
+A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications. ♥ functional programming, coding UI, the command line & Vim. When not coding, I'm cooking, travelling or professing my undying love to micro-containers.
 
 I love building teams that deliver great, pixel-perfect, usable products, getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to the team and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
