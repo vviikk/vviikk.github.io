@@ -114,7 +114,7 @@ Leading a team of Front-end developers tasked with building a next-generation pr
 
 ---
 
-#### **Jun 2015 - Dec '17** Front-end Team Lead
+#### **Jun 2016 - Dec '17** Front-end Team Lead
 
 ##### **BAE Systems Applied Intelligence** | _Kuala Lumpur_
 
