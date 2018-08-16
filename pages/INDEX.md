@@ -34,7 +34,7 @@ A battle-hardened technologist interested in building beautiful, large-scale and
 I love building teams that deliver great, pixel-perfect, usable products, getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to the team and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
-w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram
+w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram)
 
 #### I do
 
@@ -125,7 +125,7 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 - Evaluated requirements with Business Analysts to ensure stories are short, well-worded with clear acceptance criteria and most importantly, closable.
 - Spearheaded a culture of writing good code with performance and usability as pillars.
 - Planned sprints and delegated tasks across the front-end team, and delivering features 4-5 sprints ahead of schedule.
-- Promoted reusablity and configurability by building a library of UX components within the first couple of sprints - minimal to no effort needed to implement heatures at the later stages of the project.
+- Promoted reusablity and configurability by building a library of UX components within the first couple of sprints - resulting in minimal to no effort necessary to implement features at the later stages.
 - Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments - delivered with 90% test coverage when expected baseline was 80%.
 - Streamlined team output by using an assembly-line mindset when managing task delegation. We closed every sprint by delivering impressive work, consistently, keeping morale and confidence high.
 - Involved heavily with DevOps and build automation and pushed the mobile apps to the Apple/Google stores with one command using fastlane.
@@ -161,10 +161,10 @@ The project is open-sourced at https://github.com/lavab
 
 ##### Dark Brown & Yellow Creative House
 
-- Developed and streamlined various projects ranging from corporate websites for public listed companies. 
-- Delivered and implemented various intranet collaboration tools for governmental organizations, with departmental access control.  
-- Ensured a bullet-proof future for all projects using web standards and stage-0 Javascript.  
-- Ensured the final delivery was pixel-perfect and quality oriented.
+- Developed and streamlined various projects ranging from corporate websites for public listed companies to big players in the Forex market.
+- Implemented various intranet collaboration tools for governmental organizations, with departmental access control.  
+- Ensured a bullet-proof future for all projects using web standards and stage-0 Javascript.
+- Build a reputation of delivering, unique, funky and creative products that stand out from the crowd.
 
 ---
 
