@@ -128,7 +128,7 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 - Promoted reusablity and configurability by building a library of UX components within the first couple of sprints - resulting in minimal to no effort necessary to implement features at the later stages.
 - Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments - delivered with 90% test coverage when expected baseline was 80%.
 - Streamlined team output by using an assembly-line mindset when managing task delegation. We closed every sprint by delivering impressive work, consistently, keeping morale and confidence high.
-- Involved heavily with DevOps and build automation and pushed the mobile apps to the Apple/Google stores with one command using fastlane.
+- Automated repetitive DevOps and pushed the mobile apps to the Apple/Google stores with one command using fastlane.
 
 > I am a higher-order function. We all are.
 
