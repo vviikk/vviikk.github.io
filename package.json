@@ -8,15 +8,16 @@
     "build:images": "cp -r ./images ./build",
     "build:images:watch": "nodemon --watch images --exec yarn run build:images",
     "build:base": "cp -r ./public/* ./build",
+    "build:base:watch": "nodemon --watch ./public --exec yarn run build:base",
     "build:markdown": "babel-node index.js",
     "build:markdown:watch": "cross-env SERVE=true babel-node index.js",
     "build": "rimraf build && mkdir -p build && echo 'BUILDING...' && npm-run-all --parallel build:base build:markdown build:assets build:images",
-    "build:watch": "npm-run-all --parallel build:markdown:watch build:assets:watch",
-    "dev": "npm run build:watch",
+    "build:watch": "npm-run-all --parallel build:base:watch build:markdown:watch build:assets:watch build:images:watch",
+    "dev": "yarn run build:watch",
     "preview": "babel-node preview.js",
     "serve": "live-server --no-browser ./build",
     "push:gh-pages": "git checkout master && mv build/* . && git add . &&  git commit -m 'Build from dev branch' && git push --force && git checkout development --force",
-    "deploy": "npm run build && npm run push:gh-pages"
+    "deploy": "yarn run build && yarn run push:gh-pages"
   },
   "main": "index.js",
   "repository": {

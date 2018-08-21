@@ -78,7 +78,7 @@ h4 {
     display: block;
     float: right; // font-weight: bolder;
     @include vr($padding-left: 1);
-    transform: translate3d(0, .2rem, 0);
+    // transform: translate3d(0, .1rem, 0);
     opacity: .75;
   }
 }
