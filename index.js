@@ -1,10 +1,11 @@
 import chokidar from 'chokidar'
+import figlet from 'figlet'
 import fs from 'fs'
 import liveServer from 'live-server'
 import MarkdownIt from 'markdown-it'
 import mdArrows from 'markdown-it-smartarrows'
 import mdContainers from 'markdown-it-container'
-import mdHeaderSections from './md-plugins/section-headers'
+// import mdHeaderSections from './md-plugins/section-headers'
 import mdHeadings from 'markdown-it-headinganchor'
 import mdReplacements from 'markdown-it-replacements'
 import nodeSassTildeImporter from 'node-sass-tilde-importer'
@@ -12,29 +13,31 @@ import sassMiddleware from 'node-sass-middleware'
 import taskLists from 'markdown-it-task-lists'
 import toKebabCase from 'lodash/kebabCase'
 
+figlet('Starting Jaunty!', (err, data) => {console.log(data)})
+
 // full options list (defaults)
 const md = new MarkdownIt({
-  html: true,
-  xhtmlOut: false,
-  linkify: true,
+    html: true,
+    xhtmlOut: false,
+    linkify: true,
 
-  breaks: true,
-  // Enable some language-neutral replacement + quotes beautification
-  typographer: true,
+    breaks: true,
+    // Enable some language-neutral replacement + quotes beautification
+    typographer: true,
 
-  // Double + single quotes replacement pairs, when typographer enabled,
-  // and smartquotes on. Could be either a String or an Array.
-  //
-  // For example, you can use '«»„“' for Russian, '„“‚‘' for German,
-  // and ['«\xA0', '\xA0»', '‹\xA0', '\xA0›'] for French (including nbsp).
-  quotes: '“”‘’',
-  // Highlighter function. Should return escaped HTML,
-  // or '' if the source string is not changed and should be escaped externally.
-  // If result starts with <pre... internal wrapper is skipped.
-  highlight(/* str, lang */) {
-    return ''
-  },
-})
+    // Double + single quotes replacement pairs, when typographer enabled,
+    // and smartquotes on. Could be either a String or an Array.
+    //
+    // For example, you can use '«»„“' for Russian, '„“‚‘' for German,
+    // and ['«\xA0', '\xA0»', '‹\xA0', '\xA0›'] for French (including nbsp).
+    quotes: '“”‘’',
+    // Highlighter function. Should return escaped HTML,
+    // or '' if the source string is not changed and should be escaped externally.
+    // If result starts with <pre... internal wrapper is skipped.
+    highlight( /* str, lang */ ) {
+      return ''
+    },
+  })
   .use(mdReplacements)
   .use(taskLists, {
     label: true,
@@ -51,19 +54,9 @@ const md = new MarkdownIt({
   .use(mdContainers, 'section', {
     render(tokens,
       idx) {
-      const m = tokens[
-        idx
-      ].info
-        .trim()
-        .match(/^section\s+(.*)$/)
+      const m = tokens[idx].info.trim().match(/^section\s+(.*)$/)
 
-      if (
-        tokens[
-          idx
-        ]
-          .nesting ===
-        1
-      ) {
+      if (tokens[idx].nesting === 1) {
         // opening tag
         return `<section id="${md.utils.escapeHtml(m[1])}">\n`
       }
@@ -79,7 +72,7 @@ const md = new MarkdownIt({
           tokens[
             idx
           ]
-            .nesting ===
+          .nesting ===
           1
         ) {
           // opening tag
@@ -92,8 +85,8 @@ const md = new MarkdownIt({
 
 const readBaseTemplate = () =>
   fs
-    .readFileSync('base-template.html')
-    .toString()
+  .readFileSync('base-template.html')
+  .toString()
 
 const baseTemplate = readBaseTemplate()
 
@@ -101,20 +94,17 @@ const renderPage = (path) => {
   console.log('File',
     path,
     'has been added')
-  const page = path
-    .split('/')
-    .pop()
+  const page = path.split('/').pop()
   fs.readFile(path,
     'utf8',
     (err, data) => {
-      fs.writeFileSync(`./build/${page
-        .toLowerCase()
-        .replace('.md', '')}.html`,
-      baseTemplate
-        .split('{markdown}')
-        .join(md.render(data).replace(/(?<!<[^<>]*)&amp;/g,
-          '<span class="amp asd">&</span>')),
-      'utf8')
+      fs.writeFileSync(
+        `./build/${page.toLowerCase().replace('.md', '')}.html`,
+        baseTemplate.split('{markdown}').join(
+          md.render(data).replace(/(?<!<[^<>]*)&amp;/g,
+          '<span class="amp asd">&</span>'),
+        ),
+        'utf8')
     })
 }
 
