@@ -120,7 +120,7 @@ const renderPage = (path) => {
 
 const watcher = chokidar.watch(['./pages', './*.html'], {
   ignored: /^\./,
-  persistent: true,
+  persistent: process.env.SERVE || false,
 })
 
 watcher
