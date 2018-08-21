@@ -9,11 +9,14 @@ import mdContainers from 'markdown-it-container'
 import mdHeadings from 'markdown-it-headinganchor'
 import mdReplacements from 'markdown-it-replacements'
 import nodeSassTildeImporter from 'node-sass-tilde-importer'
+import recursive from 'recursive-readdir'
 import sassMiddleware from 'node-sass-middleware'
 import taskLists from 'markdown-it-task-lists'
 import toKebabCase from 'lodash/kebabCase'
 
-figlet('Starting Jaunty!', (err, data) => {console.log(data)})
+figlet('Starting Jaunty!', (err, data) => {
+  console.log(data)
+})
 
 // full options list (defaults)
 const md = new MarkdownIt({
@@ -100,45 +103,47 @@ const renderPage = (path) => {
     (err, data) => {
       fs.writeFileSync(
         `./build/${page.toLowerCase().replace('.md', '')}.html`,
-        baseTemplate.split('{markdown}').join(
-          md.render(data).replace(/(?<!<[^<>]*)&amp;/g,
-          '<span class="amp asd">&</span>'),
-        ),
+        baseTemplate.split('{markdown}').join(md.render(data).replace(
+          /(?<!<[^<>]*)&amp;/g,
+          '<span class="amp asd">&</span>'), ),
         'utf8')
     })
 }
 
-const watcher = chokidar.watch(['./pages', './*.html'], {
-  ignored: /^\./,
-  persistent: process.env.SERVE || false,
+recursive('./pages', (err, files) => {
+  // `files` is an array of file paths
+  files.forEach(renderPage)
 })
 
-watcher
-  .on('add', renderPage)
-  .on('change', renderPage)
-  .on('unlink', (path) => {
-    console.log('File',
-      path,
-      'has been removed')
+if (process.env.SERVE) {
+  const watcher = chokidar.watch(['./pages', './*.html'], {
+    ignored: /^\./,
+    persistent: process.env.SERVE || false,
   })
-  .on('error',
-    (error) => {
-      console.error('Error happened', error)
+
+  watcher
+    .on('add', renderPage)
+    .on('change', renderPage)
+    .on('unlink', (path) => {
+      console.log('File',
+        path,
+        'has been removed')
     })
-  .on('ready', () => console.log('ready'))
+    .on('error',
+      (error) => {
+        console.error('Error happened', error)
+      })
+    .on('ready', () => console.log('ready'))
 
-const sassServer = sassMiddleware({
-  /* Options */
-  src: `${__dirname}/assets`,
-  response: true,
-  dest: './build',
-  importer: nodeSassTildeImporter,
-  outputStyle: 'extended',
-})
+  const sassServer = sassMiddleware({
+    /* Options */
+    src: `${__dirname}/assets`,
+    response: true,
+    dest: './build',
+    importer: nodeSassTildeImporter,
+    outputStyle: 'extended',
+  })
 
-if (
-  process.env.SERVE
-) {
   const params = {
     port: 3003, // Set the server port. Defaults to 8080.
     host: '0.0.0.0', // Set the address to bind to. Defaults to 0.0.0.0 or process.env.IP.

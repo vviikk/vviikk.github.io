@@ -66,6 +66,7 @@
     "node-sass-middleware": "^0.11.0",
     "node-sass-tilde-importer": "^1.0.2",
     "nodemon": "^1.17.4",
+    "recursive-readdir": "^2.2.2",
     "vertical-rhythm-reset": "^1.1.0"
   },
   "devDependencies": {
