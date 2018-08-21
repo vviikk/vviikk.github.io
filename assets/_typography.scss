@@ -85,7 +85,7 @@ h4 {
 
 h5,
 h6 {
-  @include vr($font-size: 12px, $margin: 0);
+  @include vr($font-size: 12px, $margin: 0 0 1 0);
   text-transform: uppercase;
   letter-spacing: .25ch;
 }

@@ -31,7 +31,7 @@ _Kuala Lumpur, Malaysia_
 
 A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications. ♥ functional programming, coding UI, the command line & Vim. When not coding, I'm cooking, travelling or professing my undying love to micro-containers.
 
-I love building teams that deliver great, pixel-perfect, usable products, getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to the team and ensure that everyone is pushing code of the highest quality. I love writing tests & teach as much as I can learn.
+♥ building teams that deliver great, pixel-perfect, usable products & getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to the team and ensure that everyone is pushing code of the highest quality. ♥ writing tests & teach as much as I learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
 w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram)
