@@ -135,6 +135,7 @@ watcher
     (error) => {
       console.error('Error happened', error)
     })
+  .on('ready', () => console.log('ready'))
 
 const sassServer = sassMiddleware({
   /* Options */
