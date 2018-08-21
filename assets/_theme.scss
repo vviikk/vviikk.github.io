@@ -1,0 +1,75 @@
+@import 'variables';
+
+:root {
+  input[name='switch-mode']~* {
+    @extend .default;
+    --color-info: var(--color-green-light);
+    --color-big-headings: var(--color-green-light);
+    --color-small-headings: var(--color-yellow-dark);
+    --color-accent: var(--color-small-headings);
+    --color-link-color: var(--color-blue-light);
+    --color-bullet-color: var(--color-green-light);
+    --color-background: var(--color-gray-dark);
+    --color-base-text: var(--color-off-white);
+
+    color: var(--color-base-text);
+
+    h1,
+    h3{
+      color: color(big-headings);
+    }
+
+    h2 {
+      color: color(accent);
+    }
+
+    hr {
+      color: color(maroon-dark);
+    }
+
+    h4 {
+      color: color(small-headings);
+      > * {
+        // color: color(accent);
+      }
+    }
+
+    a {
+      color: color(link-color);
+      box-shadow: inset 0 -1px 0 0 var(--link-color);
+      &:hover {
+        box-shadow: none;
+      }
+    }
+
+    &.bg {
+      background: var(--color-background);
+    }
+
+    blockquote {
+      color: color(green-dark);
+      &::after {
+        color: color(yellow-dark);
+      }
+    }
+  }
+  input[name='switch-mode']:checked {
+    &~* {
+      --color-background: var(--color-white);
+      --color-info: var(--color-green-light);
+      --color-big-headings: var(--color-maroon);
+      --color-small-headings: var(--color-blue-light-4);
+      --color-link-color: var(--color-blue-light);
+      --color-bullet-color: var(--color-green-light);
+      --color-base-text: var(--color-gray-dark);
+
+      blockquote {
+        color: color(red-mellow);
+        &:after {
+          color: color(maroon);
+        }
+      }
+    }
+  }
+
+}

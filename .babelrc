@@ -1,0 +1,18 @@
+{
+  "presets": [
+      [
+          "env",
+          {
+              "targets": {
+                  "node": "current"
+              }
+          }
+      ]
+  ],
+  "plugins": [
+      "import-directory",
+      "transform-object-rest-spread",
+      "transform-util-promisify"
+  ],
+  "sourceMaps": "inline"
+}
