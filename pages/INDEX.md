@@ -16,7 +16,7 @@ _Kuala Lumpur, Malaysia_
 
 <nav class='main-menu no-print'>
 
-  [Skills & Interests](#skills-and-interests)
+  [Skills & Interests](#i-do)
   [Work Experience](#work-experience)
   [Education](#education)
 
