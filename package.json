@@ -5,9 +5,12 @@
   "scripts": {
     "build:assets": "node-sass assets --importer=node_modules/node-sass-tilde-importer -o build --source-map=true --output-style=compressed ",
     "build:assets:watch": "node-sass assets --importer=node_modules/node-sass-tilde-importer -w assets/styles.scss -o build --source-map=true --output-style=compressed ",
+    "build:images": "cp -r ./images ./build",
+    "build:images:watch": "nodemon --watch images --exec yarn run build:images",
+    "build:base": "cp -r ./public/* ./build",
     "build:markdown": "babel-node index.js",
     "build:markdown:watch": "cross-env SERVE=true babel-node index.js",
-    "build": "echo 'BUILDING...' && npm-run-all --parallel build:markdown build:assets && echo 'vik.ramanuj.am' >> build/CNAME",
+    "build": "rimraf build && mkdir -p build && echo 'BUILDING...' && npm-run-all --parallel build:base build:markdown build:assets",
     "build:watch": "npm-run-all --parallel build:markdown:watch build:assets:watch",
     "dev": "npm run build:watch",
     "preview": "babel-node preview.js",
@@ -67,6 +70,7 @@
     "node-sass-tilde-importer": "^1.0.2",
     "nodemon": "^1.17.4",
     "recursive-readdir": "^2.2.2",
+    "rimraf": "^2.6.2",
     "vertical-rhythm-reset": "^1.1.0"
   },
   "devDependencies": {

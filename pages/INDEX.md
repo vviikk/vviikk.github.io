@@ -212,4 +212,4 @@ Completely open sourced for the world on <a href="http://github.com/piggyslasher
 
 </footer>
 
-[logo]: //piggyslasher.github.io/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
+[logo]: //piggyslasher.github.io/images/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
