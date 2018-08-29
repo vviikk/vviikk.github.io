@@ -209,9 +209,7 @@ Do have a look at my LinkedIn profile if you'd like to find out more of my early
 
 This page uses no Javascript and is hand-coded using CSS Variables, Markdown, <label for='show-grid'>vertical rhythm</label>, node & a whole lotta love.
 
-Completely open sourced for the world on <a href="http://github.com/piggyslasher/piggyslasher.github.io">Github</a>. No copyright whatsoever - _steal_! Pardon the shameless hit counter.
-
-[![Hit-Count](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
+Completely open sourced for the world on <a href="http://github.com/piggyslasher/piggyslasher.github.io">Github</a>. No copyright whatsoever - _steal_!
 
 </footer>
 
