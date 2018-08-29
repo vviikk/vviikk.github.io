@@ -18,7 +18,7 @@
     "serve": "live-server --no-browser ./build",
     "push:gh-pages": "git checkout master && mv build/* . && git add . &&  git commit -m 'Build from dev branch' && git push --force && git checkout development --force",
     "deploy": "yarn run build && yarn run push:gh-pages",
-    "spell": "cat pages/INDEX.md | sed  -n '/^```/,/^```/ !p' | sed  -e 's/<[^>]*>//g'| sed -e :a -re 's/<!--.*?-->//g;/<!--/N;//ba' | aspell --lang=en --encoding=utf-8 --personal=./.aspell.en.pws list"
+    "spell": "cat ./tests/spellcheck.sh | bash"
   },
   "main": "index.js",
   "repository": {
