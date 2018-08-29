@@ -1,3 +1,5 @@
+$lines: 14;
+
 #likes > ul {
   --likes-prefix: 'Vik ♥️';
   padding: 0;
@@ -5,9 +7,10 @@
   @include vr($height: 1);
   overflow: hidden;
   position: relative;
-  >* {
+  > * {
     line-height: 2rem;
-    & li:before {}
+    & li:before {
+    }
   }
   &::before {
     display: block;
@@ -15,7 +18,7 @@
     position: absolute;
     top: 0;
     width: 2em; // em used as we're monospaced :)
-    @include vr( $line-height: 1, $padding: 0);
+    @include vr($line-height: 1, $padding: 0);
     white-space: nowrap;
   }
   &:hover li {
@@ -23,7 +26,7 @@
   }
   li {
     list-style: none;
-    animation: ticker $lines+s cubic-bezier(1, 0, 0.5, 0) infinite;
+    animation: ticker $lines + s cubic-bezier(1, 0, 0.5, 0) infinite;
     color: $color2;
     margin-left: 0;
     margin-bottom: 0;

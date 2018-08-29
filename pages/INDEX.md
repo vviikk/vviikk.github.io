@@ -10,7 +10,7 @@
 
 ## Front-end Technical Lead
 
-I like building things
+I like building things.
 
 <nav class='main-menu no-print'>
 
@@ -33,7 +33,7 @@ A battle-hardened technologist interested in building beautiful, large-scale and
 ♥ building teams that deliver great, pixel-perfect, usable products & getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a _never say die_ attitude to the team and ensure that everyone is pushing code of the highest quality. ♥ writing tests & teach as much as I learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
-w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [LinkedIn](https://linkedin.com/in/thevikram)
+w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [GitHub](https://github.com/piggyslasher) | [LinkedIn](https://linkedin.com/in/thevikram)
 
 #### I do
 
@@ -89,7 +89,7 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 - Computer science, Software architecture, design, and user experience.
 - Dissertation: Neilson's Usability Heuristics on the World Wide Web.
-- _Dropped out, took a break, travelled._
+- _Dropped out, took a break, travelled_.
 
 #### **2003 - 2004** Graduated with a Bachelors in Computing
 
