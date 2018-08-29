@@ -11,7 +11,6 @@
 ## Front-end Technical Lead
 
 I like building things
-_Kuala Lumpur, Malaysia_
 
 <nav class='main-menu no-print'>
 
