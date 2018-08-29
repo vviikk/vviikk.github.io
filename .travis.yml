@@ -1,7 +1,13 @@
 language: node_js
 node_js:
   - "stable"
+addons:
+  apt:
+      packages:
+        - aspell
+        - aspell-en
 script:
+  - yarn run spell
   - yarn run build
 deploy:
   provider: pages

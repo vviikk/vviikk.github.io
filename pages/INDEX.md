@@ -10,15 +10,14 @@
 
 ## Front-end Technical Lead
 
-Your friendly neighbourhood geek
-Front-end & Nodejs developer
+I like building things
 _Kuala Lumpur, Malaysia_
 
 <nav class='main-menu no-print'>
 
-  [Skills & Interests](#i-do)
-  [Work Experience](#work-experience)
-  [Education](#education)
+[Skills & Interests](#i-do)
+[Work Experience](#work-experience)
+[Education](#education)
 
 </nav>
 
@@ -27,22 +26,23 @@ _Kuala Lumpur, Malaysia_
 :::
 
 ::: section introduction
+
 > Excuse me, but, there's a container for that :)
 
 A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications. ♥ functional programming, coding UI, the command line & Vim. When not coding, I'm cooking, travelling or professing my undying love to micro-containers.
 
-♥ building teams that deliver great, pixel-perfect, usable products & getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a *never say die* attitude to the team and ensure that everyone is pushing code of the highest quality. ♥ writing tests & teach as much as I learn.
+♥ building teams that deliver great, pixel-perfect, usable products & getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a _never say die_ attitude to the team and ensure that everyone is pushing code of the highest quality. ♥ writing tests & teach as much as I learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
-w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [linkedin](https://linkedin.com/in/thevikram)
+w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [github](https://github.com/piggyslasher) | [LinkedIn](https://linkedin.com/in/thevikram)
 
 #### I do
 
-JavaScript, Web & Front-end Development, Node.js, DevOps.
+JavaScript, Web & Front-end Development, Nodejs, DevOps.
 
 #### I wield
 
-React, Mobx, Redux, Jest, Styled-Components, Server-sent Events, WebPack, Node.js, Sass, Git, Docker, CouchDB.
+React, Mobx, Redux, Jest, Styled-Components, Server-sent Events, WebPack, Nodejs, Sass, Git, Docker, CouchDB.
 
 #### I speak
 
@@ -53,6 +53,7 @@ English, Tamil, Malay & understand some French, Portuguese and Klingon.
 Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 ---
+
 :::
 
 ::: section slides-and-talks
@@ -89,7 +90,7 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 - Computer science, Software architecture, design, and user experience.
 - Dissertation: Neilson's Usability Heuristics on the World Wide Web.
-- *Dropped out, took a break, travelled.*
+- _Dropped out, took a break, travelled._
 
 #### **2003 - 2004** Graduated with a Bachelors in Computing
 
@@ -98,6 +99,7 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 - Final Year Project: Collaborative text editor where team members can see code edited by others in real time, complete with a chat system.
 
 ---
+
 :::
 
 ::: section work-experience
@@ -122,10 +124,10 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 
 - Led a team of ten developers to deliver, ahead of schedule a web application & mobile app which strict acceptance criteria for performance in low bandwidth areas.
 - Engaged with UX daily to ensure delivery of a usable and slick-looking product, advising against bad user experience and convoluted user journeys.
-- Evaluated requirements with Business Analysts to ensure stories are short, well-worded with clear acceptance criteria and most importantly, closable.
+- Evaluated requirements with Business Analysts to ensure stories are short, well-worded with clear acceptance criteria and most importantly, closeable.
 - Spearheaded a culture of writing good code with performance and usability as pillars.
 - Planned sprints and delegated tasks across the front-end team, and delivering features 4-5 sprints ahead of schedule.
-- Promoted reusablity and configurability by building a library of UX components within the first couple of sprints - resulting in minimal to no effort necessary to implement features at the later stages.
+- Promoted reusability and configurability by building a library of UX components within the first couple of sprints - resulting in minimal to no effort necessary to implement features at the later stages.
 - Involved heavily in code-reviews and (declining) pull-requests that would take the easy way out, have bad tests, or lack code comments - delivered with 90% test coverage when expected baseline was 80%.
 - Streamlined team output by using an assembly-line mindset when managing task delegation. We closed every sprint by delivering impressive work, consistently, keeping morale and confidence high.
 - Automated repetitive DevOps and pushed the mobile apps to the Apple/Google stores with one command using fastlane.
@@ -138,7 +140,7 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 
 ##### **BAE Systems Applied Intelligence** | _Kuala Lumpur_
 
-- Delivered dashboards consisting of heatmaps, filters, timelines and drill-down hunting using Highcharts / Highmaps / Angular / SASS that would interface with an elastic search backend.
+- Delivered dashboards consisting of heat-maps, filters, timelines and drill-down hunting using Highcharts / Highmaps / Angular / SASS that would interface with an elastic search back end.
 - Accelerated development of a pixel-perfect product with a strict delivery timeline, whilst keeping a focus on best practices.
 - Undertook the interviewing and hiring of a capable (and super-awesome) front-end development team, which I would lead, that could deliver complex and interesting projects.
 - Formulated a guide of best-practices in building good software for the front-end developers.
@@ -149,7 +151,7 @@ Engineered a web app built on Angular, ES7/8, SCSS, Angular Material that runs o
 
 ##### **Lavaboom** | Cologne Area, Germany (remote work)
 
-- Built a next-gen encrypted email client for Lavaboom, a startup from Cologne, Germany.
+- Built a next-gen encrypted email client for Lavaboom, a start-up from Cologne, Germany.
 - Engineered a pixel-perfect (yes, I use that word a lot!) email front-end with rich-text composing and multiple inboxes using Jade (now known as Pug), Gulp, ES6, Angular, Bootstrap & SASS
 - Generated an icon font automatically from SVG files provided by UX
 
@@ -161,8 +163,8 @@ The project is open-sourced at https://github.com/lavab
 
 ##### Dark Brown & Yellow Creative House
 
-- Developed and streamlined various projects ranging from corporate websites for public listed companies to big players in the Forex market.
-- Implemented various intranet collaboration tools for governmental organizations, with departmental access control.  
+- Developed and streamlined various projects ranging from corporate websites for public listed companies to big players in the For-ex market.
+- Implemented various intranet collaboration tools for governmental organizations, with departmental access control.
 - Ensured a bullet-proof future for all projects using web standards and stage-0 Javascript.
 - Build a reputation of delivering, unique, funky and creative products that stand out from the crowd.
 
@@ -172,9 +174,10 @@ The project is open-sourced at https://github.com/lavab
 
 IT Manager / Software Consultant / Point-of-sale & ERP specialist / Proof-of-concept architect.
 
-Do have a look at my Linkedin profile if you'd like to find out more of my early career.
+Do have a look at my LinkedIn profile if you'd like to find out more of my early career.
 
 ---
+
 :::
 
 ::: section likes
@@ -184,7 +187,7 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 - Functional Programming
 - Vertical rhythm
 - TravisCI
-- BitBar
+- Bitbar
 - Polybar
 - Pink Floyd
 - Vim
@@ -198,21 +201,23 @@ Do have a look at my Linkedin profile if you'd like to find out more of my early
 - Automation
 
 ---
+
 :::
 
 <footer>
 
 ### Footer
 
-This page uses no javascript and is handcoded using CSS Variables, Markdown, <label for='show-grid'>vertical rythm</label>, node & a whole lotta love.
+This page uses no Javascript and is hand-coded using CSS Variables, Markdown, <label for='show-grid'>vertical rhythm</label>, node & a whole lotta love.
 
-Completely open sourced for the world on <a href="http://github.com/piggyslasher/piggyslasher.github.io">github</a>. No copyright whatsoever - _steal_! Pardon the shameless hit counter.
+Completely open sourced for the world on <a href="http://github.com/piggyslasher/piggyslasher.github.io">Github</a>. No copyright whatsoever - _steal_! Pardon the shameless hit counter.
 
-[![HitCount](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
+[![Hit-Count](http://hits.dwyl.io/piggysasher/resume.svg)](http://hits.dwyl.io/piggysasher/resume)
 
 </footer>
 
 [logo]: //piggyslasher.github.io/images/vik-ramanujam-avatar.png "Vik Ramanujam's Avatar"
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTg4ODMxMDQzOF19
 -->
