@@ -14,5 +14,6 @@
       "transform-object-rest-spread",
       "transform-util-promisify"
   ],
-  "sourceMaps": "inline"
+  "sourceMaps": "inline",
+  "excludes" "node_modules"
 }

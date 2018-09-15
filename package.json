@@ -18,7 +18,8 @@
     "serve": "live-server --no-browser ./build",
     "push:gh-pages": "git checkout master && mv build/* . && git add . &&  git commit -m 'Build from dev branch' && git push --force && git checkout development --force",
     "deploy": "yarn run build && yarn run push:gh-pages",
-    "spell": "cat ./tests/spellcheck.sh | bash"
+    "spell": "cat ./tests/spellcheck.sh | bash",
+    "jaunty": "jaunty-sg"
   },
   "main": "index.js",
   "repository": {
