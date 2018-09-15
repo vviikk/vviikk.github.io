@@ -15,5 +15,5 @@
       "transform-util-promisify"
   ],
   "sourceMaps": "inline",
-  "excludes" "node_modules"
+  "ignore": "node_modules"
 }
