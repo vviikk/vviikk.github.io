@@ -105,7 +105,31 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 ### Work Experience
 
-#### **Dec 2017 – Present** Front-end Technical Lead
+#### **Mar 2019 – Present** Senior Front-end Engineer
+
+##### **888Holdings, Dublin ** | _Ireland_
+
+Currently delivering, ahead of time, two web applications weilding React 16.8+, Redux, Hooks, Styled-components and newer concepts in front-end development.
+
+> That should become a hook!
+
+- Implemented boilerplate-free state management using minimal code, but tested Redux architecture to easily build web applications.
+- Increased code quality across teams, setup code standards, lint rules.
+- Pushed system-side improvements & fixes that increase stability and use core concepts like context, hooks and higher-order components.
+- Setup new build system for React based apps of tomorrow.
+- Promoted component re-usability & setup icons/assets/theme to have a single source of truth.
+- Involved with UX team to create mobile-friendly and performant web applications.
+- Mentored other front-end developers on how to build future-proof front-end software.
+- Introduced cross-team pull-requests and reviews to increase transparency and developer involvement.
+- Addressed pain-points of the development process, avoiding pitfalls and increased overall output by ensuring teams share code and knowledge, outpacing the rate at which work was coming in.
+- Held workshops and tutorials to show developers best practices in front-end development like writing performant code and debugging.
+- Addressed technical debt across the system from build to production whilst improving developer experience.
+- Updated core modules such as Webpack, React and introduced the teams to newer technologies like styled-components and hooks.
+- Seen as the go-to person for other developers who require advice on an upcoming issue they're working on.
+
+---
+
+#### **Dec 2017 – October 2018** Front-end Technical Lead
 
 ##### **BAE Systems Applied Intelligence** | _Kuala Lumpur_
 
