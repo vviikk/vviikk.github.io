@@ -1,14 +1,14 @@
 language: node_js
 node_js:
-  - "stable"
+  - "10"
 addons:
   apt:
       packages:
         - aspell
         - aspell-en
 script:
-  - yarn run spell
-  - yarn run build
+  - npm run spell
+  - npm run build
 deploy:
   provider: pages
   skip-cleanup: true
