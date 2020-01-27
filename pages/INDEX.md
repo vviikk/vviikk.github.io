@@ -32,7 +32,7 @@ A battle-hardened technologist interested in building beautiful, large-scale and
 
 ♥ building teams that deliver great, pixel-perfect, usable products & getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a _never say die_ attitude to the team and ensure that everyone is pushing code of the highest quality. ♥ writing tests & teach as much as I learn.
 
-e: [vik@ramanuj.am](vik@ramanuj.am)
+e: [vik@ramanuj.am](vik@ramanuj.am) t: [+353858420555](tel://+353858420555)
 w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [GitHub](https://github.com/vviikk) | [LinkedIn](https://linkedin.com/in/thevikram)
 
 #### I do
@@ -107,7 +107,7 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 #### **Mar 2019 – Present** Senior Front-end Engineer
 
-##### **888Holdings, Dublin ** | _Ireland_
+##### **888Holdings, Dublin** | _Ireland_
 
 Currently delivering, ahead of time, two web applications weilding React 16.8+, Redux, Hooks, Styled-components and newer concepts in front-end development.
 
