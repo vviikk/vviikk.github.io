@@ -33,7 +33,7 @@ A battle-hardened technologist interested in building beautiful, large-scale and
 ♥ building teams that deliver great, pixel-perfect, usable products & getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a _never say die_ attitude to the team and ensure that everyone is pushing code of the highest quality. ♥ writing tests & teach as much as I learn.
 
 e: [vik@ramanuj.am](vik@ramanuj.am)
-w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [GitHub](https://github.com/piggyslasher) | [LinkedIn](https://linkedin.com/in/thevikram)
+w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [GitHub](https://github.com/vviikk) | [LinkedIn](https://linkedin.com/in/thevikram)
 
 #### I do
 
