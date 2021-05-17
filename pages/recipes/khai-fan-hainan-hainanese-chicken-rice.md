@@ -78,6 +78,8 @@ This is the heart of the dish IMHO. And it's simple to make.
 - Alternatively you can use a chilli paste like Sambal Trassi
 ![image](https://user-images.githubusercontent.com/1991125/118535508-d8576080-b74a-11eb-9a91-ab57370842b5.png)
 - Fry the paste in the pan with some of the fat + minced garlic you trimmed.
+  - Note: Add the fat to a little oil first to render it out.
+  - Then add the chilli & garlic
 - Remove the fat
 - Add salt to taste
 - Some restaurants in Malaysia add a little lime
