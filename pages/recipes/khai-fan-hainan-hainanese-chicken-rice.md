@@ -77,9 +77,11 @@ This is the heart of the dish IMHO. And it's simple to make.
 - blend some red chilli (big ones for color, and small ones for heat)
 - Alternatively you can use a chilli paste like Sambal Trassi
 ![image](https://user-images.githubusercontent.com/1991125/118535508-d8576080-b74a-11eb-9a91-ab57370842b5.png)
-- Fry the paste in the pan with some of the fat you trimmed.
+- Fry the paste in the pan with some of the fat + minced garlic you trimmed.
 - Remove the fat
 - Add salt to taste
+- Some restaurants in Malaysia add a little lime
+- Depending on how thick you want it, you can either blend it after again or just use a mortar and pestle.
 
 ## Some additional garnish to add to the soup
 ![image](https://user-images.githubusercontent.com/1991125/118535786-33895300-b74b-11eb-8628-c0d955f160a1.png)
