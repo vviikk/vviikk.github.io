@@ -9,7 +9,7 @@ This is one of my favorite dishes and it has 4 parts.
 - The sauce
 
 ## The bird
-I used [Adam Ragusea's hanging chicken hack](https://www.youtube.com/watch?v=13R0QciGtpg) to get a super crispy skin! I've cooked chicken and duck this way and probably cook them the regular way again :slightly_smiling_face:
+I used [Adam Ragusea's hanging chicken hack](https://www.youtube.com/watch?v=13R0QciGtpg) to get a super crispy skin! I've cooked chicken and duck this way and probably won't cook them the regular way again :slightly_smiling_face:
 
 ### Prep
 Chop off some of the excess fat from the chicken and save it for later. You need this!
@@ -84,4 +84,4 @@ This is the heart of the dish IMHO. And it's simple to make.
 ## Some additional garnish to add to the soup
 ![image](https://user-images.githubusercontent.com/1991125/118535786-33895300-b74b-11eb-8628-c0d955f160a1.png)
 
-_SERVE!
+_SERVE!_
