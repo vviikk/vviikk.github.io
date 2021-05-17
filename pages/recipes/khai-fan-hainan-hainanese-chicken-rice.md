@@ -73,6 +73,8 @@ _Add the soup and boil rice till done_
 ![image](https://user-images.githubusercontent.com/1991125/118534773-e8bb0b80-b749-11eb-9f87-95966c0ab7b9.png)
 
 ## The chilli sauce
+![image](https://user-images.githubusercontent.com/1991125/118546100-c6c88580-b757-11eb-8ab5-2869374fc80f.png)
+
 This is the heart of the dish IMHO. And it's simple to make.
 - blend some red chilli (big ones for color, and small ones for heat)
 - Alternatively you can use a chilli paste like Sambal Trassi
