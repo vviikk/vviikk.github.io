@@ -4,8 +4,8 @@
 
 This is one of my favorite dishes and it has 4 parts.
 - The bird (I used one full chicken)
-- The rice
 - The soup
+- The rice
 - The sauce
 
 ## The bird
