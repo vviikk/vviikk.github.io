@@ -69,7 +69,7 @@
     "markdown-it-smartarrows": "^1.0.1",
     "markdown-it-task-lists": "^2.1.1",
     "markdown-to-html": "cwjohan/markdown-to-html",
-    "marked": "^0.3.19",
+    "marked": "^4.0.10",
     "marked-terminal": "^2.0.0",
     "node-sass": "^4.13.1",
     "node-sass-middleware": "^0.11.0",
