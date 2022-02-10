@@ -71,7 +71,7 @@
     "markdown-to-html": "cwjohan/markdown-to-html",
     "marked": "^0.3.19",
     "marked-terminal": "^2.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "node-sass-middleware": "^0.11.0",
     "node-sass-tilde-importer": "^1.0.2",
     "nodemon": "^1.17.4",
