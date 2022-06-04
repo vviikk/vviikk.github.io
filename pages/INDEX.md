@@ -8,7 +8,7 @@
 
 ::: section personal-details
 
-## Front-end Technical Lead
+## Technical Lead
 
 I like building things.
 
