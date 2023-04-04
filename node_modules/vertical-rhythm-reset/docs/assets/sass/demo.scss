@@ -1,0 +1,110 @@
+@charset 'utf-8';
+
+// Imports
+// =============================================================================
+@import 'vertical-rhythm-reset';
+
+// Variables
+// =============================================================================
+// $vr-font-size    : 15px;
+// $vr-line-height  : 1.25;
+// $vr-modular-scale: false;
+// $vr-breakpoints  : false;
+// $vr-helpers      : false;
+
+// Base
+// =============================================================================
+@include vr-reset();
+
+body {
+    @include vr($padding-bottom: 1);
+    @include vr-grid();
+
+    padding-right: 3%;
+    padding-left: 3%;
+    background: #fff;
+}
+
+// Tests
+// =============================================================================
+// Height: Fixed Unit (px)
+// -----------------------------------------------------------------------------
+.test-height-100 {
+    @include vr($height: 100px);
+}
+.test-height-150 {
+    @include vr($height: 150px);
+}
+.test-height-200 {
+    @include vr($height: 200px);
+}
+
+// Border Offsets
+// -----------------------------------------------------------------------------
+$test-border-width: 3px;
+
+// Borders
+.test-offset,
+.test-offset-height,
+.test-offset-margin,
+.test-offset-padding {
+    border: $test-border-width solid $_vr-border-color;
+}
+
+.test-offset-top,
+.test-offset-height-top,
+.test-offset-margin-top,
+.test-offset-padding-top {
+    border-top: $test-border-width solid $_vr-border-color
+}
+
+.test-offset-bottom,
+.test-offset-height-bottom,
+.test-offset-margin-bottom,
+.test-offset-padding-bottom {
+    border-bottom: $test-border-width solid $_vr-border-color
+}
+
+// Offset Only
+.test-offset {
+    @include vr($offset: $test-border-width);
+}
+.test-offset-top {
+    @include vr($offset-top: $test-border-width);
+}
+.test-offset-bottom {
+    @include vr($offset-bottom: $test-border-width);
+}
+
+// Height
+.test-offset-height {
+    @include vr($height: 2, $offset: $test-border-width);
+}
+.test-offset-height-top {
+    @include vr($height: 2, $offset-top: $test-border-width);
+}
+.test-offset-height-bottom {
+    @include vr($height: 2, $offset-bottom: $test-border-width);
+}
+
+// Margin
+.test-offset-margin {
+    @include vr($margin-top: 1, $margin-bottom: 1, $offset: $test-border-width);
+}
+.test-offset-margin-top {
+    @include vr($margin-top: 1, $offset-top: $test-border-width);
+}
+.test-offset-margin-bottom {
+    @include vr($margin-bottom: 1, $offset-bottom: $test-border-width);
+}
+
+// Padding
+.test-offset-padding {
+    @include vr($padding-top: 1, $padding-bottom: 1, $offset: $test-border-width);
+}
+.test-offset-padding-top {
+    @include vr($padding-top: 1, $offset-top: $test-border-width);
+}
+.test-offset-padding-bottom {
+    @include vr($padding-bottom: 1, $offset-bottom: $test-border-width);
+}

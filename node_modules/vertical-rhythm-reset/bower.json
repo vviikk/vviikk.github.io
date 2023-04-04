@@ -1,0 +1,35 @@
+{
+  "name": "vertical-rhythm-reset",
+  "description": "The perfect starting point for CSS normalization, responsive vertical rhythm grids and modular scale typography.",
+  "main": "dist/_vertical-rhythm-reset.scss",
+  "authors": [
+    "John Hildenbiddle"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "vertical-rhythm",
+    "vertical-rhythm-reset",
+    "vertical",
+    "rhythm",
+    "reset",
+    "grid",
+    "modular",
+    "scale",
+    "typography",
+    "css",
+    "reset",
+    "normalize",
+    "sass",
+    "scss"
+  ],
+  "homepage": "http://jhildenbiddle.github.io/vertical-rhythm-reset",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "site",
+    "test",
+    "tests"
+  ]
+}
