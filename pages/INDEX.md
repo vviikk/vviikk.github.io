@@ -8,7 +8,7 @@
 
 ::: section personal-details
 
-## Technical Lead
+## Technical full-stack Lead, Barcelona
 
 I like building things.
 
@@ -28,24 +28,24 @@ I like building things.
 
 > Excuse me, but, there's a container for that :)
 
-A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications. ♥ functional programming, coding UI, the command line & Vim. When not coding, I'm cooking, travelling or professing my undying love to micro-containers.
+A battle-hardened technologist interested in building beautiful, large-scale and user-friendly web and mobile applications. ♥ functional programming, full-stack coding, optimising infrastructure, the command line & Vim. When not behind the keyboard, I'm cooking, travelling or professing my undying love to micro-containers.
 
 ♥ building teams that deliver great, pixel-perfect, usable products & getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a _never say die_ attitude to the team and ensure that everyone is pushing code of the highest quality. ♥ writing tests & teach as much as I learn.
 
-e: [vik@ramanuj.am](vik@ramanuj.am) t: [+353858420555](tel://+353858420555)
+e: [vik@ramanuj.am](vik@ramanuj.am) t: [+612509305](tel://+612509305)
 w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [GitHub](https://github.com/vviikk) | [LinkedIn](https://linkedin.com/in/thevikram)
 
 #### I do
 
-JavaScript, Web & Front-end Development, Nodejs, DevOps.
+Full-stack Web Development & DevOps & Developer Experience.
 
 #### I wield
 
-React, Mobx, Redux, Jest, Styled-Components, Server-sent Events, WebPack, Nodejs, Sass, Git, Docker, CouchDB.
+Python, React, Nodejs, Docker, Ansible, Terraform, MongoDB.
 
 #### I speak
 
-English, Tamil, Malay & understand some French, Portuguese and Klingon.
+English, Tamil, Malay, Beginner Level Spanish (badly) & Portuguese and Klingon.
 
 #### I like
 
@@ -105,7 +105,31 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 ### Work Experience
 
-#### **Mar 2019 – Present** Senior Front-end Engineer
+#### **Jan 2021 - Present** Senior Engineer
+
+##### **Travelperk, Barcelona** | _Spain_
+
+Revolutionising business travel, making real-life connections happen.
+
+> Terraform at work, terraform at home.
+
+###### Infrastructure / Backend
+
+- Involved daily with full-stack work in Python/Django, React, Docker, Terraform, Redis & more.
+- Spearheaded core architectural changes to container infrastructure, resulting in improved performance and scalability.
+- Optimized base Docker images and developed and maintained CircleCI Orbs to standardize and streamline the CI/CD process, resulting in shaving minutes off build times & increased efficiency.
+- Implemented quality of life improvements using caching, parallelization, and other techniques to speed up how fast Travelperk serves its content.
+- Optimised core parts of the application, ranging from the database to the frontend, in one case reducing load times from 7 seconds to 1.5 seconds when searching for hotels.
+
+###### Front-end
+
+I'm currently introducing Turborepo to speed up development and reduce build times in the frontend.
+
+- Led the effort to move the frontend to a monorepo, using PNPM & RushJS.
+- Involved in our design system, using Storybook, Styled-components & React.
+- Involved in guilds and hackathons to improve the frontend development experience.
+
+#### **Mar 2019 – December 2020** Senior Front-end Engineer
 
 ##### **888Holdings, Dublin** | _Ireland_
 

@@ -1,5 +1,6 @@
 {
   "standard.enable": false,
   "eslint.enable": true,
-  "jest.pathToJest": "yarn test --"
+  "jest.pathToJest": "yarn test --",
+  "cmake.configureOnOpen": false
 }
