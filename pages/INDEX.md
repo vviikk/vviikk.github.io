@@ -32,8 +32,8 @@ A battle-hardened technologist interested in building beautiful, large-scale and
 
 ♥ building teams that deliver great, pixel-perfect, usable products & getting my hands dirty with code when duty calls. I care deeply about the people I work with. I bring a _never say die_ attitude to the team and ensure that everyone is pushing code of the highest quality. ♥ writing tests & teach as much as I learn.
 
-e: [vik@ramanuj.am](vik@ramanuj.am) t: [+612509305](tel://+612509305)
-w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [GitHub](https://github.com/vviikk) | [LinkedIn](https://linkedin.com/in/thevikram)
+e: [vik@ramanuj.am](vik@ramanuj.am) t: [+34612509305](tel://+34612509305)
+w: [https://vik.ramanuj.am](http://vik.ramanuj.am) | [GitHub](https://github.com/vviikk) | [LinkedIn](https://linkedin.com/in/vviikk)
 
 #### I do
 
@@ -109,7 +109,7 @@ Music, Yoga, Movies & Series, Intermittent fasting, Running, Reading.
 
 ##### **Travelperk, Barcelona** | _Spain_
 
-Revolutionising business travel, making real-life connections happen.
+Revolutionising business travel, making real-life connections happen. I focus on full-stack development, performance enhancements, DevOps and DevEx.
 
 > Terraform at work, terraform at home.
 
@@ -125,9 +125,11 @@ Revolutionising business travel, making real-life connections happen.
 
 I'm currently introducing Turborepo to speed up development and reduce build times in the frontend.
 
-- Led the effort to move the frontend to a monorepo, using PNPM & RushJS.
+- Led the effort to move the frontend to a monorepo, using PNPM & RushJS, that paved the way for micro-frontends.
 - Involved in our design system, using Storybook, Styled-components & React.
 - Involved in guilds and hackathons to improve the frontend development experience.
+
+---
 
 #### **Mar 2019 – December 2020** Senior Front-end Engineer
 
