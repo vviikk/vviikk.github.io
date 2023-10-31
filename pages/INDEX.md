@@ -115,19 +115,22 @@ Revolutionising business travel, making real-life connections happen. I focus on
 
 ###### Infrastructure / Backend
 
-- Involved daily with full-stack work in Python/Django, React, Docker, Terraform, Redis & more.
-- Spearheaded core architectural changes to container infrastructure, resulting in improved performance and scalability.
-- Optimized base Docker images and developed and maintained CircleCI Orbs to standardize and streamline the CI/CD process, resulting in shaving minutes off build times & increased efficiency.
-- Implemented quality of life improvements using caching, parallelization, and other techniques to speed up how fast Travelperk serves its content.
-- Optimised core parts of the application, ranging from the database to the frontend, in one case reducing load times from 7 seconds to 1.5 seconds when searching for hotels.
-
-###### Front-end
-
-I'm currently introducing Turborepo to speed up development and reduce build times in the frontend.
-
-- Led the effort to move the frontend to a monorepo, using PNPM & RushJS, that paved the way for micro-frontends.
-- Involved in our design system, using Storybook, Styled-components & React.
-- Involved in guilds and hackathons to improve the frontend development experience.
+- Spearheaded core architectural changes to container infrastructure, resulting in improved performance and scalability
+- Proactively mitigated recurring critical incidents, enhancing product scalability and reducing risks for hypergrowth
+- Optimized Elasticache usage by implementing gzip compression, TTL optimizations, averting potential outages, and ensuring system stability
+- Improved developer experience and product quality by enhancing Docker builds, reducing latency, timeout errors in various tornado based services
+- Led the sharing of Redis improvements with the tribe, resulting in increased developer efficiency
+- Improved log access via a CLI tool built using Node, and later Golang to download, parse, and search transactional logs from S3
+- Strengthened communication with the product team by initiating regular contact, fostering a collaborative relationship, and enhancing understanding and teamwork.
+- Diligently monitored and supported multiple domains, ensuring accurate implementation of Service Level Objectives and contributing to enhanced reliability and stability
+- Involved daily with full-stack work in Python/Django, React, Docker, Terraform, Redis & more
+- Optimized base Docker images and developed and maintained CircleCI Orbs to standardize and streamline the CI/CD process, resulting in shaving minutes off build times & increased efficiency
+- Implemented quality of life improvements using caching, parallelization, and other techniques to speed up how fast Travelperk serves its content
+- Optimised core parts of the application, ranging from the database to the frontend, in one case reducing load times from 7 seconds to 1.5 seconds when searching for hotels
+- Led the effort to implement Turborepo to speed up development and reduce build times in the frontend
+- Led the effort to move the frontend to a monorepo, using PNPM & RushJS, that paved the way for micro-frontends
+- Involved in our design system, using Storybook, Styled-components & React
+- Involved in most guilds and hackathons over the past 3 years
 
 ---
 
@@ -135,7 +138,7 @@ I'm currently introducing Turborepo to speed up development and reduce build tim
 
 ##### **888Holdings, Dublin** | _Ireland_
 
-Currently delivering, ahead of time, two web applications weilding React 16.8+, Redux, Hooks, Styled-components and newer concepts in front-end development.
+Delivered, ahead of time, two web applications weilding React 16.8+, Redux, Hooks, Styled-components and newer concepts in front-end development.
 
 > That should become a hook!
 
